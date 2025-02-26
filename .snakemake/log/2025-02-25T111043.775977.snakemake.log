@@ -1,0 +1,172 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                             count
+----------------------------  -------
+align_protein_sequences             1
+all                                 1
+ancestral_tree_sequences            1
+calculate_variation                 1
+check_number_ORFs_found             1
+create_codon_alignment              1
+edit_codon_fasta_headers            1
+edit_protein_fasta_headers          1
+export_tree                         1
+get_codon_sequences                 1
+get_protein_sequences               1
+refine_tree_sequences               1
+root_and_remove_outgroup            1
+strip_codon_alignment_gaps          1
+strip_protein_alignment_gaps        1
+traits_tree_sequences               1
+translate_tree_sequences            1
+tree_sequences                      1
+total                              18
+
+Select jobs to execute...
+
+[Tue Feb 25 11:10:46 2025]
+rule get_codon_sequences:
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/codon_temp.fasta
+    log: Results/Logs/spike/get_codon_sequences.txt
+    jobid: 4
+    reason: Missing output files: Results/spike/ORF_sequences/codon_temp.fasta
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387254
+
+
+[Tue Feb 25 11:10:46 2025]
+rule get_protein_sequences:
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/protein_temp.fasta
+    log: Results/Logs/spike/get_protein_sequences.txt
+    jobid: 3
+    reason: Missing output files: Results/spike/ORF_sequences/protein_temp.fasta
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387254
+
+[Tue Feb 25 11:10:46 2025]
+Error in rule get_protein_sequences:
+    jobid: 3
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/protein_temp.fasta
+    log: Results/Logs/spike/get_protein_sequences.txt (check log file(s) for error details)
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        getorf -sequence Results/spike/nucleotide.fasta -outseq Results/spike/ORF_sequences/protein_temp.fasta -find 1 -minsize 3450 -reverse No -verbose &> Results/Logs/spike/get_protein_sequences.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Feb 25 11:10:47 2025]
+Error in rule get_codon_sequences:
+    jobid: 4
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/codon_temp.fasta
+    log: Results/Logs/spike/get_codon_sequences.txt (check log file(s) for error details)
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        getorf -sequence Results/spike/nucleotide.fasta -outseq Results/spike/ORF_sequences/codon_temp.fasta -find 3 -minsize 3450 -reverse No -verbose &> Results/Logs/spike/get_codon_sequences.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Trying to restart job 3.
+Select jobs to execute...
+
+[Tue Feb 25 11:10:47 2025]
+rule get_protein_sequences:
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/protein_temp.fasta
+    log: Results/Logs/spike/get_protein_sequences.txt
+    jobid: 3
+    reason: Missing output files: Results/spike/ORF_sequences/protein_temp.fasta
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387254
+
+Trying to restart job 4.
+Select jobs to execute...
+
+[Tue Feb 25 11:10:47 2025]
+rule get_codon_sequences:
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/codon_temp.fasta
+    log: Results/Logs/spike/get_codon_sequences.txt
+    jobid: 4
+    reason: Missing output files: Results/spike/ORF_sequences/codon_temp.fasta
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387254
+
+[Tue Feb 25 11:10:47 2025]
+Error in rule get_protein_sequences:
+    jobid: 3
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/protein_temp.fasta
+    log: Results/Logs/spike/get_protein_sequences.txt (check log file(s) for error details)
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        getorf -sequence Results/spike/nucleotide.fasta -outseq Results/spike/ORF_sequences/protein_temp.fasta -find 1 -minsize 3450 -reverse No -verbose &> Results/Logs/spike/get_protein_sequences.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Trying to restart job 3.
+Select jobs to execute...
+
+[Tue Feb 25 11:10:47 2025]
+rule get_protein_sequences:
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/protein_temp.fasta
+    log: Results/Logs/spike/get_protein_sequences.txt
+    jobid: 3
+    reason: Missing output files: Results/spike/ORF_sequences/protein_temp.fasta
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387254
+
+[Tue Feb 25 11:10:47 2025]
+Error in rule get_codon_sequences:
+    jobid: 4
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/codon_temp.fasta
+    log: Results/Logs/spike/get_codon_sequences.txt (check log file(s) for error details)
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        getorf -sequence Results/spike/nucleotide.fasta -outseq Results/spike/ORF_sequences/codon_temp.fasta -find 3 -minsize 3450 -reverse No -verbose &> Results/Logs/spike/get_codon_sequences.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Trying to restart job 4.
+Select jobs to execute...
+
+[Tue Feb 25 11:10:47 2025]
+rule get_codon_sequences:
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/codon_temp.fasta
+    log: Results/Logs/spike/get_codon_sequences.txt
+    jobid: 4
+    reason: Missing output files: Results/spike/ORF_sequences/codon_temp.fasta
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387254
+
+[Tue Feb 25 11:10:47 2025]
+Error in rule get_protein_sequences:
+    jobid: 3
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/protein_temp.fasta
+    log: Results/Logs/spike/get_protein_sequences.txt (check log file(s) for error details)
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        getorf -sequence Results/spike/nucleotide.fasta -outseq Results/spike/ORF_sequences/protein_temp.fasta -find 1 -minsize 3450 -reverse No -verbose &> Results/Logs/spike/get_protein_sequences.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Feb 25 11:10:47 2025]
+Error in rule get_codon_sequences:
+    jobid: 4
+    input: Results/spike/nucleotide.fasta
+    output: Results/spike/ORF_sequences/codon_temp.fasta
+    log: Results/Logs/spike/get_codon_sequences.txt (check log file(s) for error details)
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        getorf -sequence Results/spike/nucleotide.fasta -outseq Results/spike/ORF_sequences/codon_temp.fasta -find 3 -minsize 3450 -reverse No -verbose &> Results/Logs/spike/get_codon_sequences.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-02-25T111043.775977.snakemake.log

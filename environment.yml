@@ -1,0 +1,14 @@
+name: nextstrain_analysis
+channels:
+  - https://conda-forge.fredhutch.org/conda-forge/  # should be `conda-forge` if not on Hutch cluster
+  - https://conda-forge.fredhutch.org/bioconda/  # should be `bioconda` if not on Hutch cluster
+
+dependencies:
+  - augur=24.3.0
+  - auspice=2.52.0
+  - emboss
+  - jupyterlab
+  - nextstrain-cli
+  - pandas
+  - seaborn
+  - snakemake

@@ -1,0 +1,3 @@
+Validating schema of 'Results/spike/Trees/tree_muts.json'...
+Read in 3 features from reference sequence file
+amino acid mutations written to Results/spike/Trees/tree_aa_muts.json

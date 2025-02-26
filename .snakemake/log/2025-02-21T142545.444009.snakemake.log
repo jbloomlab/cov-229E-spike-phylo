@@ -1,0 +1,8 @@
+Building DAG of jobs...
+InputFunctionException in rule export_tree in file /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/Rules/augur_processing.smk, line 161:
+Error:
+  KeyError: 'Auspice_tree_titles'
+Wildcards:
+  gene=spike
+Traceback:
+  File "/fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/Rules/augur_processing.smk", line 176, in <lambda>

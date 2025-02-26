@@ -1,0 +1,132 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                         count
+------------------------  -------
+all                             1
+ancestral_tree_sequences        1
+calculate_variation             1
+export_tree                     1
+refine_tree_sequences           1
+root_and_remove_outgroup        1
+traits_tree_sequences           1
+translate_tree_sequences        1
+tree_sequences                  1
+total                           9
+
+Select jobs to execute...
+
+[Tue Feb 25 11:49:46 2025]
+rule tree_sequences:
+    input: Results/spike/Alignments/codon_ungapped.fasta
+    output: Results/spike/Trees/tree_raw.nwk
+    log: Results/Logs/spike/tree_sequences.txt
+    jobid: 8
+    reason: Missing output files: Results/spike/Trees/tree_raw.nwk
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+[Tue Feb 25 11:49:59 2025]
+Finished job 8.
+1 of 9 steps (11%) done
+Select jobs to execute...
+
+[Tue Feb 25 11:49:59 2025]
+rule root_and_remove_outgroup:
+    input: Results/spike/Trees/tree_raw.nwk, Results/spike/Alignments/protein_ungapped.fasta, Results/spike/Alignments/codon_ungapped.fasta
+    output: Results/spike/Trees/tree_no_outgroup.nwk, Results/spike/Alignments/protein_ungapped_no_outgroup.fasta, Results/spike/Alignments/codon_ungapped_no_outgroup.fasta
+    log: Results/Logs/spike/root_and_remove_outgroup.txt
+    jobid: 7
+    reason: Missing output files: Results/spike/Alignments/protein_ungapped_no_outgroup.fasta, Results/spike/Alignments/codon_ungapped_no_outgroup.fasta, Results/spike/Trees/tree_no_outgroup.nwk; Input files updated by another job: Results/spike/Trees/tree_raw.nwk
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+[Tue Feb 25 11:50:01 2025]
+Finished job 7.
+2 of 9 steps (22%) done
+Select jobs to execute...
+
+[Tue Feb 25 11:50:01 2025]
+rule refine_tree_sequences:
+    input: Results/spike/Alignments/codon_ungapped_no_outgroup.fasta, Results/spike/Trees/tree_no_outgroup.nwk, Results/spike/metadata.tsv
+    output: Results/spike/Trees/tree.nwk, Results/spike/Trees/tree_branch_lengths.json
+    log: Results/Logs/spike/refine_tree_sequences.txt
+    jobid: 6
+    reason: Missing output files: Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree.nwk; Input files updated by another job: Results/spike/Alignments/codon_ungapped_no_outgroup.fasta, Results/spike/Trees/tree_no_outgroup.nwk
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+
+[Tue Feb 25 11:50:01 2025]
+rule calculate_variation:
+    input: Results/spike/Alignments/protein_ungapped_no_outgroup.fasta
+    output: Results/spike/Alignments/spike_natural_variation.csv
+    jobid: 20
+    reason: Missing output files: Results/spike/Alignments/spike_natural_variation.csv; Input files updated by another job: Results/spike/Alignments/protein_ungapped_no_outgroup.fasta
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+[Tue Feb 25 11:50:04 2025]
+Finished job 6.
+3 of 9 steps (33%) done
+Select jobs to execute...
+
+[Tue Feb 25 11:50:04 2025]
+rule traits_tree_sequences:
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv
+    output: Results/spike/Trees/tree_traits.json
+    log: Results/Logs/spike/traits_tree_sequences.txt
+    jobid: 15
+    reason: Missing output files: Results/spike/Trees/tree_traits.json; Input files updated by another job: Results/spike/Trees/tree.nwk
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+
+[Tue Feb 25 11:50:04 2025]
+rule ancestral_tree_sequences:
+    input: Results/spike/Trees/tree.nwk, Results/spike/Alignments/codon_ungapped_no_outgroup.fasta
+    output: Results/spike/Trees/tree_muts.json
+    log: Results/Logs/spike/ancestral_tree_sequences.txt
+    jobid: 16
+    reason: Missing output files: Results/spike/Trees/tree_muts.json; Input files updated by another job: Results/spike/Alignments/codon_ungapped_no_outgroup.fasta, Results/spike/Trees/tree.nwk
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+[Tue Feb 25 11:50:07 2025]
+Finished job 16.
+4 of 9 steps (44%) done
+Select jobs to execute...
+
+[Tue Feb 25 11:50:07 2025]
+rule translate_tree_sequences:
+    input: Results/spike/Trees/tree.nwk, Results/spike/Trees/tree_muts.json, Results/spike/spike_reference.gb
+    output: Results/spike/Trees/tree_aa_muts.json, Results/spike/Augur_AA_Alignements/G_full_length.fasta, Results/spike/Augur_AA_Alignements/G_ectodomain.fasta
+    log: Results/Logs/spike/translate_tree_sequences.txt
+    jobid: 17
+    reason: Missing output files: Results/spike/Trees/tree_aa_muts.json; Input files updated by another job: Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree.nwk
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+[Tue Feb 25 11:50:07 2025]
+Finished job 15.
+5 of 9 steps (56%) done
+[Tue Feb 25 11:50:09 2025]
+Finished job 17.
+6 of 9 steps (67%) done
+Select jobs to execute...
+
+[Tue Feb 25 11:50:09 2025]
+rule export_tree:
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_traits.json, Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_aa_muts.json, Configure/Input_Data/auspice_config.json, Results/spike/Trees/colors.tsv, Configure/Input_Data/lat_longs.tsv
+    output: auspice/spike.json
+    jobid: 5
+    reason: Missing output files: auspice/spike.json; Input files updated by another job: Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_aa_muts.json, Results/spike/Trees/tree.nwk, Results/spike/Trees/tree_traits.json
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11387773
+
+RuleException in rule export_tree in file /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/Rules/augur_processing.smk, line 161:
+AttributeError: 'InputFiles' object has no attribute 'dms_predictions', when formatting the following:
+augur export v2 --tree {input.tree} --title {params.title} --description {params.description} --metadata {input.metadata} --node-data {input.tree_nodes} {input.tree_traits} {input.tree_muts} {input.aa_muts} {input.dms_predictions} --include-root-sequence-inline --colors {input.colors} --lat-longs {input.lat_longs} --auspice-config {input.auspice_config} --output {output.auspice_tree}

@@ -1,0 +1,29 @@
+{
+  "title": "",
+  "maintainers": [
+    {
+      "name": "the Bloom lab",
+      "url": "https://jbloomlab.org/"
+    }
+  ],
+  "colorings": [
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "previous_study",
+      "title": "Previous Study",
+      "type": "categorical"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "country"
+  }
+}

@@ -1,0 +1,96 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                         count
+------------------------  -------
+all                             1
+export_tree                     1
+translate_tree_sequences        1
+total                           3
+
+Select jobs to execute...
+
+[Wed Feb 26 10:16:55 2025]
+rule translate_tree_sequences:
+    input: Results/spike/Trees/tree.nwk, Results/spike/Trees/tree_muts.json, Results/spike/spike_reference.gb
+    output: Results/spike/Trees/tree_aa_muts.json, Results/spike/Augur_AA_Alignements/spike_full_length.fasta, Results/spike/Augur_AA_Alignements/spike_ectodomain.fasta
+    log: Results/Logs/spike/translate_tree_sequences.txt
+    jobid: 17
+    reason: Missing output files: Results/spike/Trees/tree_aa_muts.json
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11609388
+
+[Wed Feb 26 10:17:04 2025]
+Finished job 17.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Wed Feb 26 10:17:04 2025]
+rule export_tree:
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_traits.json, Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_aa_muts.json, Configure/Input_Data/auspice_config.json, Results/spike/Trees/colors.tsv, Configure/Input_Data/lat_longs.tsv
+    output: auspice/spike.json
+    jobid: 5
+    reason: Missing output files: auspice/spike.json; Input files updated by another job: Results/spike/Trees/tree_aa_muts.json
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11609388
+
+[Wed Feb 26 10:17:08 2025]
+Error in rule export_tree:
+    jobid: 5
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_traits.json, Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_aa_muts.json, Configure/Input_Data/auspice_config.json, Results/spike/Trees/colors.tsv, Configure/Input_Data/lat_longs.tsv
+    output: auspice/spike.json
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        augur export v2 --tree Results/spike/Trees/tree.nwk --title 'hCoV 229E phylogentic tree' --description Configure/Input_Data/spike_description.md --metadata Results/spike/metadata.tsv --include-root-sequence-inline --colors Results/spike/Trees/colors.tsv --lat-longs Configure/Input_Data/lat_longs.tsv --auspice-config Configure/Input_Data/auspice_config.json --output auspice/spike.json
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Trying to restart job 5.
+Select jobs to execute...
+
+[Wed Feb 26 10:17:08 2025]
+rule export_tree:
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_traits.json, Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_aa_muts.json, Configure/Input_Data/auspice_config.json, Results/spike/Trees/colors.tsv, Configure/Input_Data/lat_longs.tsv
+    output: auspice/spike.json
+    jobid: 5
+    reason: Missing output files: auspice/spike.json; Input files updated by another job: Results/spike/Trees/tree_aa_muts.json
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11609388
+
+[Wed Feb 26 10:17:11 2025]
+Error in rule export_tree:
+    jobid: 5
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_traits.json, Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_aa_muts.json, Configure/Input_Data/auspice_config.json, Results/spike/Trees/colors.tsv, Configure/Input_Data/lat_longs.tsv
+    output: auspice/spike.json
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        augur export v2 --tree Results/spike/Trees/tree.nwk --title 'hCoV 229E phylogentic tree' --description Configure/Input_Data/spike_description.md --metadata Results/spike/metadata.tsv --include-root-sequence-inline --colors Results/spike/Trees/colors.tsv --lat-longs Configure/Input_Data/lat_longs.tsv --auspice-config Configure/Input_Data/auspice_config.json --output auspice/spike.json
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Trying to restart job 5.
+Select jobs to execute...
+
+[Wed Feb 26 10:17:11 2025]
+rule export_tree:
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_traits.json, Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_aa_muts.json, Configure/Input_Data/auspice_config.json, Results/spike/Trees/colors.tsv, Configure/Input_Data/lat_longs.tsv
+    output: auspice/spike.json
+    jobid: 5
+    reason: Missing output files: auspice/spike.json; Input files updated by another job: Results/spike/Trees/tree_aa_muts.json
+    wildcards: gene=spike
+    resources: tmpdir=/loc/scratch/11609388
+
+[Wed Feb 26 10:17:13 2025]
+Error in rule export_tree:
+    jobid: 5
+    input: Results/spike/Trees/tree.nwk, Results/spike/metadata.tsv, Results/spike/Trees/tree_branch_lengths.json, Results/spike/Trees/tree_traits.json, Results/spike/Trees/tree_muts.json, Results/spike/Trees/tree_aa_muts.json, Configure/Input_Data/auspice_config.json, Results/spike/Trees/colors.tsv, Configure/Input_Data/lat_longs.tsv
+    output: auspice/spike.json
+    conda-env: /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/.snakemake/conda/97c12c1be2db4304555330299cbcc68d_
+    shell:
+        augur export v2 --tree Results/spike/Trees/tree.nwk --title 'hCoV 229E phylogentic tree' --description Configure/Input_Data/spike_description.md --metadata Results/spike/metadata.tsv --include-root-sequence-inline --colors Results/spike/Trees/colors.tsv --lat-longs Configure/Input_Data/lat_longs.tsv --auspice-config Configure/Input_Data/auspice_config.json --output auspice/spike.json
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-02-26T101644.828070.snakemake.log

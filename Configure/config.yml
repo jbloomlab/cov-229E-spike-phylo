@@ -1,0 +1,374 @@
+#################################################---START INPUT DATA---#######################################################
+
+# List of accessions file
+Accession_list: Configure/Input_Data/229E_full_accession_list.txt
+
+# Reference genbanks
+Reference_genbank: Configure/Input_Data/HcoV-229E_referance_sequence.gb
+Reference_accession: NC_002645
+
+# Outgroup for rooting tree
+Outgroup: camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX 
+
+# Size threshold filters
+# HcoV-229E genome is ~27kb
+# HcoV-229E spike protein is ~ 3450
+Genome_size_threshold_lower: 3450
+Genome_size_threshold_upper: 28000
+# Minimum size ORF when translating to HcoV-229E spike protein
+# is ~ 3.4kb
+# ORF minumum size
+ORF_min_size:
+  spike: 3450 # 500 amino acids
+
+# Maximum fraction of ambiuous bases allowed
+max_frac_N: 
+  genes: 0
+
+# Remove duplicates 'Yes' or 'No'
+Remove_duplicates: 'No'
+
+# Sequences to remove
+Accessions_to_exclude: 
+  - JX503061 # outlier on date-to-tip regression
+  - KY674919 # outlier on date-to-tip regression
+  - KY073748 # outlier on date-to-tip regression
+  - KY073748 # outlier on date-to-tip regression
+
+# Sequences to make sure are included
+Accessions_to_include:
+  - NC_028752
+  - NC_002645
+  - DQ243972
+  - DQ243976
+  - DQ243977
+  - KM055556
+  - KY369909 
+
+# Sequences of strains that were pseudotyped in previous study 
+Accessions_from_pre_study:
+  - DQ243972
+  - DQ243976
+  - DQ243977
+  - KM055556
+  - KY369909 
+
+# Gene name groupings
+Gene_groupings:
+  spike:
+    - S # reference label
+    - spike protein
+    - S glycoprotein
+    - Spike glycoprotein
+    - spike glycoprotein
+    - spike
+    - glycoprotein
+    - surface glycoprotein
+    - G
+    - G PROTEIN
+    - attachment glycoprotein
+    - G protein
+    - HA
+
+
+# Auspice configuration
+Auspice_config: Configure/Input_Data/auspice_config.json
+Color_schemes: Configure/Input_Data/color_schemes.tsv
+Color_orderings: Configure/Input_Data/color_orderings.tsv
+Lat_longs: Configure/Input_Data/lat_longs.tsv
+
+Auspice_tree_titles:
+  spike: "'hCoV 229E phylogentic tree'"
+
+Auspice_tree_descriptions:
+  spike: Configure/Input_Data/spike_description.md
+
+#################################################---END INPUT DATA---#########################################################
+
+#################################################---START DATA GROUPINGS---###################################################
+
+Asia:
+  - Israel
+  - Lebanon
+  - Jordan
+  - Syria
+  - Georgia
+  - Iraq
+  - Armenia
+  - Saudi Arabia
+  - Kuwait
+  - Yemen
+  - Bahrain
+  - Qatar
+  - Iran
+  - United Arab Emirates
+  - Oman
+  - Uzbekistan
+  - Afghanistan
+  - Kazakhstan
+  - Pakistan
+  - Tajikistan
+  - Maldives
+  - Kyrgyzstan
+  - India
+  - Sri Lanka
+  - Nepal
+  - Asia
+  - Bangladesh
+  - Myanmar
+  - Thailand
+  - Malaysia
+  - Mongolia
+  - Laos
+  - Singapore
+  - China
+  - Cambodia
+  - Vietnam
+  - Hong Kong
+  - Indonesia
+  - Brunei
+  - Taiwan
+  - Philippines
+  - Timor-Leste
+  - South Korea
+  - Japan
+
+Oceania:
+  - French Polynesia
+  - Palau
+  - Australia
+  - Papua New Guinea
+  - Oceania
+  - Micronesia
+  - Solomon Islands
+  - Vanuatu
+  - Marshall Islands
+  - New Zealand
+  - Kiribati
+  - Fiji
+
+Africa:
+  - Cabo Verde
+  - Gambia
+  - Guinea-Bissau
+  - Senegal
+  - Sierra Leone
+  - Guinea
+  - Liberia
+  - Mauritania
+  - CÃ´te d'Ivoire
+  - Morocco
+  - Mali
+  - Burkina Faso
+  - Ghana
+  - Togo
+  - Benin
+  - Algeria
+  - Sao Tome and Principe
+  - Nigeria
+  - Tunisia
+  - Niger
+  - Equatorial Guinea
+  - Gabon
+  - Cameroon
+  - Republic of the Congo
+  - Libya
+  - Namibia
+  - Angola
+  - Chad
+  - Central African Republic
+  - Democratic Republic of the Congo
+  - Africa
+  - Botswana
+  - South Africa
+  - Zambia
+  - Lesotho
+  - Sudan
+  - South Sudan
+  - Zimbabwe
+  - Burundi
+  - Rwanda
+  - Egypt
+  - Eswatini
+  - Uganda
+  - Malawi
+  - Mozambique
+  - Tanzania
+  - Kenya
+  - Ethiopia
+  - Djibouti
+  - Union of the Comoros
+  - Madagascar
+  - Somalia
+  - Seychelles
+  - Mauritius
+
+Europe:
+  - Iceland
+  - Portugal
+  - Ireland
+  - Spain
+  - United Kingdom
+  - Andorra
+  - France
+  - Belgium
+  - Netherlands
+  - Luxembourg
+  - Monaco
+  - Switzerland
+  - Norway
+  - Denmark
+  - Liechtenstein
+  - Germany
+  - Europe
+  - Italy
+  - Malta
+  - Slovenia
+  - Sweden
+  - Austria
+  - Croatia
+  - Czech Republic
+  - Bosnia and Herzegovina
+  - Poland
+  - Slovakia
+  - Montenegro
+  - Albania
+  - Hungary
+  - Serbia
+  - Kosovo
+  - North Macedonia
+  - Greece
+  - Lithuania
+  - Romania
+  - Bulgaria
+  - Latvia
+  - Estonia
+  - Finland
+  - Belarus
+  - Moldova
+  - Ukraine
+  - Cyprus
+  - Turkey
+  - Azerbaijan
+  - Russia
+
+South America:
+  - Argentina
+  - Uruguay
+  - Chile
+  - Paraguay
+  - Bolivia
+  - South America
+  - Brazil
+  - Peru
+  - Ecuador
+  - Colombia
+  - Suriname
+  - Guyana
+  - Venezuela
+  - Trinidad and Tobago
+  - Bonaire
+  - Curacao
+  - Aruba
+
+North America:
+  - Panama
+  - Costa Rica
+  - Grenada
+  - Nicaragua
+  - Saint Vincent and the Grenadines
+  - Barbados
+  - El Salvador
+  - Saint Lucia
+  - Honduras
+  - Dominica
+  - Guatemala
+  - Guadeloupe
+  - Belize
+  - Antigua and Barbuda
+  - Saint Kitts and Nevis
+  - Saint BarthÃ©lemy
+  - Sint Maarten
+  - Saint Martin
+  - Jamaica
+  - Dominican Republic
+  - Haiti
+  - Mexico
+  - Cuba
+  - Bahamas
+  - North America
+  - Bermuda
+  - USA
+  - Canada
+
+#################################################---END DATA GROUPINGS---#####################################################
+
+#################################################---START GENBANK FEATURES---#################################################
+
+Genbank_features:
+  - assembly_gap
+  - C_region
+  - CDS
+  - centromere
+  - D-loop
+  - D_segment
+  - exon
+  - gap
+  - gene
+  - iDNA
+  - intron
+  - J_segment
+  - mat_peptide
+  - misc_binding
+  - misc_difference
+  - misc_feature
+  - misc_recomb
+  - misc_RNA
+  - misc_structure
+  - mobile_element
+  - modified_base
+  - mRNA
+  - ncRNA
+  - N_region
+  - old_sequence
+  - operon
+  - oriT
+  - polyA_site
+  - precursor_RNA
+  - prim_transcript
+  - primer_bind
+  - propeptide
+  - protein_bind
+  - regulatory
+  - repeat_region
+  - rep_origin
+  - rRNA
+  - S_region
+  - sig_peptide
+  - source
+  - stem_loop
+  - STS
+  - telomere
+  - tmRNA
+  - transit_peptide
+  - tRNA
+  - unsure
+  - V_region
+  - V_segment
+  - variation
+  - 3'UTR
+  - 5'UTR
+
+#################################################---END GENBANK FEATURES---###################################################
+#################################################---START HOST GROUPINGS---###################################################
+
+# Adapted from https://animaldiversity.org
+Host_grouper:
+  Human:
+    - homo sapiens
+    - humans
+    - human
+    - patient
+
+
+#################################################---END HOST GROUPINGS---#####################################################

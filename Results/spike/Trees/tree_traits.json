@@ -1,0 +1,3061 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "23.1.1"
+  },
+  "models": {
+    "region": {
+      "alphabet": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America",
+        "Oceania",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.16142973060780133,
+        0.2910222187792117,
+        0.15267947047277203,
+        0.2047311472460575,
+        0.19013743289415735
+      ],
+      "rate": 37.90369087845123,
+      "transition_matrix": [
+        [
+          0.0,
+          0.6424721836277555,
+          0.8124449708682948,
+          0.5623451437436404,
+          0.5644961196639731
+        ],
+        [
+          0.6424721836277555,
+          0.0,
+          3.6106862859449085,
+          1.4201945570237184,
+          1.229541881231208
+        ],
+        [
+          0.8124449708682948,
+          3.6106862859449085,
+          0.0,
+          0.5740133169167703,
+          0.8817376206189603
+        ],
+        [
+          0.5623451437436404,
+          1.4201945570237184,
+          0.5740133169167703,
+          0.0,
+          1.4708089179512476
+        ],
+        [
+          0.5644961196639731,
+          1.229541881231208,
+          0.8817376206189603,
+          1.4708089179512476,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "11949_2011_KM055531_2011-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1424A_2009_KM055560_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1482A_2009_KM055553_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1512A_2009_KM055532_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1518A_2009_KM055533_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1546A_2009_KM055534_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1649A_2009_KM055535_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1658A_2009_KM055536_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1667A_2009_KM055537_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "1761A_2010_KM055538_2010-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "1781A_2010_KM055539_2010-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "1782A_2010_KM055540_2010-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "1827A_2010_KM055541_2010-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1829A_2010_KM055542_2010-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "1990A_2010_KM055543_2010-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "229E_AF304460_2001-07-11": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.25290959329245416,
+        "Europe": 0.6063968592335824,
+        "North America": 0.02625354760344578,
+        "Oceania": 0.10017844887518072
+      },
+      "region_entropy": 1.0376796779540594
+    },
+    "229E_China_01_2009_MW532106_2009-06-09": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "229E_China_02_2009_MW532107_2009-04-15": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "229E_China_03_2017_MW532103_2017-05-02": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "229E_China_04_2017_MW532104_2017-08-02": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "229E_China_05_2017_MW532105_2017-09-06": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "229E_KF293664_2013-10-01": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "229E_KF293665_2013-10-01": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "229E_KF293666_2013-10-01": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "229E_human_USA_892-11_1989_KF514429_1989-02-07": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "229E_human_USA_932-72_1993_KF514432_1993-02-22": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "229E_human_USA_933-40_1993_KF514433_1993-03-11": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "229E_human_USA_933-50_1993_KF514430_1993-03-18": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "229E_human_USA_953-49_1995_KF514431_1995-03-23": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "2764A_2011_KM055544_2011-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "2861A_2011_KM055548_2011-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "2961A_2011_KM055549_2011-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "2981A_2011_KM055550_2011-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "359A_2007_KM055551_2007-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "423A_2007_KM055552_2007-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "494A_2008_KM055554_2008-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "507A_2008_KM055555_2008-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "693A_2008_KM055556_2008-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "748_2005_KM055557_2005-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "8339_2009_KM055545_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "8348_2009_KM055558_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "8373_2009_KM055546_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "8425_2009_KM055547_2009-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "857_2005_KM055559_2005-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ATCC_VR-740_AB691763_2012-08-23": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.709836337881726,
+        "Europe": 0.26741589273859767,
+        "North America": 0.009635648610506737,
+        "Oceania": 0.008691642719913933
+      },
+      "region_entropy": 0.7059263015446204
+    },
+    "ATCC_VR-740_DQ243963_2016-07-26": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.22456028873701056,
+        "Europe": 0.7002811143003984,
+        "North America": 0.013732416712709758,
+        "Oceania": 0.05376120408132794
+      },
+      "region_entropy": 0.8382735778264095
+    },
+    "ATCC_VR-740_OK625404_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BJHD29_MW800646_2017-11-28": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229-25_6_92_DQ243974_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E-11_6_79_DQ243964_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E-12_5_92_DQ243975_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-14_8_03_DQ243984_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E-16_6_82_DQ243965_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-17_6_92_DQ243976_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-19_8_03_DQ243985_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-21_10_82_DQ243968_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-21_6_02_DQ243979_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E-22_9_82_DQ243966_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E-24_6_90_DQ243973_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-25_8_03_DQ243986_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-27_8_01_DQ243978_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-29_7_84_DQ243971_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-30_7_03_DQ243983_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-5_9_84_DQ243972_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E-6_10_82_DQ243967_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-6_1_03_DQ243980_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E-8_11_82a_DQ243969_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-8_11_82b_DQ243970_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E-8_8_01_DQ243977_2016-07-26": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_1197_Singapore_2010_PQ187610_2010-04-06": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_1340_Singapore_2010_PQ187611_2010-05-17": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_140M_Tanzania_2017_PQ187609_2017-06-06": {
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_2277_Singapore_2011_PQ187612_2011-06-15": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_2326_Singapore_2011_PQ187613_2011-06-30": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_2613_Singapore_2011_PQ187614_2011-11-10": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_2615_Singapore_2011_PQ187615_2011-11-10": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_4033K_Tanzania_2017_PQ187616_2017-01-09": {
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME001-51_2015_ON554097_2015-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME020-63_2016_ON554098_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME027-60_2016_ON554099_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME030-61_2016_ON554100_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME032-64_2016_ON554101_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME038-59_2016_ON554102_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME050-58_2016_ON554103_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME055-67_2016_ON554104_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME060-54_2016_ON554105_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME061-55_2016_ON554106_2016-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME110-17_2017_ON554107_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME118-39_2017_ON554108_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME125-20_2017_ON554109_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME126-21_2017_ON554110_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME129-43_2017_ON554111_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME140-42_2017_ON554112_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME148-44_2017_ON554113_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME151-16_2017_ON554114_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME152-22_2017_ON554115_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME153-23_2017_ON554116_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME154-36_2017_ON554117_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME155-40_2017_ON554118_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME161-50_2017_ON554119_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME168-45_2017_ON554120_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME171-19_2017_ON554121_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME176-46_2017_ON554122_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME178-37_2017_ON554123_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME186-38_2017_ON554124_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME209-34_2018_ON554125_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME240-24_2018_ON554126_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME248-77_2017_ON554127_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME260-05_2017_ON554128_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME310-26_2018_ON554129_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME319-10_2018_ON554130_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME341-12_2018_ON554131_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_BIME364-69_2019_ON554132_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME365-75_2019_ON554133_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME377-74_2019_ON554134_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME386-73_2019_ON554135_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME389-70_2019_ON554136_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME391-71_2019_ON554137_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME392-72_2019_ON554138_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BIME412-68_2019_ON554139_2019-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_BN1_GER_2015_KU291448_2015-XX-XX": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_USA_ACRI_0244_2017_MT438697_2017-02-24": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_USA_ACRI_0256_2017_MT438698_2017-02-24": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV-229E_USA_UAMS_DID_0108_2017_MT438700_2017-01-27": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV-229E_USA_UNM_0186_2016_MT438696_2016-02-09": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E_Seattle_USA_SC1073_2016_KY369913_2016-XX-XX": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HCoV_229E_Seattle_USA_SC1143_2016_KY369910_2016-XX-XX": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E_Seattle_USA_SC1212_2016_KY369911_2016-XX-XX": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E_Seattle_USA_SC579_2016_KY369908_2016-XX-XX": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E_Seattle_USA_SC677_2016_KY369909_2016-XX-XX": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E_Seattle_USA_SC9731_2016_KY369912_2016-XX-XX": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HCoV_229E_Seattle_USA_SC9773_2016_KY369914_2016-XX-XX": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK04-01_MT797676_2004-04-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK04-02_MT797677_2004-06-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK05-03_MT797678_2005-02-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-04_MT797679_2005-03-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-05_MT797680_2005-04-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-06_MT797681_2005-10-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-07_MT797682_2005-11-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK05-08_MT797683_2005-11-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-09_MT797684_2005-11-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-10_MT797685_2005-11-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK05-11_MT797686_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-12_MT797687_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-13_MT797688_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-14_MT797689_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK05-15_MT797690_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-16_MT797691_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-17_MT797692_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK05-18_MT797693_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK05-19_MT797694_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-20_MT797695_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK05-21_MT797696_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK05-22_MT797697_2005-12-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK06-23_MT797698_2006-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK06-24_MT797699_2006-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK06-25_MT797700_2006-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK06-26_MT797701_2006-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK06-27_MT797702_2006-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK06-28_MT797703_2006-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK06-29_MT797704_2006-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK09-30_MT797705_2009-05-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK09-31_MT797706_2009-05-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK11-32_MT797707_2011-02-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK11-33_MT797708_2011-05-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK11-34_MT797709_2011-05-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK11-35_MT797710_2011-07-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK12-36_MT797711_2012-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK13-37_MT797712_2013-02-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK13-38_MT797713_2013-05-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK13-39_MT797714_2013-05-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK16-40_MT797715_2016-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HK16-41_MT797716_2016-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HK20-42_MT797634_2020-01-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "HKU-240824-001_PQ243243_2020-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC_002645_2021-08-17": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.25290959329245416,
+        "Europe": 0.6063968592335824,
+        "North America": 0.02625354760344578,
+        "Oceania": 0.10017844887518072
+      },
+      "region_entropy": 1.0376796779540594
+    },
+    "NODE_0000000": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Asia": 0.12586408321275835,
+        "Europe": 0.12695035229431273,
+        "North America": 0.030366849122524128,
+        "Oceania": 0.707672067220655
+      },
+      "region_entropy": 0.9166269865464992
+    },
+    "NODE_0000001": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.22007413521350308,
+        "Europe": 0.66594681874494,
+        "North America": 0.01440864798650298,
+        "Oceania": 0.09389668985835939
+      },
+      "region_entropy": 0.9164376618463043
+    },
+    "NODE_0000002": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.23736836745871207,
+        "Europe": 0.6351449767369223,
+        "North America": 0.020377511634288265,
+        "Oceania": 0.09707198875456446
+      },
+      "region_entropy": 0.9815860649738868
+    },
+    "NODE_0000003": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.2046769449352431,
+        "Europe": 0.7353759592385108,
+        "North America": 0.007916775890190967,
+        "Oceania": 0.048882157627064604
+      },
+      "region_entropy": 0.7547055767223261
+    },
+    "NODE_0000004": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.1840515011822836,
+        "Europe": 0.8097778407820253,
+        "Oceania": 0.005090251933263989
+      },
+      "region_entropy": 0.51718272318267
+    },
+    "NODE_0000005": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.3383447762094109,
+        "Europe": 0.6575923957004325,
+        "Oceania": 0.0029727609336733093
+      },
+      "region_entropy": 0.6676607510329456
+    },
+    "NODE_0000006": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.348767073203312,
+        "Europe": 0.6290661620082376,
+        "North America": 0.007408138056038709,
+        "Oceania": 0.0099420819518351
+      },
+      "region_entropy": 0.7668387432503947
+    },
+    "NODE_0000007": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.35788051740453997,
+        "Europe": 0.6023566650825679,
+        "North America": 0.013876082334105077,
+        "Oceania": 0.016680048068758137
+      },
+      "region_entropy": 0.8438762291207013
+    },
+    "NODE_0000008": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.36580451527233804,
+        "Europe": 0.5773380606128845,
+        "North America": 0.02020575300578743,
+        "Oceania": 0.02319238757236121
+      },
+      "region_entropy": 0.9091379980471249
+    },
+    "NODE_0000009": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.4914121696753172,
+        "Europe": 0.5084217007414459
+      },
+      "region_entropy": 0.69462492803031
+    },
+    "NODE_0000010": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.4619706271488458,
+        "Europe": 0.5379258257188055
+      },
+      "region_entropy": 0.6913374574585778
+    },
+    "NODE_0000011": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.7312369773258378,
+        "Europe": 0.26717554610366556
+      },
+      "region_entropy": 0.5933903806566293
+    },
+    "NODE_0000012": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.009840210285941474,
+        "Europe": 0.9901482652706884
+      },
+      "region_entropy": 0.05542013028665337
+    },
+    "NODE_0000013": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9997765989110278
+      },
+      "region_entropy": 0.002106541957044992
+    },
+    "NODE_0000014": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Asia": 0.0022266654566257325,
+        "Europe": 0.00136631377544939,
+        "Oceania": 0.9955465878226177
+      },
+      "region_entropy": 0.03341678126349822
+    },
+    "NODE_0000015": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999433262965707
+      },
+      "region_entropy": 0.000671530312626713
+    },
+    "NODE_0000016": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999871854867085
+      },
+      "region_entropy": 0.00017034459844155852
+    },
+    "NODE_0000017": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999904115222529
+      },
+      "region_entropy": 0.00013008275373358464
+    },
+    "NODE_0000018": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999972165666582
+      },
+      "region_entropy": 4.118333582294847e-05
+    },
+    "NODE_0000019": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999975468261668
+      },
+      "region_entropy": 0.0003109076130674071
+    },
+    "NODE_0000020": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999970778265908
+      },
+      "region_entropy": 4.309415906884027e-05
+    },
+    "NODE_0000021": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999910149995718
+      },
+      "region_entropy": 0.0001194850871806931
+    },
+    "NODE_0000022": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999565518562368
+      },
+      "region_entropy": 0.003925428814557332
+    },
+    "NODE_0000023": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Asia": 0.0010872241162417032,
+        "North America": 0.09837797364849808,
+        "Oceania": 0.9003456264719681
+      },
+      "region_entropy": 0.3318035828809023
+    },
+    "NODE_0000024": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9995692829511421
+      },
+      "region_entropy": 0.0038637340960050223
+    },
+    "NODE_0000025": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999875687915781
+      },
+      "region_entropy": 0.00015872046310915584
+    },
+    "NODE_0000026": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998778818553928
+      },
+      "region_entropy": 0.0012420931975640627
+    },
+    "NODE_0000027": {
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.010556135191085931,
+        "Oceania": 0.989307138532822
+      },
+      "region_entropy": 0.05996067393298585
+    },
+    "NODE_0000028": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9866644589773826,
+        "Oceania": 0.013150782772948308
+      },
+      "region_entropy": 0.07186561034689462
+    },
+    "NODE_0000029": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9996457289096207
+      },
+      "region_entropy": 0.0032178819232214603
+    },
+    "NODE_0000030": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9998228061754909
+      },
+      "region_entropy": 0.0017372467415547245
+    },
+    "NODE_0000031": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9945319630548363,
+        "Oceania": 0.005233028031602987
+      },
+      "region_entropy": 0.03499792595305366
+    },
+    "NODE_0000032": {
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.0035069456189495223,
+        "Oceania": 0.9962472227895518
+      },
+      "region_entropy": 0.02570241126149543
+    },
+    "NODE_0000033": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999575845526908
+      },
+      "region_entropy": 0.0004843974532611788
+    },
+    "NODE_0000034": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9995898741626046
+      },
+      "region_entropy": 0.003900534202690966
+    },
+    "NODE_0000035": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999863079357801
+      },
+      "region_entropy": 0.00017912288758725883
+    },
+    "NODE_0000036": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999954806262396
+      },
+      "region_entropy": 6.46823981971754e-05
+    },
+    "NODE_0000037": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Asia": 0.012516994519687604,
+        "Oceania": 0.9870629137790513
+      },
+      "region_entropy": 0.07127026644926557
+    },
+    "NODE_0000038": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9739821569753778,
+        "Europe": 0.0010692657658978486,
+        "Oceania": 0.024551925086288114
+      },
+      "region_entropy": 0.12720146767604446
+    },
+    "NODE_0000039": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9990126324205092
+      },
+      "region_entropy": 0.008219768086613139
+    },
+    "NODE_0000040": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999433131530723
+      },
+      "region_entropy": 0.0006558727782802062
+    },
+    "NODE_0000041": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999438282086639
+      },
+      "region_entropy": 0.0006335083794530958
+    },
+    "NODE_0000042": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9991840531880967
+      },
+      "region_entropy": 0.006920794664445504
+    },
+    "NODE_0000043": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9844725536830242,
+        "Oceania": 0.014648541217100328
+      },
+      "region_entropy": 0.0840177655401716
+    },
+    "NODE_0000044": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9996376029754184
+      },
+      "region_entropy": 0.0034850911215150897
+    },
+    "NODE_0000045": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Asia": 0.008633586974619223,
+        "Oceania": 0.9911195468396498
+      },
+      "region_entropy": 0.05211555767929171
+    },
+    "NODE_0000046": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999678495753179
+      },
+      "region_entropy": 0.003164719360445431
+    },
+    "NODE_0000047": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999536796858685
+      },
+      "region_entropy": 0.0005362303644897526
+    },
+    "NODE_0000048": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999578922860414
+      },
+      "region_entropy": 0.0004859372125778843
+    },
+    "NODE_0000049": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999960932432668
+      },
+      "region_entropy": 0.0004542525627902237
+    },
+    "NODE_0000050": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595150741251
+      },
+      "region_entropy": 0.0004690051956932566
+    },
+    "NODE_0000051": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609910415503
+      },
+      "region_entropy": 0.0004536446556772319
+    },
+    "NODE_0000052": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999953737313085
+      },
+      "region_entropy": 0.0005356397753850105
+    },
+    "NODE_0000053": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999592965183574
+      },
+      "region_entropy": 0.00047137642896054
+    },
+    "NODE_0000054": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999576421103168
+      },
+      "region_entropy": 0.0004883986294509516
+    },
+    "NODE_0000055": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999521212640251
+      },
+      "region_entropy": 0.0005463046030714863
+    },
+    "NODE_0000056": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999519530976796
+      },
+      "region_entropy": 0.000548028835996921
+    },
+    "NODE_0000057": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999534837825141
+      },
+      "region_entropy": 0.0005323724639436627
+    },
+    "NODE_0000058": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999576733118268
+      },
+      "region_entropy": 0.0004880950960602699
+    },
+    "NODE_0000059": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999554690259641
+      },
+      "region_entropy": 0.0005119878412803135
+    },
+    "NODE_0000060": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609235849802
+      },
+      "region_entropy": 0.0004543425727013874
+    },
+    "NODE_0000061": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999577605714212
+      },
+      "region_entropy": 0.00048718211112759374
+    },
+    "NODE_0000062": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609266968333
+      },
+      "region_entropy": 0.0004543102239044628
+    },
+    "NODE_0000063": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594552017314
+      },
+      "region_entropy": 0.0004696205155068841
+    },
+    "NODE_0000064": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595735224956
+      },
+      "region_entropy": 0.00046840111108538494
+    },
+    "NODE_0000065": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609932084627
+      },
+      "region_entropy": 0.00045362228294684227
+    },
+    "NODE_0000066": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999577646000649
+      },
+      "region_entropy": 0.000487140596552169
+    },
+    "NODE_0000067": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609268456453
+      },
+      "region_entropy": 0.0004543086867122064
+    },
+    "NODE_0000068": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593923251728
+      },
+      "region_entropy": 0.0004702681035105119
+    },
+    "NODE_0000069": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999579209840208
+      },
+      "region_entropy": 0.0004855184142600872
+    },
+    "NODE_0000070": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595151713175
+      },
+      "region_entropy": 0.00046900241481684097
+    },
+    "NODE_0000071": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609910312658
+      },
+      "region_entropy": 0.0004536447365925235
+    },
+    "NODE_0000072": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999577660841978
+      },
+      "region_entropy": 0.00048712571074787574
+    },
+    "NODE_0000073": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609269037963
+      },
+      "region_entropy": 0.0004543080921876718
+    },
+    "NODE_0000074": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999536326774137
+      },
+      "region_entropy": 0.0005308585392330588
+    },
+    "NODE_0000075": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999553116363287
+      },
+      "region_entropy": 0.0005136144842454634
+    },
+    "NODE_0000076": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999579113871437
+      },
+      "region_entropy": 0.00048561661201225687
+    },
+    "NODE_0000077": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594005606293
+      },
+      "region_entropy": 0.0004701832651006609
+    },
+    "NODE_0000078": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999579905069143
+      },
+      "region_entropy": 0.0004848049358581906
+    },
+    "NODE_0000079": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595178634612
+      },
+      "region_entropy": 0.00046897476096100237
+    },
+    "NODE_0000080": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609911324262
+      },
+      "region_entropy": 0.00045364369462024657
+    },
+    "NODE_0000081": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595178634612
+      },
+      "region_entropy": 0.00046897476096100237
+    },
+    "NODE_0000082": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609911324262
+      },
+      "region_entropy": 0.00045364369462024657
+    },
+    "NODE_0000083": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593918316592
+      },
+      "region_entropy": 0.0004702731693370085
+    },
+    "NODE_0000084": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999957761499726
+      },
+      "region_entropy": 0.0004871725569277875
+    },
+    "NODE_0000085": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999537937105935
+      },
+      "region_entropy": 0.0005292006931233095
+    },
+    "NODE_0000086": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593064646987
+      },
+      "region_entropy": 0.00047117021039584824
+    },
+    "NODE_0000087": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593703766028
+      },
+      "region_entropy": 0.00047051185525927915
+    },
+    "NODE_0000088": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999555395196773
+      },
+      "region_entropy": 0.0005112677367540057
+    },
+    "NODE_0000089": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999591848004754
+      },
+      "region_entropy": 0.00047242309983162514
+    },
+    "NODE_0000090": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999522123883228
+      },
+      "region_entropy": 0.0005453976515082296
+    },
+    "NODE_0000091": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999193969879122
+      },
+      "region_entropy": 0.0008783516264199789
+    },
+    "NODE_0000092": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999529569968283
+      },
+      "region_entropy": 0.000537780325839625
+    },
+    "NODE_0000093": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999592776799306
+      },
+      "region_entropy": 0.00047146662064120626
+    },
+    "NODE_0000094": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594501860002
+      },
+      "region_entropy": 0.0004696720337748069
+    },
+    "NODE_0000095": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999579272505579
+      },
+      "region_entropy": 0.00048545403197201885
+    },
+    "NODE_0000096": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594615122293
+      },
+      "region_entropy": 0.0004695554336729177
+    },
+    "NODE_0000097": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595737662021
+      },
+      "region_entropy": 0.00046839860617217037
+    },
+    "NODE_0000098": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609932176106
+      },
+      "region_entropy": 0.00045362218870347785
+    },
+    "NODE_0000099": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999579218783364
+      },
+      "region_entropy": 0.0004855092631769717
+    },
+    "NODE_0000100": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595152061714
+      },
+      "region_entropy": 0.0004690020571941911
+    },
+    "NODE_0000101": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609910325788
+      },
+      "region_entropy": 0.0004536447230746208
+    },
+    "NODE_0000102": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999592536071935
+      },
+      "region_entropy": 0.0004717144410990334
+    },
+    "NODE_0000103": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999538607947206
+      },
+      "region_entropy": 0.0005285182593675553
+    },
+    "NODE_0000104": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593707063589
+      },
+      "region_entropy": 0.0004705084700924525
+    },
+    "NODE_0000105": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999960985785204
+      },
+      "region_entropy": 0.00045369910132281186
+    },
+    "NODE_0000106": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999313835945784
+      },
+      "region_entropy": 0.0007591003562260661
+    },
+    "NODE_0000107": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999546171145771
+      },
+      "region_entropy": 0.0005194059524154283
+    },
+    "NODE_0000108": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999608102402138
+      },
+      "region_entropy": 0.00045551238939239315
+    },
+    "NODE_0000109": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999003037756061
+      },
+      "region_entropy": 0.0010532352092030202
+    },
+    "NODE_0000110": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999557154639884
+      },
+      "region_entropy": 0.000508116743197671
+    },
+    "NODE_0000111": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999608504944966
+      },
+      "region_entropy": 0.00045509610402660335
+    },
+    "NODE_0000112": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999959170269454
+      },
+      "region_entropy": 0.0004725703436144099
+    },
+    "NODE_0000113": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999539184312343
+      },
+      "region_entropy": 0.0005279315162344244
+    },
+    "NODE_0000114": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999607952734512
+      },
+      "region_entropy": 0.00045568664631990874
+    },
+    "NODE_0000115": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.998429074832751,
+        "Europe": 0.0013512883941511305
+      },
+      "region_entropy": 0.012388159801740786
+    },
+    "NODE_0000116": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9804073917211613,
+        "Europe": 0.01953893804989791
+      },
+      "region_entropy": 0.09686704225467616
+    },
+    "NODE_0000117": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.5166165732540481,
+        "Europe": 0.483121686453131
+      },
+      "region_entropy": 0.6950891715012127
+    },
+    "NODE_0000118": {
+      "region": "Asia",
+      "region_confidence": {
+        "Africa": 0.002390754135477493,
+        "Asia": 0.5158843120854687,
+        "Europe": 0.48152732193968084
+      },
+      "region_entropy": 0.7095994493721502
+    },
+    "NODE_0000119": {
+      "region": "Europe",
+      "region_confidence": {
+        "Africa": 0.05335936814179941,
+        "Asia": 0.21382365053826544,
+        "Europe": 0.731989941355223
+      },
+      "region_entropy": 0.7210370853548129
+    },
+    "NODE_0000120": {
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.995519997769442,
+        "Europe": 0.0035301176868756654
+      },
+      "region_entropy": 0.031188110432262578
+    },
+    "NODE_0000121": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.009813008303071054,
+        "Europe": 0.989891515608302
+      },
+      "region_entropy": 0.05788846638617756
+    },
+    "NODE_0000122": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9997708890243084
+      },
+      "region_entropy": 0.0021627322191302457
+    },
+    "NODE_0000123": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999770904432908
+      },
+      "region_entropy": 0.0002700302271038287
+    },
+    "NODE_0000124": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.006318039343474383,
+        "Europe": 0.9936752080647266
+      },
+      "region_entropy": 0.038387414944782886
+    },
+    "NODE_0000125": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.05073713343611832,
+        "Europe": 0.949208226578581
+      },
+      "region_entropy": 0.20132401984284512
+    },
+    "NODE_0000126": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9598809283629472,
+        "Europe": 0.04005259955550322
+      },
+      "region_entropy": 0.1688773231047561
+    },
+    "NODE_0000127": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9955187343158084,
+        "Europe": 0.004455368440723943
+      },
+      "region_entropy": 0.02888732219761574
+    },
+    "NODE_0000128": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9998467981943232
+      },
+      "region_entropy": 0.0015031131519530798
+    },
+    "NODE_0000129": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999776808772077
+      },
+      "region_entropy": 0.0002636807129983102
+    },
+    "NODE_0000130": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999787462046908
+      },
+      "region_entropy": 0.0002524547276039491
+    },
+    "NODE_0000131": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999813761272602
+      },
+      "region_entropy": 0.00022366662492662124
+    },
+    "NODE_0000132": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9885161629137309,
+        "Europe": 0.001024901750198715,
+        "North America": 0.010245618880062151
+      },
+      "region_entropy": 0.06727194279505237
+    },
+    "NODE_0000133": {
+      "region": "North America",
+      "region_confidence": {
+        "Asia": 0.013803584170058189,
+        "North America": 0.9857253845084272
+      },
+      "region_entropy": 0.07725669791198295
+    },
+    "NODE_0000134": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9998590150028273
+      },
+      "region_entropy": 0.001434695427721848
+    },
+    "NODE_0000135": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999994974548748
+      },
+      "region_entropy": 7.019081657758367e-05
+    },
+    "NODE_0000136": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9998039237743622
+      },
+      "region_entropy": 0.001930978929061011
+    },
+    "NODE_0000137": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999994238268864
+      },
+      "region_entropy": 7.950980685295455e-05
+    },
+    "NODE_0000138": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999959520472931
+      },
+      "region_entropy": 5.777078158004149e-05
+    },
+    "NODE_0000139": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999964130960115
+      },
+      "region_entropy": 5.1620111766122355e-05
+    },
+    "NODE_0000140": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999964762271234
+      },
+      "region_entropy": 5.07815979317484e-05
+    },
+    "NODE_0000141": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9997887810406868
+      },
+      "region_entropy": 0.0021662788946559793
+    },
+    "NODE_0000142": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999433980580201
+      },
+      "region_entropy": 0.0006534725224032766
+    },
+    "NODE_0000143": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9995002142150065
+      },
+      "region_entropy": 0.004491713877908763
+    },
+    "NODE_0000144": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.973110370612928,
+        "North America": 0.02678219381286837
+      },
+      "region_entropy": 0.12451605784088156
+    },
+    "NODE_0000145": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9553404136608267,
+        "North America": 0.04408900580484086
+      },
+      "region_entropy": 0.1859248568555124
+    },
+    "NODE_0000146": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9573244132075706,
+        "North America": 0.04215640940455031
+      },
+      "region_entropy": 0.1795128723945649
+    },
+    "NODE_0000147": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9992605320400295
+      },
+      "region_entropy": 0.006332422667672354
+    },
+    "NODE_0000148": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999484043603166
+      },
+      "region_entropy": 0.0005958284487631971
+    },
+    "NODE_0000149": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999589988894297
+      },
+      "region_entropy": 0.00047460647482694125
+    },
+    "NODE_0000150": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999528432657114
+      },
+      "region_entropy": 0.000537831775554077
+    },
+    "NODE_0000151": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9998221989266496
+      },
+      "region_entropy": 0.0018021548252179535
+    },
+    "NODE_0000152": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999592687214092
+      },
+      "region_entropy": 0.000471542691155791
+    },
+    "NODE_0000153": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595663158787
+      },
+      "region_entropy": 0.00046847517409391213
+    },
+    "NODE_0000154": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609929378789
+      },
+      "region_entropy": 0.0004536250704195055
+    },
+    "NODE_0000155": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999219380316756
+      },
+      "region_entropy": 0.0008395308320426754
+    },
+    "NODE_0000156": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9990088284772374
+      },
+      "region_entropy": 0.007896401375719468
+    },
+    "NODE_0000157": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9766723009328703,
+        "Europe": 0.023257374492131475
+      },
+      "region_entropy": 0.11126660780080247
+    },
+    "NODE_0000158": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999221164529537
+      },
+      "region_entropy": 0.0008374452885016525
+    },
+    "NODE_0000159": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999564612047422
+      },
+      "region_entropy": 0.0005003910638993694
+    },
+    "NODE_0000160": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999608774119372
+      },
+      "region_entropy": 0.00045481690708936145
+    },
+    "NODE_0000161": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999578024645848
+      },
+      "region_entropy": 0.0004867310712343959
+    },
+    "NODE_0000162": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593982879001
+      },
+      "region_entropy": 0.0004702065514848188
+    },
+    "NODE_0000163": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999580415614688
+      },
+      "region_entropy": 0.00048428060964512276
+    },
+    "NODE_0000164": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609370374015
+      },
+      "region_entropy": 0.0004542033368784221
+    },
+    "NODE_0000165": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593995785153
+      },
+      "region_entropy": 0.00047019361882722274
+    },
+    "NODE_0000166": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999578310801556
+      },
+      "region_entropy": 0.0004864587710470868
+    },
+    "NODE_0000167": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609293282207
+      },
+      "region_entropy": 0.00045428309196501166
+    },
+    "NODE_0000168": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999537969108548
+      },
+      "region_entropy": 0.000529168239120547
+    },
+    "NODE_0000169": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999593098603886
+      },
+      "region_entropy": 0.00047113508389432695
+    },
+    "NODE_0000170": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594583040734
+      },
+      "region_entropy": 0.0004695886535072489
+    },
+    "NODE_0000171": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999958104712865
+      },
+      "region_entropy": 0.000483632405028855
+    },
+    "NODE_0000172": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609393950453
+      },
+      "region_entropy": 0.000454179028314975
+    },
+    "NODE_0000173": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609393950453
+      },
+      "region_entropy": 0.000454179028314975
+    },
+    "NODE_0000174": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999578620871107
+      },
+      "region_entropy": 0.0004861224698200896
+    },
+    "NODE_0000175": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999579835405834
+      },
+      "region_entropy": 0.0004848762144628086
+    },
+    "NODE_0000176": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999960934872543
+      },
+      "region_entropy": 0.0004542256598632768
+    },
+    "NODE_0000177": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594636938148
+      },
+      "region_entropy": 0.0004695330254037553
+    },
+    "NODE_0000178": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595738512428
+      },
+      "region_entropy": 0.0004683977334974103
+    },
+    "NODE_0000179": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609932208143
+      },
+      "region_entropy": 0.0004536221557185569
+    },
+    "NODE_0000180": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594006427917
+      },
+      "region_entropy": 0.00047018241713192354
+    },
+    "NODE_0000181": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999580419810765
+      },
+      "region_entropy": 0.00048427631728279645
+    },
+    "NODE_0000182": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609370531833
+      },
+      "region_entropy": 0.00045420317437279537
+    },
+    "NODE_0000183": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594076471632
+      },
+      "region_entropy": 0.00047011048924179826
+    },
+    "NODE_0000184": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999580427303123
+      },
+      "region_entropy": 0.00048426861640571634
+    },
+    "NODE_0000185": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999609370810614
+      },
+      "region_entropy": 0.000454202886763004
+    },
+    "NODE_0000186": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999594197790626
+      },
+      "region_entropy": 0.0004699831825230033
+    },
+    "NODE_0000187": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999583944587441
+      },
+      "region_entropy": 0.00048047702962979584
+    },
+    "NODE_0000188": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999308419409643
+      },
+      "region_entropy": 0.0007539013062642624
+    },
+    "NODE_0000189": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999583989321397
+      },
+      "region_entropy": 0.0004804312145998404
+    },
+    "NODE_0000190": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999595321452941
+      },
+      "region_entropy": 0.0004688253333683722
+    },
+    "NODE_0000191": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999960991646625
+      },
+      "region_entropy": 0.000453638357414456
+    },
+    "NODE_0000192": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9992937559109655
+      },
+      "region_entropy": 0.005870569825085006
+    },
+    "NODE_0000193": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999358517377942
+      },
+      "region_entropy": 0.0007048246792050766
+    },
+    "NODE_0000194": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9836860293897213,
+        "Europe": 0.016302735692853846
+      },
+      "region_entropy": 0.08342721977070901
+    },
+    "NODE_0000195": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9453940835662488,
+        "Europe": 0.05453836255903797
+      },
+      "region_entropy": 0.2124438130629134
+    },
+    "NODE_0000196": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9978997749140225,
+        "Europe": 0.002091141861431557
+      },
+      "region_entropy": 0.015113974517982558
+    },
+    "NODE_0000197": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9777062876047068,
+        "Europe": 0.022208307138109524
+      },
+      "region_entropy": 0.10747733593842262
+    },
+    "NODE_0000198": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.004795660751983235,
+        "Europe": 0.9951746446215437
+      },
+      "region_entropy": 0.030762645938703412
+    },
+    "NODE_0000199": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9998765546717764
+      },
+      "region_entropy": 0.001239033801484803
+    },
+    "NODE_0000200": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999571148236757
+      },
+      "region_entropy": 0.0004789661726840368
+    },
+    "NODE_0000201": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999733131556499
+      },
+      "region_entropy": 0.00031094732066768284
+    },
+    "NODE_0000202": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9990872035537465
+      },
+      "region_entropy": 0.007350819458108803
+    },
+    "NODE_0000203": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999252101756145
+      },
+      "region_entropy": 0.0008078891373910928
+    },
+    "NODE_0000204": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999567129877607
+      },
+      "region_entropy": 0.0004978230738612269
+    },
+    "NODE_0000205": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999608868657622
+      },
+      "region_entropy": 0.00045471954731480813
+    },
+    "NODE_0000206": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999608868657622
+      },
+      "region_entropy": 0.00045471954731480813
+    },
+    "P100E_AF344189_2001-04-12": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.3688045707676127,
+        "Europe": 0.5673061020108853,
+        "North America": 0.022822054014515498,
+        "Oceania": 0.02586167244737779
+      },
+      "region_entropy": 0.9339035680031808
+    },
+    "P11A_AF344187_2001-04-12": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.37264858118463157,
+        "Europe": 0.553893674450485,
+        "North America": 0.02639342206071844,
+        "Oceania": 0.02948485654786837
+      },
+      "region_entropy": 0.9659500597463987
+    },
+    "P11B_AF344188_2001-04-12": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.37264858118463157,
+        "Europe": 0.553893674450485,
+        "North America": 0.02639342206071844,
+        "Oceania": 0.02948485654786837
+      },
+      "region_entropy": 0.9659500597463987
+    },
+    "P42_OK073084_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "R10_OK073078_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "R22_OK073079_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "R2_OK073077_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "R35_OK073080_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "R39_OK073081_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "R41_OK073082_2018-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "RS15_OK073083_2017-XX-XX": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "RW_Stock_AF344186_2001-04-12": {
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.35788051740453986,
+        "Europe": 0.602356665082568,
+        "North America": 0.013876082334105078,
+        "Oceania": 0.016680048068758137
+      },
+      "region_entropy": 0.8438762291207011
+    },
+    "S0677SP_MW587035_2022-01-20": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "S0959FBW_MW587038_2022-01-20": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "S0970XLQ_MW587037_2022-01-20": {
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "TKU-2021b_OK662398_2021-XX-XX": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_KDA-RII-MH204625S_2024_PQ963852_2024-07-17": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "hCoV-229E_Russia_NVS-RII-MH71549S_2022_OR266946_2022-03-28": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-11131S_2024_PQ616096_2024-03-17": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "hCoV-229E_Russia_SPE-RII-14277S_2023_PQ616099_2023-03-14": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-1631S_2019_PQ616089_2019-02-04": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-2076S_2019_PQ616083_2019-02-12": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-25806S_2021_PQ616078_2021-02-09": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-29110S_2021_PQ616104_2021-03-12": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-29469S_2021_PQ616105_2021-03-16": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "hCoV-229E_Russia_SPE-RII-29800S_2021_PQ616106_2021-03-18": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "hCoV-229E_Russia_SPE-RII-30347S_2021_PQ616108_2021-03-24": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "hCoV-229E_Russia_SPE-RII-3126S_2019_PQ616091_2019-03-04": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-31552S_2021_PQ616111_2021-04-07": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-956S_2019_PQ616087_2019-01-24": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "hCoV-229E_Russia_SPE-RII-MH183861S_2024_PQ963848_2024-04-15": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "inf-1_PQ449607_2016-03-31": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}
