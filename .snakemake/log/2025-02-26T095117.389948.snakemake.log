@@ -1,7 +1,0 @@
-Building DAG of jobs...
-MissingInputException in rule export_tree in file /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/Rules/augur_processing.smk, line 161:
-Missing input files for rule export_tree:
-    output: auspice/spike.json
-    wildcards: gene=spike
-    affected files:
-        Configure/Input_Data/lat_longs.tsv

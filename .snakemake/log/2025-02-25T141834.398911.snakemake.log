@@ -1,3 +1,0 @@
-SyntaxError in file /fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/Rules/download_and_process_accessions.smk, line 20:
-invalid syntax. Perhaps you forgot a comma?
-  File "/fh/fast/bloom_j/computational_notebooks/sharari/2025/HcoV_229E_phylo_analysis/Snakefile", line 19, in <module>
