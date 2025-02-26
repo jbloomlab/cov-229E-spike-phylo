@@ -1,7 +1,0 @@
-Building a tree via:
-	iqtree2 -ntmax 1 -s Results/spike/Alignments/codon_ungapped-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05 -nt AUTO -redo \-o camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX > Results/spike/Alignments/codon_ungapped-delim.iqtree.log
-	Nguyen et al: IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies.
-	Mol. Biol. Evol., 32:268-274. https://doi.org/10.1093/molbev/msu300
-
-
-Building original tree took 2.5492913722991943 seconds
