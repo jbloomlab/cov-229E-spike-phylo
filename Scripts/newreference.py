@@ -45,7 +45,7 @@ def new_reference(referencefile, outgenbank, new_name, gene):
     record.features[-1].qualifiers["locus_tag"] = new_name
 
     # Add ectodomain feature
-    CDS = SeqFeature(FeatureLocation(start=26, end=430), type="CDS")
+    CDS = SeqFeature(FeatureLocation(start=52, end=1071), type="CDS")
     record.features.append(CDS)
 
     # Rename gene features
