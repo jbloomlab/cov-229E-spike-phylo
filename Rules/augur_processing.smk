@@ -70,6 +70,7 @@ rule refine_tree_sequences:
         "--tree {input.tree} "
         "--alignment {input.alignment} "
         "--metadata {input.metadata} "
+        "--timetree"
         "--output-tree {output.tree} "
         "--output-node-data {output.tree_nodes} "
         "--keep-root "
