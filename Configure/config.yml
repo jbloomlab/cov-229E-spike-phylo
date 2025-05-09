@@ -78,6 +78,18 @@ Color_schemes: Configure/Input_Data/color_schemes.tsv
 Color_orderings: Configure/Input_Data/color_orderings.tsv
 Lat_longs: Configure/Input_Data/lat_longs.tsv
 
+# Antibody escape data:
+Antibody_escape_file: Configure/Input_Data/filtered_APN_binding.csv
+Antibody_names:
+  APN: APN
+Site_map: Configure/Input_Data/site_numbering_map.csv
+# Antibody escape prediction parameters
+Antibody_escape_prediction_params:
+  Reference_DMS_strain: "HCoV-229E-5_9_84_DQ243972_2016-07-26" # name of reference DMS strain
+  Mut_effect_col: "escape" # name of the column containing the effect score
+  Mutation_col: "natural_sequence_mutation" # name of the column containing the mutation
+  Antibody_escape_filter_params: null
+
 Auspice_tree_titles:
   spike: "'hCoV 229E phylogentic tree'"
 

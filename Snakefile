@@ -34,6 +34,7 @@ rule all:
     input:
         # ORF extraction log
         expand("Results/{gene}/ORF_sequences/ORF_extraction_verification.txt", gene=GENES),
+        expand("Results/{gene}/Antibody_escape_predictions/APN.json", gene=GENES),
         # Auspice
         expand("auspice/{gene}.json", gene=GENES),
         # Natural variation

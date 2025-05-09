@@ -2,20 +2,20 @@ IQ-TREE multicore version 2.2.5 COVID-edition for Linux 64-bit built Sep 15 2023
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
 Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
 
-Host:    gizmoj22 (AVX512, FMA3, 346 GB RAM)
+Host:    gizmoj8 (AVX512, FMA3, 376 GB RAM)
 Command: iqtree2 -ntmax 1 -s Results/spike/Alignments/codon_ungapped-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05 -nt AUTO -redo -o camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX
-Seed:    453197 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Thu Feb 27 14:26:58 2025
-Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+Seed:    739613 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri May  2 15:28:14 2025
+Kernel:  AVX+FMA - auto-detect threads (1 CPU cores detected)
 
 Reading alignment file Results/spike/Alignments/codon_ungapped-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.0185774 secs using 62.93% CPU
+Reading fasta file: done in 0.0204949 secs using 94.38% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00715895 secs using 54.73% CPU
+Constructing alignment: done in 0.00699227 secs using 96.92% CPU
 Alignment has 215 sequences with 3519 columns, 438 distinct patterns
 284 parsimony-informative, 296 singleton sites, 2939 constant sites
                                                              Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.00019436 secs
+Analyzing sequences: done in 0.000195221 secs using 99.37% CPU
    1  camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX                   0.37%    passed     89.53%
    2  NC_002645_2021-08-17                                           0.00%    passed     98.21%
    3  hCoV-229E_Russia_SPE-RII-MH183861S_2024_PQ963848_2024-04-15    0.17%    passed    100.00%
@@ -255,8 +255,8 @@ NOTE: HCoV_229E_Seattle_USA_SC677_2016_KY369909_2016-XX-XX is identical to HCoV_
 NOTE: HCoV_229E_Seattle_USA_SC1212_2016_KY369911_2016-XX-XX is identical to HCoV_229E_Seattle_USA_SC1143_2016_KY369910_2016-XX-XX but kept for subsequent analysis
 NOTE: 229E_KF293665_2013-10-01 is identical to 229E_KF293664_2013-10-01 but kept for subsequent analysis
 NOTE: HCoV-229E-21_10_82_DQ243968_2016-07-26 is identical to HCoV-229E-6_10_82_DQ243967_2016-07-26 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.000934283 secs using 2.569% CPU
-Identifying sites to remove: done in 0.00344327 secs using 8.771% CPU
+Checking for duplicate sequences: done in 0.000953066 secs using 82.79% CPU
+Identifying sites to remove: done in 0.0033956 secs using 99.95% CPU
 NOTE: 11 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: HCoV-229E_BIME168-45_2017_ON554120_2017-XX-XX (identical to HCoV-229E_BIME020-63_2016_ON554098_2016-XX-XX) is ignored but added at the end
 NOTE: HCoV-229E_BIME310-26_2018_ON554129_2018-XX-XX (identical to HCoV-229E_BIME209-34_2018_ON554125_2018-XX-XX) is ignored but added at the end
@@ -273,42 +273,42 @@ Alignment was printed to Results/spike/Alignments/codon_ungapped-delim.fasta.uni
 
 For your convenience alignment with unique sequences printed to Results/spike/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.024 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.023 seconds
 
 NOTE: 2 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 1 CPU cores
 Increase to 10 rounds for branch lengths
-16 trees examined
-Threads: 1 / Time: 1.012 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -39745
-Determining AUTO threadcount: done in 1.01282 secs using 93.24% CPU
+17 trees examined
+Threads: 1 / Time: 1.043 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -39338
+Determining AUTO threadcount: done in 1.04332 secs using 95.71% CPU
 BEST NUMBER OF THREADS: 1
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -11576.196
-2. Current log-likelihood: -11315.849
-Optimal log-likelihood: -11315.783
-Rate parameters:  A-C: 1.00202  A-G: 1.55570  A-T: 0.40002  C-G: 0.49650  C-T: 3.73386  G-T: 1.00000
+1. Initial log-likelihood: -11583.401
+2. Current log-likelihood: -11311.611
+Optimal log-likelihood: -11311.113
+Rate parameters:  A-C: 1.01106  A-G: 1.58034  A-T: 0.39214  C-G: 0.50115  C-T: 3.78887  G-T: 1.00000
 Base frequencies:  A: 0.260  C: 0.183  G: 0.204  T: 0.353
-Parameters optimization took 2 rounds (0.108 sec)
+Parameters optimization took 2 rounds (0.116 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.0782645 secs using 95.84% CPU
-Computing ML distances took 0.079117 sec (of wall-clock time) 0.075055 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00275355 secs using 24.62% CPU
-Constructing RapidNJ tree: done in 0.00943209 secs using 126.5% CPU
-Computing RapidNJ tree took 0.012312 sec (of wall-clock time) 0.012665 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -11394.968
+Calculating distance matrix: done in 0.076288 secs using 95.34% CPU
+Computing ML distances took 0.076804 sec (of wall-clock time) 0.072749 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000881489 secs using 99.94% CPU
+Constructing RapidNJ tree: done in 0.0173198 secs using 99.69% CPU
+Computing RapidNJ tree took 0.018238 sec (of wall-clock time) 0.018185 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -11395.037
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.150149 secs using 94.86% CPU
+Optimizing NNI: done in 0.0908681 secs using 95.67% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -11299.311
-Optimizing NNI: done in 0.130479 secs using 99.93% CPU
+BETTER TREE FOUND at iteration 1: -11303.883
+Optimizing NNI: done in 0.119817 secs using 99.81% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -11299.311 / CPU time: 0.333
+Current best tree score: -11303.883 / CPU time: 0.250
 Number of iterations: 2
 TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
 
@@ -317,19 +317,19 @@ TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -11299.311
-Optimal log-likelihood: -11299.310
-Rate parameters:  A-C: 0.99297  A-G: 1.52923  A-T: 0.39913  C-G: 0.49565  C-T: 3.74984  G-T: 1.00000
+1. Initial log-likelihood: -11303.883
+Optimal log-likelihood: -11303.882
+Rate parameters:  A-C: 1.01440  A-G: 1.58326  A-T: 0.39474  C-G: 0.50448  C-T: 3.81453  G-T: 1.00000
 Base frequencies:  A: 0.260  C: 0.183  G: 0.204  T: 0.353
 Parameters optimization took 1 rounds (0.025 sec)
-BEST SCORE FOUND : -11299.310
+BEST SCORE FOUND : -11303.882
 Total tree length: 0.245
 
 Total number of iterations: 2
-CPU time used for tree search: 0.322 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.333 sec (0h:0m:0s)
-Total CPU time used: 1.616 sec (0h:0m:1s)
-Total wall-clock time used: 1.694 sec (0h:0m:1s)
+CPU time used for tree search: 0.240 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.250 sec (0h:0m:0s)
+Total CPU time used: 1.550 sec (0h:0m:1s)
+Total wall-clock time used: 1.637 sec (0h:0m:1s)
 
 Analysis results written to: 
   IQ-TREE report:                Results/spike/Alignments/codon_ungapped-delim.fasta.iqtree
@@ -337,4 +337,4 @@ Analysis results written to:
   Likelihood distances:          Results/spike/Alignments/codon_ungapped-delim.fasta.mldist
   Screen log file:               Results/spike/Alignments/codon_ungapped-delim.fasta.log
 
-Date and Time: Thu Feb 27 14:27:00 2025
+Date and Time: Fri May  2 15:28:16 2025

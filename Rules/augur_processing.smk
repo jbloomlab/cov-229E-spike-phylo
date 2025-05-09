@@ -70,7 +70,7 @@ rule refine_tree_sequences:
         "--tree {input.tree} "
         "--alignment {input.alignment} "
         "--metadata {input.metadata} "
-        "--timetree"
+        "--timetree "
         "--output-tree {output.tree} "
         "--output-node-data {output.tree_nodes} "
         "--keep-root "
@@ -127,7 +127,7 @@ rule translate_tree_sequences:
         reference = "Results/{gene}/{gene}_reference.gb",
     output:
         aa_muts = "Results/{gene}/Trees/tree_aa_muts.json",
-        gene_alignments = expand("Results/{{gene}}/Augur_AA_Alignements/{domains}.fasta", domains=["spike_full_length", "S1"])
+        gene_alignments = expand("Results/{{gene}}/Augur_AA_Alignements/{domains}.fasta", domains=["spike_full_length"])
     params:
         genes = ["spike_full_length", "S1"],
     conda:
@@ -162,6 +162,33 @@ rule colors:
         "--output {output.colors}"
 
 
+rule variant_escape_prediction:
+    """This rule calculates variant escape"""
+    input:
+        escape_data = config["Antibody_escape_file"],
+        alignment = "Results/{gene}/Alignments/protein_ungapped_no_outgroup.fasta",
+        metadata = "Results/{gene}/metadata.tsv",
+    params:
+        antibody_name = lambda wildcards: config["Antibody_names"][wildcards.antibody],
+        site_map = config["Site_map"],
+        filter_params = config["Antibody_escape_prediction_params"]["Antibody_escape_filter_params"],
+        reference_strain = config["Antibody_escape_prediction_params"]["Reference_DMS_strain"],
+        site_column = config["Antibody_escape_prediction_params"]["Mutation_col"],
+        escape_column = config["Antibody_escape_prediction_params"]["Mut_effect_col"],
+    output:
+        output_json = "Results/{gene}/Antibody_escape_predictions/{antibody}.json",
+    conda:
+        "../environment.yml",
+    log:
+        "Results/Logs/{gene}/{antibody}_variant_escape_prediction.txt",
+    script:
+        "../Scripts/assign_DMS_escape.py"
+        
+
+antibody_list = [
+    "APN",
+]
+
 rule export_tree:
     """
     This rule exports the tree
@@ -176,6 +203,7 @@ rule export_tree:
         auspice_config = config["Auspice_config"],
         colors = "Results/{gene}/Trees/colors.tsv",
         lat_longs = config["Lat_longs"],
+        dms_predictions = expand("Results/{gene}/Antibody_escape_predictions/{antibody}.json", gene=["spike"], antibody=antibody_list),
     params:
         title = lambda wildcards: config["Auspice_tree_titles"][wildcards.gene],
         description = lambda wildcards: config["Auspice_tree_descriptions"][wildcards.gene],
@@ -189,6 +217,9 @@ rule export_tree:
         "--title {params.title} "
         "--description {params.description} "
         "--metadata {input.metadata} "
+        "--node-data {input.tree_nodes} {input.tree_traits} {input.tree_muts} {input.aa_muts} {input.dms_predictions} "
+        "--include-root-sequence-inline "
+        "--colors {input.colors} "
         "--lat-longs {input.lat_longs} "
         "--auspice-config {input.auspice_config} "
         "--output {output.auspice_tree}"

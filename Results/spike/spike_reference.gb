@@ -65,9 +65,7 @@ FEATURES             Location/Qualifiers
                      NYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNR
                      VETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYD
                      VEKIHIQ"
-     CDS             53..1071
-                     /gene="S1"
-                     /locus_tag="S1"
+
 ORIGIN
         1 atgtttgttt tgcttgttgc atatgccttg ttgcatattg ctggttgtca aactacaaat
        61 gggctgaaca ctagttactc tgtttgcaac ggctgtgttg gttattcaga aaatgtattt
