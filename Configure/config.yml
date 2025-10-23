@@ -2,6 +2,7 @@
 
 # List of accessions file
 Accession_list: Configure/Input_Data/229E_full_accession_list.txt
+date_corrections : Configure/Input_Data/extra_229E_accessions_metadata.json
 
 # Reference genbanks
 Reference_genbank: Configure/Input_Data/HcoV-229E_referance_sequence.gb
@@ -13,13 +14,13 @@ Outgroup: camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX
 # Size threshold filters
 # HcoV-229E genome is ~27kb
 # HcoV-229E spike protein is ~ 3450
-Genome_size_threshold_lower: 3450
+Genome_size_threshold_lower: 1500
 Genome_size_threshold_upper: 28000
 # Minimum size ORF when translating to HcoV-229E spike protein
 # is ~ 3.4kb
 # ORF minumum size
 ORF_min_size:
-  spike: 3450 # 500 amino acids
+  spike: 3450 
 
 # Maximum fraction of ambiuous bases allowed
 max_frac_N: 
@@ -32,8 +33,20 @@ Remove_duplicates: 'No'
 Accessions_to_exclude: 
   - JX503061 # outlier on date-to-tip regression
   - KY674919 # outlier on date-to-tip regression
-  - KY073748 # outlier on date-to-tip regression
-  - KY073748 # outlier on date-to-tip regression
+  - AF344186 # outlier on date-to-tip regression
+  - PQ243243 # outlier on date-to-tip regression
+  - KY073748 # related-bat-229E
+  - DQ243963 # ATCC-VR740 propagated in MRC-5 cells
+  - AB691763 # ATCC-VR740 from https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.043117-0#tab2
+  - KF293666 # ATCC-VR740 passage 10 from https://pmc.ncbi.nlm.nih.gov/articles/PMC4038610/
+  - KF293664 # ATCC-VR740 from https://pmc.ncbi.nlm.nih.gov/articles/PMC4038610/
+  - KF293665 # ATCC-VR740 mock from https://pmc.ncbi.nlm.nih.gov/articles/PMC4038610/
+  - OK662398 # ATCC-VR740 propagated in MRC-5 cells
+  - OK625404 # ATCC-VR740 propagated in MRC-5 cells
+  - AF344189 # from persistently infected L-132 cells
+  - AF344187 # from persistently infected L-132 cells
+  - AF344188 # from persistently infected L-132 cells
+  - AF304460 # duplicated with reference sequence 
 
 # Sequences to make sure are included
 Accessions_to_include:
@@ -43,7 +56,14 @@ Accessions_to_include:
   - DQ243976
   - DQ243977
   - KM055556
-  - KY369909 
+  - KY369909
+  - JX503060
+  - MF542265
+  - AB691765
+  - AB691767
+  - AB691764
+  - AB691766
+
 
 # Sequences of strains that were pseudotyped in previous study 
 Accessions_from_pre_study:
@@ -57,6 +77,9 @@ Accessions_from_pre_study:
 Gene_groupings:
   spike:
     - S # reference label
+    - SPIKE
+    - SPIKE PROTEIN
+    - SPIKE GLYCOPROTEIN
     - spike protein
     - S glycoprotein
     - Spike glycoprotein

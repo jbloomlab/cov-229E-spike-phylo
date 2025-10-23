@@ -43,6 +43,30 @@ rule download_and_process_accessions:
     script:
         "../Scripts/download_NCBI_sequences.py"
 
+rule correct_metadata_dates:
+    """
+    This rule corrects collection dates in metadata based on a JSON corrections file.
+    """
+    input:
+        metadata = "Results/{gene}/metadata.tsv",
+        corrections = config["date_corrections"],
+    output:
+        corrected_metadata = "Results/{gene}/metadata_corrected.tsv",
+    params:
+        strain_col = "accession",  
+        date_col = "date",      
+    conda:
+        "../environment.yml",
+    log:
+        "Results/Logs/{gene}/correct_metadata_dates.txt",
+    shell:
+        "python Scripts/correct_metadata_dates.py "
+        "--metadata {input.metadata} "
+        "--corrections {input.corrections} "
+        "--output {output.corrected_metadata} "
+        "--strain-col {params.strain_col} "
+        "--date-col {params.date_col} &> {log}"
+
 
 rule create_new_references:
     """

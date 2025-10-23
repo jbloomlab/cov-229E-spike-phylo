@@ -20,6 +20,11 @@
     "version": "23.1.1"
   },
   "nodes": {
+    "0349_JX503060_2010-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
     "11949_2011_KM055531_2011-XX-XX": {
       "aa_muts": {
         "spike_full_length": [
@@ -30,6 +35,7 @@
     "1424A_2009_KM055560_2009-XX-XX": {
       "aa_muts": {
         "spike_full_length": [
+          "D104A",
           "Y305H",
           "T1073I"
         ]
@@ -38,7 +44,7 @@
     "1482A_2009_KM055553_2009-XX-XX": {
       "aa_muts": {
         "spike_full_length": [
-          "A104V"
+          "D104V"
         ]
       }
     },
@@ -114,11 +120,6 @@
         ]
       }
     },
-    "229E_AF304460_2001-07-11": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
     "229E_China_01_2009_MW532106_2009-06-09": {
       "aa_muts": {
         "spike_full_length": []
@@ -154,19 +155,17 @@
         ]
       }
     },
-    "229E_KF293664_2013-10-01": {
+    "229E_Haiti-1_2016_MF542265_2016-03-XX": {
       "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "229E_KF293665_2013-10-01": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "229E_KF293666_2013-10-01": {
-      "aa_muts": {
-        "spike_full_length": []
+        "spike_full_length": [
+          "H26N",
+          "N38I",
+          "P49T",
+          "F52V",
+          "V288M",
+          "R311Q",
+          "A323S"
+        ]
       }
     },
     "229E_S220_MW202340_2018-XX-XX": {
@@ -307,27 +306,30 @@
         ]
       }
     },
-    "ATCC_VR-740_AB691763_2012-08-23": {
-      "aa_muts": {
-        "spike_full_length": [
-          "T848N"
-        ]
-      }
-    },
-    "ATCC_VR-740_DQ243963_2016-07-26": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "ATCC_VR-740_OK625404_2017-XX-XX": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
     "BJHD29_MW800646_2017-11-28": {
       "aa_muts": {
         "spike_full_length": [
           "D785N"
+        ]
+      }
+    },
+    "France_Lille_2014_MH048989_2014-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "Fukushima_H829_2020_LC654445_2020-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": [
+          "V355A"
+        ]
+      }
+    },
+    "Fukushima_H832_2020_LC654446_2020-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": [
+          "S50T",
+          "G311Q"
         ]
       }
     },
@@ -338,9 +340,7 @@
     },
     "HCoV-229E-11_6_79_DQ243964_2016-07-26": {
       "aa_muts": {
-        "spike_full_length": [
-          "H35Y"
-        ]
+        "spike_full_length": []
       }
     },
     "HCoV-229E-12_5_92_DQ243975_2016-07-26": {
@@ -430,7 +430,8 @@
     "HCoV-229E-5_9_84_DQ243972_2016-07-26": {
       "aa_muts": {
         "spike_full_length": [
-          "E125R"
+          "E125R",
+          "Y350F"
         ]
       }
     },
@@ -515,9 +516,7 @@
     },
     "HCoV-229E_BIME001-51_2015_ON554097_2015-XX-XX": {
       "aa_muts": {
-        "spike_full_length": [
-          "V574I"
-        ]
+        "spike_full_length": []
       }
     },
     "HCoV-229E_BIME020-63_2016_ON554098_2016-XX-XX": {
@@ -675,9 +674,7 @@
     },
     "HCoV-229E_BIME176-46_2017_ON554122_2017-XX-XX": {
       "aa_muts": {
-        "spike_full_length": [
-          "V574I"
-        ]
+        "spike_full_length": []
       }
     },
     "HCoV-229E_BIME178-37_2017_ON554123_2017-XX-XX": {
@@ -825,6 +822,11 @@
         ]
       }
     },
+    "HCoV_229E_Seattle_USA_SC0865_2019_MN306046_2019-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
     "HCoV_229E_Seattle_USA_SC1073_2016_KY369913_2016-XX-XX": {
       "aa_muts": {
         "spike_full_length": [
@@ -847,6 +849,23 @@
         "spike_full_length": []
       }
     },
+    "HCoV_229E_Seattle_USA_SC2872_2015_KY967357_2015-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": [
+          "S88L"
+        ]
+      }
+    },
+    "HCoV_229E_Seattle_USA_SC3112_2015_KY983587_2015-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "HCoV_229E_Seattle_USA_SC379_2016_KY621348_2016-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
     "HCoV_229E_Seattle_USA_SC399_2016_KY674914_2016-XX-XX": {
       "aa_muts": {
         "spike_full_length": []
@@ -864,6 +883,13 @@
         "spike_full_length": []
       }
     },
+    "HCoV_229E_Seattle_USA_SC9724_2018_MN369046_2018-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": [
+          "I281T"
+        ]
+      }
+    },
     "HCoV_229E_Seattle_USA_SC9731_2016_KY369912_2016-XX-XX": {
       "aa_muts": {
         "spike_full_length": [
@@ -875,6 +901,26 @@
       "aa_muts": {
         "spike_full_length": [
           "T100N"
+        ]
+      }
+    },
+    "HCoV_229E_human_ITA_TE5146_2020_MW039392_2020-03-18": {
+      "aa_muts": {
+        "spike_full_length": [
+          "-228D",
+          "V229F",
+          "G274V",
+          "R312P",
+          "Q349K",
+          "F350Y",
+          "-351V",
+          "V352A",
+          "D353V",
+          "N354Y",
+          "V355A",
+          "K356N",
+          "L357V",
+          "A358G"
         ]
       }
     },
@@ -1103,9 +1149,7 @@
     },
     "HK13-38_MT797713_2013-05-XX": {
       "aa_muts": {
-        "spike_full_length": [
-          "V574I"
-        ]
+        "spike_full_length": []
       }
     },
     "HK13-39_MT797714_2013-05-XX": {
@@ -1130,13 +1174,6 @@
         "spike_full_length": []
       }
     },
-    "HKU-240824-001_PQ243243_2020-XX-XX": {
-      "aa_muts": {
-        "spike_full_length": [
-          "V765A"
-        ]
-      }
-    },
     "LC22_ON791801_2022-XX-XX": {
       "aa_muts": {
         "spike_full_length": []
@@ -1150,144 +1187,85 @@
     "NODE_0000000": {
       "aa_muts": {},
       "aa_sequences": {
-        "spike_full_length": "MFVLLVAYALLHIAGCQTTNGLNTSHSVCNGCVGHSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGSRFTTGFVYFNGTGRGDCKGFSSNVSSDVIRYNINFEENLRRGTILFKTSYGVVVFYCTNNTLVSGDAHIPFGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTNAETT-VCTVALASYADVLVNVSQTAIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVDFKPQSGGGKCFNCRPAVVNITLANFNETKGPLCVDTSHFTTKY-VA-ANVGRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIVANLAYINSYTIGSLYVSWSDGDGITGVPKPVEGVSSFMNVTLNKCTKYNIYDVSGVGVIRISNDTFLNGITYTSTSGNLLGFKDVTNGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVELPKFFYASNGTYNCTDAVLTYSSFGVCADGSIIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSAMLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPTSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAASIPFSLAIQARLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDIIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSIVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGRNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTMADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ"
+        "spike_full_length": "MFVLLVAYALLHIAGCQTTNGLNTSYSVCNGCVGYSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGLRFTTGFVYFNGTGRGDCKGFSSDVLSDVIRYNLNFEENLRRGTILFKTSYGVVVFYCTNNTLVSGDAHIPFGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTTAETTDFCTVALASYADVLVNVSQTSIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVDFKPQSGGGKCFNCYPAGVNITLANFNETKGPLCVDTSHFTTKYVAVYANVGRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIVANWAYSKYYTIGSLYVSWSDGDGITGVPQPVEGVSSFMNVTLDKCTKYNIYDVSGVGVIRVSNDTFLNGITYTSTSGNLLGFKDVTKGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVELPKFFYASNGTYNCTDAVLTYSSFGVCADGSIIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSARLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPTSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAVSIPFSLAIQARLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDTIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSIVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGTNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTMADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ"
       }
     },
     "NODE_0000001": {
       "aa_muts": {
         "spike_full_length": [
-          "H26Y",
-          "H35Y",
-          "S88L",
-          "N111D",
-          "S113L",
-          "I121L",
-          "N223T",
-          "-228D",
-          "V229F",
-          "A248S",
-          "R321Y",
-          "V324G",
-          "-351V",
-          "V352A",
-          "A353V",
-          "-354Y",
-          "L404W",
-          "I407S",
-          "N408K",
-          "S409Y",
-          "K430Q",
-          "N444D",
-          "I462V",
-          "N488K",
-          "M642R",
-          "A765V",
-          "I871T",
-          "R971T"
+          "Y26H",
+          "L88S",
+          "D111N",
+          "L113S",
+          "L121I",
+          "A181S",
+          "T223N",
+          "D228-",
+          "F229V",
+          "S248A",
+          "F318Y",
+          "Y321R",
+          "G324V",
+          "D342E",
+          "V351-",
+          "A352V",
+          "V353A",
+          "Y354-",
+          "W404L",
+          "S407I",
+          "K408N",
+          "Y409S",
+          "Q430K",
+          "D444N",
+          "V462I",
+          "K488N",
+          "R642M",
+          "V765A",
+          "T871I",
+          "I937L",
+          "T971R"
         ]
       }
     },
     "NODE_0000002": {
       "aa_muts": {
-        "spike_full_length": []
+        "spike_full_length": [
+          "Y35H"
+        ]
       }
     },
     "NODE_0000003": {
       "aa_muts": {
         "spike_full_length": [
-          "K714N"
+          "K316R"
         ]
       }
     },
     "NODE_0000004": {
       "aa_muts": {
         "spike_full_length": [
-          "C230F"
-        ]
-      }
-    },
-    "NODE_0000005": {
-      "aa_muts": {
-        "spike_full_length": [
-          "L700I"
-        ]
-      }
-    },
-    "NODE_0000007": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000008": {
-      "aa_muts": {
-        "spike_full_length": [
-          "H846Y"
-        ]
-      }
-    },
-    "NODE_0000009": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000010": {
-      "aa_muts": {
-        "spike_full_length": [
-          "S843L"
-        ]
-      }
-    },
-    "NODE_0000011": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000012": {
-      "aa_muts": {
-        "spike_full_length": [
-          "L948F"
-        ]
-      }
-    },
-    "NODE_0000014": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000015": {
-      "aa_muts": {
-        "spike_full_length": [
-          "A181S",
-          "F318Y",
-          "D342E",
-          "I937L"
-        ]
-      }
-    },
-    "NODE_0000017": {
-      "aa_muts": {
-        "spike_full_length": [
           "S196A",
-          "K316R",
           "D669E",
           "I676V",
           "I1002V"
         ]
       }
     },
-    "NODE_0000018": {
+    "NODE_0000005": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000019": {
+    "NODE_0000006": {
       "aa_muts": {
         "spike_full_length": [
           "S109Y",
           "V112A",
+          "S181A",
           "P310L",
           "G314V",
-          "K316R",
+          "Y318F",
+          "E342D",
           "A353G",
           "V357F",
           "I407L",
@@ -1297,27 +1275,27 @@
         ]
       }
     },
-    "NODE_0000020": {
+    "NODE_0000007": {
+      "aa_muts": {
+        "spike_full_length": [
+          "L937I"
+        ]
+      }
+    },
+    "NODE_0000008": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000021": {
+    "NODE_0000009": {
       "aa_muts": {
         "spike_full_length": [
+          "L22M",
           "Y350F"
         ]
       }
     },
-    "NODE_0000022": {
-      "aa_muts": {
-        "spike_full_length": [
-          "L22M",
-          "I937L"
-        ]
-      }
-    },
-    "NODE_0000023": {
+    "NODE_0000010": {
       "aa_muts": {
         "spike_full_length": [
           "D307N",
@@ -1330,7 +1308,7 @@
         ]
       }
     },
-    "NODE_0000024": {
+    "NODE_0000011": {
       "aa_muts": {
         "spike_full_length": [
           "V140A",
@@ -1342,41 +1320,41 @@
         ]
       }
     },
-    "NODE_0000025": {
+    "NODE_0000012": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000026": {
+    "NODE_0000013": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000027": {
+    "NODE_0000014": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000028": {
+    "NODE_0000015": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000029": {
+    "NODE_0000016": {
       "aa_muts": {
         "spike_full_length": [
           "T411N"
         ]
       }
     },
-    "NODE_0000030": {
+    "NODE_0000017": {
       "aa_muts": {
         "spike_full_length": [
           "T210S"
         ]
       }
     },
-    "NODE_0000031": {
+    "NODE_0000018": {
       "aa_muts": {
         "spike_full_length": [
           "D51N",
@@ -1384,7 +1362,7 @@
         ]
       }
     },
-    "NODE_0000032": {
+    "NODE_0000019": {
       "aa_muts": {
         "spike_full_length": [
           "F90L",
@@ -1395,7 +1373,7 @@
         ]
       }
     },
-    "NODE_0000033": {
+    "NODE_0000020": {
       "aa_muts": {
         "spike_full_length": [
           "H26Q",
@@ -1403,55 +1381,60 @@
         ]
       }
     },
-    "NODE_0000034": {
+    "NODE_0000021": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000037": {
+    "NODE_0000022": {
       "aa_muts": {
         "spike_full_length": [
           "D104A"
         ]
       }
     },
-    "NODE_0000038": {
+    "NODE_0000024": {
       "aa_muts": {
         "spike_full_length": [
           "D465E"
         ]
       }
     },
-    "NODE_0000039": {
+    "NODE_0000025": {
       "aa_muts": {
         "spike_full_length": [
           "D104A"
         ]
       }
     },
-    "NODE_0000040": {
+    "NODE_0000026": {
       "aa_muts": {
         "spike_full_length": [
           "L163S"
         ]
       }
     },
-    "NODE_0000041": {
+    "NODE_0000029": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000043": {
+    "NODE_0000031": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000045": {
+    "NODE_0000033": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000046": {
+    "NODE_0000035": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000036": {
       "aa_muts": {
         "spike_full_length": [
           "M22T",
@@ -1463,29 +1446,64 @@
         ]
       }
     },
-    "NODE_0000047": {
+    "NODE_0000037": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000048": {
+    "NODE_0000038": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000049": {
+    "NODE_0000039": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000050": {
+    "NODE_0000040": {
       "aa_muts": {
         "spike_full_length": [
           "L700I"
         ]
       }
     },
-    "NODE_0000051": {
+    "NODE_0000041": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000042": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000044": {
+      "aa_muts": {
+        "spike_full_length": [
+          "G175D"
+        ]
+      }
+    },
+    "NODE_0000045": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000046": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000048": {
+      "aa_muts": {
+        "spike_full_length": [
+          "H26Q",
+          "L823I"
+        ]
+      }
+    },
+    "NODE_0000049": {
       "aa_muts": {
         "spike_full_length": []
       }
@@ -1497,9 +1515,7 @@
     },
     "NODE_0000053": {
       "aa_muts": {
-        "spike_full_length": [
-          "G175D"
-        ]
+        "spike_full_length": []
       }
     },
     "NODE_0000054": {
@@ -1509,7 +1525,10 @@
     },
     "NODE_0000055": {
       "aa_muts": {
-        "spike_full_length": []
+        "spike_full_length": [
+          "-354N",
+          "F357L"
+        ]
       }
     },
     "NODE_0000056": {
@@ -1524,10 +1543,7 @@
     },
     "NODE_0000058": {
       "aa_muts": {
-        "spike_full_length": [
-          "H26Q",
-          "L823I"
-        ]
+        "spike_full_length": []
       }
     },
     "NODE_0000059": {
@@ -1542,50 +1558,72 @@
     },
     "NODE_0000061": {
       "aa_muts": {
+        "spike_full_length": [
+          "L357F"
+        ]
+      }
+    },
+    "NODE_0000062": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000063": {
+      "aa_muts": {
+        "spike_full_length": [
+          "F357L"
+        ]
+      }
+    },
+    "NODE_0000064": {
+      "aa_muts": {
         "spike_full_length": []
       }
     },
     "NODE_0000065": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000066": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000067": {
       "aa_muts": {
         "spike_full_length": [
           "R89Q"
         ]
       }
     },
-    "NODE_0000072": {
+    "NODE_0000068": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000069": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000075": {
       "aa_muts": {
         "spike_full_length": [
           "S283P"
         ]
       }
     },
-    "NODE_0000073": {
+    "NODE_0000076": {
       "aa_muts": {
         "spike_full_length": [
           "V325I"
         ]
       }
     },
-    "NODE_0000075": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000076": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000077": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
     "NODE_0000078": {
       "aa_muts": {
-        "spike_full_length": [
-          "D104A"
-        ]
+        "spike_full_length": []
       }
     },
     "NODE_0000079": {
@@ -1595,58 +1633,34 @@
     },
     "NODE_0000080": {
       "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000083": {
+      "aa_muts": {
         "spike_full_length": [
+          "D104A",
+          "S283P",
           "-354N",
           "F357L"
         ]
       }
     },
-    "NODE_0000081": {
-      "aa_muts": {
-        "spike_full_length": [
-          "I325V"
-        ]
-      }
-    },
-    "NODE_0000082": {
-      "aa_muts": {
-        "spike_full_length": [
-          "Q89R",
-          "A104D",
-          "G175D",
-          "P283S"
-        ]
-      }
-    },
-    "NODE_0000087": {
-      "aa_muts": {
-        "spike_full_length": [
-          "L357F"
-        ]
-      }
-    },
-    "NODE_0000088": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000089": {
-      "aa_muts": {
-        "spike_full_length": [
-          "F357L"
-        ]
-      }
-    },
-    "NODE_0000090": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000092": {
+    "NODE_0000084": {
       "aa_muts": {
         "spike_full_length": [
           "E37K"
         ]
+      }
+    },
+    "NODE_0000085": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000086": {
+      "aa_muts": {
+        "spike_full_length": []
       }
     },
     "NODE_0000093": {
@@ -1654,24 +1668,14 @@
         "spike_full_length": []
       }
     },
-    "NODE_0000095": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000101": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000102": {
+    "NODE_0000094": {
       "aa_muts": {
         "spike_full_length": [
           "G353S"
         ]
       }
     },
-    "NODE_0000103": {
+    "NODE_0000095": {
       "aa_muts": {
         "spike_full_length": [
           "S25I",
@@ -1679,11 +1683,50 @@
         ]
       }
     },
-    "NODE_0000104": {
+    "NODE_0000096": {
       "aa_muts": {
         "spike_full_length": [
           "I281T"
         ]
+      }
+    },
+    "NODE_0000098": {
+      "aa_muts": {
+        "spike_full_length": [
+          "Y305H",
+          "V325I",
+          "G353D",
+          "K792R"
+        ]
+      }
+    },
+    "NODE_0000099": {
+      "aa_muts": {
+        "spike_full_length": [
+          "D358A"
+        ]
+      }
+    },
+    "NODE_0000101": {
+      "aa_muts": {
+        "spike_full_length": [
+          "R316K"
+        ]
+      }
+    },
+    "NODE_0000102": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000103": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000104": {
+      "aa_muts": {
+        "spike_full_length": []
       }
     },
     "NODE_0000105": {
@@ -1693,43 +1736,41 @@
     },
     "NODE_0000106": {
       "aa_muts": {
-        "spike_full_length": [
-          "Y305H",
-          "G353D",
-          "K792R"
-        ]
+        "spike_full_length": []
       }
     },
     "NODE_0000107": {
       "aa_muts": {
         "spike_full_length": [
-          "D358A"
+          "L310H"
         ]
       }
     },
     "NODE_0000108": {
       "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000109": {
-      "aa_muts": {
         "spike_full_length": [
-          "R316K"
+          "N213D"
         ]
       }
     },
     "NODE_0000110": {
       "aa_muts": {
-        "spike_full_length": []
+        "spike_full_length": [
+          "A41D",
+          "N307K"
+        ]
       }
     },
     "NODE_0000111": {
       "aa_muts": {
-        "spike_full_length": []
+        "spike_full_length": [
+          "V288E",
+          "R311G",
+          "N845S"
+        ]
       }
     },
-    "NODE_0000114": {
+    "NODE_0000112": {
       "aa_muts": {
         "spike_full_length": []
       }
@@ -1737,41 +1778,11 @@
     "NODE_0000115": {
       "aa_muts": {
         "spike_full_length": [
-          "L310H"
-        ]
-      }
-    },
-    "NODE_0000116": {
-      "aa_muts": {
-        "spike_full_length": [
-          "N213D"
-        ]
-      }
-    },
-    "NODE_0000118": {
-      "aa_muts": {
-        "spike_full_length": [
-          "A41D",
-          "V288E",
-          "N307K",
-          "R311G",
-          "N845S"
-        ]
-      }
-    },
-    "NODE_0000119": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000122": {
-      "aa_muts": {
-        "spike_full_length": [
           "A181T"
         ]
       }
     },
-    "NODE_0000123": {
+    "NODE_0000116": {
       "aa_muts": {
         "spike_full_length": [
           "D391A",
@@ -1779,10 +1790,48 @@
         ]
       }
     },
-    "NODE_0000125": {
+    "NODE_0000117": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000118": {
       "aa_muts": {
         "spike_full_length": [
           "A224V"
+        ]
+      }
+    },
+    "NODE_0000120": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000121": {
+      "aa_muts": {
+        "spike_full_length": [
+          "F90V"
+        ]
+      }
+    },
+    "NODE_0000122": {
+      "aa_muts": {
+        "spike_full_length": [
+          "T91I",
+          "T181A"
+        ]
+      }
+    },
+    "NODE_0000123": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000125": {
+      "aa_muts": {
+        "spike_full_length": [
+          "E43D",
+          "H305Y"
         ]
       }
     },
@@ -1791,78 +1840,31 @@
         "spike_full_length": []
       }
     },
-    "NODE_0000127": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000128": {
-      "aa_muts": {
-        "spike_full_length": [
-          "F90V"
-        ]
-      }
-    },
-    "NODE_0000129": {
-      "aa_muts": {
-        "spike_full_length": [
-          "T91I",
-          "T181A"
-        ]
-      }
-    },
-    "NODE_0000130": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
     "NODE_0000131": {
-      "aa_muts": {
-        "spike_full_length": [
-          "E43D",
-          "H305Y"
-        ]
-      }
-    },
-    "NODE_0000132": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000133": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000134": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000135": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000136": {
       "aa_muts": {
         "spike_full_length": [
           "R311Q"
         ]
       }
     },
-    "NODE_0000137": {
+    "NODE_0000132": {
       "aa_muts": {
         "spike_full_length": [
-          "A53S",
-          "N307K",
           "A323S",
           "R792K",
           "R1154K"
         ]
       }
     },
-    "NODE_0000138": {
+    "NODE_0000133": {
+      "aa_muts": {
+        "spike_full_length": [
+          "A53S",
+          "N307K"
+        ]
+      }
+    },
+    "NODE_0000134": {
       "aa_muts": {
         "spike_full_length": [
           "F90L",
@@ -1872,14 +1874,14 @@
         ]
       }
     },
-    "NODE_0000139": {
+    "NODE_0000135": {
       "aa_muts": {
         "spike_full_length": [
           "V288A"
         ]
       }
     },
-    "NODE_0000140": {
+    "NODE_0000136": {
       "aa_muts": {
         "spike_full_length": [
           "N213D",
@@ -1888,22 +1890,32 @@
         ]
       }
     },
+    "NODE_0000137": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000138": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000139": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000140": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
     "NODE_0000141": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000142": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000144": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000145": {
+    "NODE_0000143": {
       "aa_muts": {
         "spike_full_length": [
           "R102S",
@@ -1912,22 +1924,35 @@
         ]
       }
     },
-    "NODE_0000146": {
+    "NODE_0000145": {
       "aa_muts": {
         "spike_full_length": [
           "H305Y",
-          "D391Y"
+          "D391Y",
+          "V574I"
         ]
       }
     },
-    "NODE_0000147": {
+    "NODE_0000146": {
       "aa_muts": {
         "spike_full_length": [
           "N377I"
         ]
       }
     },
+    "NODE_0000147": {
+      "aa_muts": {
+        "spike_full_length": [
+          "I574V"
+        ]
+      }
+    },
     "NODE_0000148": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000152": {
       "aa_muts": {
         "spike_full_length": [
           "S86Y",
@@ -1935,40 +1960,9 @@
         ]
       }
     },
-    "NODE_0000149": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000150": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000151": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000152": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000153": {
-      "aa_muts": {
-        "spike_full_length": [
-          "A41D"
-        ]
-      }
-    },
     "NODE_0000154": {
       "aa_muts": {
-        "spike_full_length": [
-          "N23-",
-          "T24-",
-          "S25-"
-        ]
+        "spike_full_length": []
       }
     },
     "NODE_0000155": {
@@ -1979,44 +1973,41 @@
     "NODE_0000156": {
       "aa_muts": {
         "spike_full_length": [
-          "T19I"
+          "A41D"
         ]
       }
     },
     "NODE_0000157": {
       "aa_muts": {
-        "spike_full_length": []
+        "spike_full_length": [
+          "N23-",
+          "T24-",
+          "S25-"
+        ]
       }
     },
     "NODE_0000159": {
       "aa_muts": {
-        "spike_full_length": []
+        "spike_full_length": [
+          "T19I"
+        ]
       }
     },
     "NODE_0000162": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000163": {
       "aa_muts": {
         "spike_full_length": [
           "N365D"
         ]
       }
     },
-    "NODE_0000164": {
+    "NODE_0000163": {
       "aa_muts": {
         "spike_full_length": [
           "T91I",
           "H407Y",
+          "I574V",
           "V739A"
         ]
-      }
-    },
-    "NODE_0000165": {
-      "aa_muts": {
-        "spike_full_length": []
       }
     },
     "NODE_0000166": {
@@ -2034,7 +2025,7 @@
         "spike_full_length": []
       }
     },
-    "NODE_0000169": {
+    "NODE_0000170": {
       "aa_muts": {
         "spike_full_length": []
       }
@@ -2044,42 +2035,12 @@
         "spike_full_length": []
       }
     },
-    "NODE_0000173": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000174": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
     "NODE_0000175": {
       "aa_muts": {
         "spike_full_length": []
       }
     },
-    "NODE_0000177": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000180": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000181": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000183": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000185": {
+    "NODE_0000184": {
       "aa_muts": {
         "spike_full_length": [
           "F90V"
@@ -2091,7 +2052,7 @@
         "spike_full_length": []
       }
     },
-    "NODE_0000194": {
+    "NODE_0000192": {
       "aa_muts": {
         "spike_full_length": [
           "A41D"
@@ -2101,12 +2062,45 @@
     "NODE_0000202": {
       "aa_muts": {
         "spike_full_length": [
-          "Q349R",
           "A358P"
         ]
       }
     },
     "NODE_0000203": {
+      "aa_muts": {
+        "spike_full_length": [
+          "S27A"
+        ]
+      }
+    },
+    "NODE_0000204": {
+      "aa_muts": {
+        "spike_full_length": [
+          "Q349R"
+        ]
+      }
+    },
+    "NODE_0000208": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "NODE_0000209": {
+      "aa_muts": {
+        "spike_full_length": [
+          "D342E"
+        ]
+      }
+    },
+    "NODE_0000210": {
+      "aa_muts": {
+        "spike_full_length": [
+          "N406G",
+          "I971V"
+        ]
+      }
+    },
+    "NODE_0000211": {
       "aa_muts": {
         "spike_full_length": [
           "T19I",
@@ -2116,20 +2110,18 @@
           "V288E",
           "Y305H",
           "N307K",
-          "Q311G",
-          "N406G",
-          "I971V"
+          "Q311G"
         ]
       }
     },
-    "NODE_0000206": {
+    "NODE_0000214": {
       "aa_muts": {
         "spike_full_length": [
           "P314H"
         ]
       }
     },
-    "NODE_0000207": {
+    "NODE_0000215": {
       "aa_muts": {
         "spike_full_length": [
           "E309D",
@@ -2138,45 +2130,10 @@
         ]
       }
     },
-    "NODE_0000208": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000211": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
-    "NODE_0000212": {
+    "Niigata_01_08_AB691767_2008-XX-XX": {
       "aa_muts": {
         "spike_full_length": [
-          "D342E"
-        ]
-      }
-    },
-    "P100E_AF344189_2001-04-12": {
-      "aa_muts": {
-        "spike_full_length": [
-          "N176T",
-          "D270Y",
-          "T300M",
-          "S414T",
-          "T590I"
-        ]
-      }
-    },
-    "P11A_AF344187_2001-04-12": {
-      "aa_muts": {
-        "spike_full_length": [
-          "I577T"
-        ]
-      }
-    },
-    "P11B_AF344188_2001-04-12": {
-      "aa_muts": {
-        "spike_full_length": [
-          "V578G"
+          "T762F"
         ]
       }
     },
@@ -2224,11 +2181,6 @@
         ]
       }
     },
-    "RW_Stock_AF344186_2001-04-12": {
-      "aa_muts": {
-        "spike_full_length": []
-      }
-    },
     "S0677SP_MW587035_2022-01-20": {
       "aa_muts": {
         "spike_full_length": []
@@ -2247,11 +2199,29 @@
         "spike_full_length": []
       }
     },
-    "TKU-2021b_OK662398_2021-XX-XX": {
+    "SC0678_ON729316_2019-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": []
+      }
+    },
+    "Sendai-H_1121_04_AB691764_2004-XX-XX": {
       "aa_muts": {
         "spike_full_length": [
-          "V765A"
+          "R316T"
         ]
+      }
+    },
+    "Sendai-H_1948_04_AB691766_2004-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": [
+          "K375T",
+          "S570L"
+        ]
+      }
+    },
+    "Sendai-H_826_04_AB691765_2004-XX-XX": {
+      "aa_muts": {
+        "spike_full_length": []
       }
     },
     "hCoV-229E_Russia_KDA-RII-MH204625S_2024_PQ963852_2024-07-17": {
@@ -2358,6 +2328,6 @@
     }
   },
   "reference": {
-    "spike_full_length": "MFVLLVAYALLHIAGCQTTNGLNTSHSVCNGCVGHSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGSRFTTGFVYFNGTGRGDCKGFSSNVSSDVIRYNINFEENLRRGTILFKTSYGVVVFYCTNNTLVSGDAHIPFGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTNAETT-VCTVALASYADVLVNVSQTAIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVDFKPQSGGGKCFNCRPAVVNITLANFNETKGPLCVDTSHFTTKY-VA-ANVGRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIVANLAYINSYTIGSLYVSWSDGDGITGVPKPVEGVSSFMNVTLNKCTKYNIYDVSGVGVIRISNDTFLNGITYTSTSGNLLGFKDVTNGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVELPKFFYASNGTYNCTDAVLTYSSFGVCADGSIIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSAMLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPTSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAASIPFSLAIQARLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDIIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSIVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGRNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTMADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ"
+    "spike_full_length": "MFVLLVAYALLHIAGCQTTNGLNTSYSVCNGCVGYSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGLRFTTGFVYFNGTGRGDCKGFSSDVLSDVIRYNLNFEENLRRGTILFKTSYGVVVFYCTNNTLVSGDAHIPFGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTTAETTDFCTVALASYADVLVNVSQTSIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVDFKPQSGGGKCFNCYPAGVNITLANFNETKGPLCVDTSHFTTKYVAVYANVGRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIVANWAYSKYYTIGSLYVSWSDGDGITGVPQPVEGVSSFMNVTLDKCTKYNIYDVSGVGVIRVSNDTFLNGITYTSTSGNLLGFKDVTKGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVELPKFFYASNGTYNCTDAVLTYSSFGVCADGSIIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSARLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPTSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAVSIPFSLAIQARLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDTIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSIVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGTNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTMADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ"
   }
 }

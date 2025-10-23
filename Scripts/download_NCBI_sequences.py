@@ -13,6 +13,7 @@
 import re
 import datetime
 import pandas as pd
+import json
 from Bio import Entrez
 Entrez.email = "229Eexample@229Eexample.com"     # Always tell NCBI who you are
 
@@ -435,6 +436,7 @@ def read_and_process_accession_list(
             # If not collection date is found, add date from top of genbank file
             if date == "?":
                 date = backup_date
+        
 
             # Check if sequence is below ambiguous base threshold
             if nucleotide_sequence.upper().count("N")/len(nucleotide_sequence) > snakemake.params.max_frac_N:
@@ -444,9 +446,9 @@ def read_and_process_accession_list(
             
             # Join strain/isolate name with accession and date to make sure it is unique
             if strain != "MISSING":
-                strain = strain + "_" + accession + "_" + date
+                strain = strain + "_" + accession + "_" + str(date)
             else:
-                strain = accession + "_" + date
+                strain = accession + "_" + str(date)
 
             # Replace slashes, periods, and spaces in name with underscores
             strain = strain.replace("/", "_")

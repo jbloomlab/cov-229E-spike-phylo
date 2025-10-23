@@ -57,7 +57,7 @@ rule refine_tree_sequences:
     input:
         alignment = "Results/{gene}/Alignments/codon_ungapped_no_outgroup.fasta",
         tree = "Results/{gene}/Trees/tree_no_outgroup.nwk",
-        metadata = "Results/{gene}/metadata.tsv",
+        metadata = "Results/{gene}/metadata_corrected.tsv",
     output:
         tree = "Results/{gene}/Trees/tree.nwk",
         tree_nodes = "Results/{gene}/Trees/tree_branch_lengths.json",
@@ -82,7 +82,7 @@ rule traits_tree_sequences:
     """
     input:
         tree = "Results/{gene}/Trees/tree.nwk",
-        metadata = "Results/{gene}/metadata.tsv",
+        metadata = "Results/{gene}/metadata_corrected.tsv",
     output:
         tree_traits = "Results/{gene}/Trees/tree_traits.json",
     conda:
@@ -149,7 +149,7 @@ rule colors:
     input:
         color_schemes = config["Color_schemes"],
         color_orderings = config["Color_orderings"],
-        metadata = "Results/{gene}/metadata.tsv",
+        metadata = "Results/{gene}/metadata_corrected.tsv",
     output:
         colors = "Results/{gene}/Trees/colors.tsv",
     conda:
@@ -167,7 +167,7 @@ rule variant_escape_prediction:
     input:
         escape_data = config["Antibody_escape_file"],
         alignment = "Results/{gene}/Alignments/protein_ungapped_no_outgroup.fasta",
-        metadata = "Results/{gene}/metadata.tsv",
+        metadata = "Results/{gene}/metadata_corrected.tsv",
     params:
         antibody_name = lambda wildcards: config["Antibody_names"][wildcards.antibody],
         site_map = config["Site_map"],
@@ -189,13 +189,36 @@ antibody_list = [
     "APN",
 ]
 
+rule classify_rbd:
+    """
+    Classify sequences into RBD classes based on defining mutations.
+    """
+    input:
+        alignment = "Results/{gene}/Alignments/protein_ungapped_no_outgroup.fasta",
+        metadata = "Results/{gene}/metadata_corrected.tsv",  
+    params:
+        reference_strain = config["Reference_accession"],  
+    output:
+        metadata_with_rbd = "Results/{gene}/metadata_with_rbd.tsv",
+    conda:
+        "../environment.yml",
+    log:
+        "Results/Logs/{gene}/classify_rbd.txt",
+    shell:
+        "python Scripts/classify_rbd.py "
+        "--alignment {input.alignment} "
+        "--metadata {input.metadata} "
+        "--output {output.metadata_with_rbd} "
+        "--reference {params.reference_strain} "
+        "--log {log}"
+
 rule export_tree:
     """
     This rule exports the tree
     """
     input:
         tree = "Results/{gene}/Trees/tree.nwk",
-        metadata = "Results/{gene}/metadata.tsv",
+        metadata = "Results/{gene}/metadata_with_rbd.tsv",
         tree_nodes = "Results/{gene}/Trees/tree_branch_lengths.json",
         tree_traits = "Results/{gene}/Trees/tree_traits.json",
         tree_muts = "Results/{gene}/Trees/tree_muts.json",

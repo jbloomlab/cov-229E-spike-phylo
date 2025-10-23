@@ -26,9 +26,30 @@
       "key": "date",
       "title": "Collection Date",
       "type": "continuous"
+    },
+    {
+      "key": "rbd_class",
+      "title": "RBD class",
+      "type": "categorical"
     }
   ],
   "display_defaults": {
     "color_by": "country"
-  }
+  },
+  "geo_resolutions": [
+    "country",
+    "region"
+  ],
+  "filters": [
+    "country",
+    "region",
+    "previous_study",
+    "rbd_class"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy",
+    "frequencies"
+  ]
 }

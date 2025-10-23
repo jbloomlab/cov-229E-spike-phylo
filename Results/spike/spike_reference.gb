@@ -65,7 +65,15 @@ FEATURES             Location/Qualifiers
                      NYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNR
                      VETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYD
                      VEKIHIQ"
-
+     CDS             117..804
+                     /gene="NTD"
+                     /product="N-terminal domain"
+     CDS             882..1314
+                     /gene="RBD"
+                     /product="receptor binding domain"
+     CDS             1737..3522
+                     /gene="S2"
+                     /product="S2 subunit"
 ORIGIN
         1 atgtttgttt tgcttgttgc atatgccttg ttgcatattg ctggttgtca aactacaaat
        61 gggctgaaca ctagttactc tgtttgcaac ggctgtgttg gttattcaga aaatgtattt
