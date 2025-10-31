@@ -1,4 +1,4 @@
-# Phylogeny analysis for Seasonal HcoV-229E 
+# Phylogeny analysis for Seasonal HCoV-229E 
 
 This repo analyzes the spike glycoprotein sequecnces of the seasonal human coronavirus 229E by running a [snakemake](https://snakemake.readthedocs.io/) pipeline that downloads sequences based a list of accessions, processes the sequences, and constructs a phylogenetic Nextstrain tree that can be viewed using [Auspice](https://auspice.us/).
 

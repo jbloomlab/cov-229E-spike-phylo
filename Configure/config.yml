@@ -20,7 +20,7 @@ Genome_size_threshold_upper: 28000
 # is ~ 3.4kb
 # ORF minumum size
 ORF_min_size:
-  spike: 3450 
+  spike: 3400 
 
 # Maximum fraction of ambiuous bases allowed
 max_frac_N: 
@@ -35,6 +35,7 @@ Accessions_to_exclude:
   - KY674919 # outlier on date-to-tip regression
   - AF344186 # outlier on date-to-tip regression
   - PQ243243 # outlier on date-to-tip regression
+  - MZ712010 # outlier on date-to-tip regression
   - KY073748 # related-bat-229E
   - DQ243963 # ATCC-VR740 propagated in MRC-5 cells
   - AB691763 # ATCC-VR740 from https://www.microbiologyresearch.org/content/journal/jgv/10.1099/vir.0.043117-0#tab2
@@ -79,11 +80,11 @@ Gene_groupings:
     - S # reference label
     - SPIKE
     - SPIKE PROTEIN
+    - SURFACE GLYCOPROTEIN
     - SPIKE GLYCOPROTEIN
     - spike protein
     - S glycoprotein
     - Spike glycoprotein
-    - spike glycoprotein
     - spike
     - glycoprotein
     - surface glycoprotein

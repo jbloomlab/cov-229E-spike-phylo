@@ -197,7 +197,7 @@ rule classify_rbd:
         alignment = "Results/{gene}/Alignments/protein_ungapped_no_outgroup.fasta",
         metadata = "Results/{gene}/metadata_corrected.tsv",  
     params:
-        reference_strain = config["Reference_accession"],  
+        reference_strain = "NC_002645_2021-08-17",  
     output:
         metadata_with_rbd = "Results/{gene}/metadata_with_rbd.tsv",
     conda:

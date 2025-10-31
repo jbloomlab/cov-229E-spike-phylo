@@ -3,13 +3,13 @@
 # forward direction and translates to protein sequences
 
 # Author:
-# Caleb Carr
+# Caleb Carr and Sheri Harari
 
 
 rule get_protein_sequences:
     """
     This rule runs EMBOSS getorf to extract 
-    amino acid sequences. 
+    amino acid sequences and logs filtered sequences.
     """
     input:
         sequences = "Results/{gene}/nucleotide.fasta",
@@ -22,14 +22,28 @@ rule get_protein_sequences:
     log:
         "Results/Logs/{gene}/get_protein_sequences.txt",
     shell:
-        # The '-sequence' flag signals for the input file
-        # while the '-outseq' file signals for the output 
-        # file. The '-find 1' flag means the amino acid 
-        # sequences between START and STOP codons are returned.
-        # The '-minsize' flag means minimum nucleotide size of 
-        # ORF to report. The '-reverse' flag signals if ORFs on 
-        # the reverse strand should be found as well. 
-        "getorf -sequence {input.sequences} -outseq {output} -find 1 -minsize {params.min_ORF_size} -reverse No -verbose &> {log}"
+        """
+        # Run getorf
+        getorf -sequence {input.sequences} -outseq {output} -find 1 -minsize {params.min_ORF_size} -reverse No -verbose &> {log}
+        
+        # Log filtering information
+        echo "" >> {log}
+        echo "=== Filtering Summary ===" >> {log}
+        echo "Minimum ORF size: {params.min_ORF_size} nucleotides" >> {log}
+        
+        # Count input sequences
+        input_count=$(grep -c "^>" {input.sequences} || echo "0")
+        echo "Input sequences: $input_count" >> {log}
+        
+        # Count output sequences (ORFs found)
+        output_count=$(grep -c "^>" {output} || echo "0")
+        echo "ORFs found: $output_count" >> {log}
+        
+        # List sequences that produced no ORFs
+        echo "" >> {log}
+        echo "Sequences with no ORFs meeting criteria:" >> {log}
+        comm -23 <(grep "^>" {input.sequences} | cut -d' ' -f1 | sort) <(grep "^>" {output} | sed 's/_[0-9]*$//' | cut -d' ' -f1 | sort | uniq) >> {log} || echo "None" >> {log}
+        """
 
 
 rule get_codon_sequences:

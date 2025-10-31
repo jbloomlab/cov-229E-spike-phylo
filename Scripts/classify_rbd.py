@@ -11,12 +11,18 @@ import sys
 
 # RBD class defining mutations
 LINEAGE_DEFINITIONS = {
-    'class 1': ['310P', '314G', '321Y', '316K', '324G', '352A', '353V',
-                '357V', '404W', '407S', '408K'],
-    'class 2': ['310P', '314G', '316K', '318Y', '352A', '357V', '407I'],
-    'class 4': ['311R', '321Y', '356K', '358D', '406N'],
-    'class 5': ['309E', '312R', '314P', '318Y', '355V', '356K', '406N'],
-    'class 6': ['309E', '312R', '314P', '318Y', '355V', '356K', '405V', '406N', '408K']
+    'class 2': ['318Y', '321R', '324V', '352V', '353A', '404L', '407I', '408N', '409S'],
+    'class 3': ['316R', '321R', '324V', '310L', '314V', '352V', '353G', '357F', '350F', 
+                '404L', '407L', '408N', '409S'],
+    'class 4': ['310L', '311R', '314V', '316R', '318Y', '321R', '324V', '349Q', '350F', 
+                '352V', '353G', '356K', '357F', '401M', '404L', '407L', '408N', '409S', '410H'],
+    'class 5': ['309E', '310L', '310H', '312R', '314P', '318Y', '321R', '324V', '349Q', 
+                '350F', '352V', '353G', '355V', '356K', '357F', '401M', '404L', '407L', 
+                '408N', '410H', '411N'],
+    'class 6': ['309E', '310L', '310H', '312R', '314P', '318F', '321R', '324V', '349Q', 
+                '349R', '350F', '352V', '353G', '353D', '353S', '354N', '355V', '356K', 
+                '357L', '358A', '358P', '358D', '401M', '404L', '405V', '406N', '406G', 
+                '407H', '407Y', '410H', '411N']
 }
 
 def get_mutations(ref_seq, query_seq):
@@ -64,10 +70,11 @@ def classify_rbd(mutations, strain_name):
     all_zero = all(v['count'] == 0 for v in lineage_matches.values())
     
     if all_zero:
-        return 'class 3', {}
+        return 'unclassified', {}
     
-    # Find lineage with most matches (prefer earlier class if tied)
-    preferred_order = ['class 1', 'class 2', 'class 4', 'class 5', 'class 6']
+    # Find lineage with most matches (prefer earlier class in ranking if tied)
+    # Ranking order: class 2, class 3, class 4, class 5, class 6
+    preferred_order = ['class 2', 'class 3', 'class 4', 'class 5', 'class 6']
     max_lineage = max(
         lineage_matches.keys(),
         key=lambda k: (lineage_matches[k]['count'], -preferred_order.index(k))
@@ -126,8 +133,11 @@ def add_rbd_classification(alignment_file, metadata_file, output_file,
     log_lines.append(f"\nReference strain: {reference_strain}")
     log_lines.append(f"Reference strain is automatically classified as: class 1")
     log_lines.append(f"\nDefining mutations for each class:")
-    for lineage, muts in LINEAGE_DEFINITIONS.items():
+    log_lines.append(f"  class 1: Reference strain (no defining mutations)")
+    for lineage in ['class 2', 'class 3', 'class 4', 'class 5', 'class 6']:
+        muts = LINEAGE_DEFINITIONS[lineage]
         log_lines.append(f"  {lineage}: {', '.join(muts)}")
+    log_lines.append(f"\nClass ranking order: class 2 > class 3 > class 4 > class 5 > class 6")
     log_lines.append("\n" + "=" * 80)
     log_lines.append("\nClassification results:\n")
     
@@ -179,7 +189,7 @@ def add_rbd_classification(alignment_file, metadata_file, output_file,
     log_lines.append("\n" + "=" * 80)
     log_lines.append("\nSummary:")
     log_lines.append(f"  Total strains classified: {len(metadata)}")
-    for rbd_class in sorted(class_counts.keys()):
+    for rbd_class in ['class 1', 'class 2', 'class 3', 'class 4', 'class 5', 'class 6']:
         count = class_counts[rbd_class]
         log_lines.append(f"  {rbd_class}: {count} strains")
     
@@ -202,7 +212,8 @@ def add_rbd_classification(alignment_file, metadata_file, output_file,
     
     print(f"\nClassification complete!")
     print(f"  {sum(class_counts.values())} strains classified")
-    for rbd_class, count in sorted(class_counts.items()):
+    for rbd_class in ['class 1', 'class 2', 'class 3', 'class 4', 'class 5', 'class 6']:
+        count = class_counts.get(rbd_class, 0)
         if count > 0:
             print(f"  {rbd_class}: {count}")
 
@@ -241,6 +252,6 @@ if __name__ == "__main__":
         alignment_file=args.alignment,
         metadata_file=args.metadata,
         output_file=args.output,
-        reference_strain="NC_002645_2021-08-17",
+        reference_strain=args.reference,
         log_file=args.log
     )
