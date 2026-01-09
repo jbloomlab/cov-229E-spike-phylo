@@ -231,7 +231,7 @@ rule export_tree:
         title = lambda wildcards: config["Auspice_tree_titles"][wildcards.gene],
         description = lambda wildcards: config["Auspice_tree_descriptions"][wildcards.gene],
     output:
-        auspice_tree = "auspice/cov-229E-spike-phylo.json",
+        auspice_tree = "auspice/{gene}.json",
     conda:
         "../environment.yml",
     shell:
