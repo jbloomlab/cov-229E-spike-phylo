@@ -205,9 +205,6 @@
     "Fukushima_H832_2020_LC654446_2020-XX-XX": {
       "predicted APN escape": -7.5156
     },
-    "H224-15_PP914108_2022-05-15": {
-      "predicted APN escape": -8.75
-    },
     "HCoV-229-25_6_92_DQ243974_2016-07-26": {
       "predicted APN escape": -3.6434900000000003
     },
@@ -942,12 +939,6 @@
     },
     "inf-1_PQ449607_2016-03-31": {
       "predicted APN escape": -11.656824000000004
-    },
-    "srw001_PX640306_2020-06-02": {
-      "predicted APN escape": -8.3625
-    },
-    "srw002_PX640307_2020-06-02": {
-      "predicted APN escape": -9.408900000000001
     }
   }
 }

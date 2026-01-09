@@ -23,7 +23,8 @@ snakemake \
     --latency-wait 60 \
     --restart-times 2 \
     --rerun-triggers mtime \
-    --rerun-incomplete
+    --rerun-incomplete \
+    --forceall
 
 # Signal that snakemake has complete
 echo "Run of snakemake complete."

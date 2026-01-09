@@ -31,6 +31,9 @@ Remove_duplicates: 'No'
 
 # Sequences to remove
 Accessions_to_exclude: 
+  - PX640306 # outlier on date-to-tip regression
+  - PX640307 # outlier on date-to-tip regression
+  - PP914108 # outlier on date-to-tip regression
   - JX503061 # outlier on date-to-tip regression
   - KY674919 # outlier on date-to-tip regression
   - AF344186 # outlier on date-to-tip regression

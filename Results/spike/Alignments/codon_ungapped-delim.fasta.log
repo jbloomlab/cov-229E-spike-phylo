@@ -2,338 +2,334 @@ IQ-TREE multicore version 2.2.5 COVID-edition for Linux 64-bit built Sep 15 2023
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
 Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
 
-Host:    gizmok38 (AVX512, FMA3, 754 GB RAM)
+Host:    gizmok41 (AVX512, FMA3, 754 GB RAM)
 Command: iqtree2 -ntmax 1 -s Results/spike/Alignments/codon_ungapped-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05 -nt AUTO -redo -o camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX
-Seed:    113937 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Fri Jan  9 09:42:44 2026
+Seed:    16613 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jan  9 10:37:58 2026
 Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
 
 Reading alignment file Results/spike/Alignments/codon_ungapped-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.0268486 secs using 88.11% CPU
+Reading fasta file: done in 0.0241898 secs using 82.25% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.0076142 secs using 100% CPU
-Alignment has 316 sequences with 3519 columns, 560 distinct patterns
-334 parsimony-informative, 346 singleton sites, 2839 constant sites
+Constructing alignment: done in 0.00774335 secs using 97.05% CPU
+Alignment has 313 sequences with 3519 columns, 556 distinct patterns
+308 parsimony-informative, 367 singleton sites, 2844 constant sites
                                                                  Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.000359099 secs using 99.97% CPU
-   1  camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX                       0.37%    passed     89.04%
-   2  NC_002645_2021-08-17                                               0.00%    passed     97.40%
-   3  SN-HED-0080_PX625998_2023-01-13                                    0.17%    passed     99.86%
-   4  srw001_PX640306_2020-06-02                                         0.00%    passed     98.04%
-   5  srw002_PX640307_2020-06-02                                         0.00%    passed     97.40%
-   6  HT_PV631258_2023-12-XX                                             0.17%    passed     99.67%
-   7  229E_Australia_21021519_2021_PV827139_2021-02-15                   0.17%    passed     99.92%
-   8  229E_Australia_21042820_2021_PV827140_2021-02-28                   0.17%    passed     99.87%
-   9  229E_Australia_22050721_2022_PV827141_2022-07-05                   0.23%    passed    100.00%
-  10  2303018_PX055894_2023-03-XX                                        0.17%    passed     99.67%
-  11  2403201_PX055897_2024-03-XX                                        0.17%    passed    100.00%
-  12  H224-15_PP914108_2022-05-15                                        0.00%    passed     99.06%
-  13  HCoV_229E_human_Niigata__Japan_312_2020_LC885132_2020-XX-XX        0.17%    passed     99.85%
-  14  229E_051863_USA_2024_PV685437_2024-06-05                           0.17%    passed     99.99%
-  15  229E_063343_USA_2024_PV685438_2024-02-05                           0.17%    passed     99.86%
-  16  229E_101993_USA_2024_PV685439_2024-03-06                           0.17%    passed     99.84%
-  17  229E_122994_USA_2024_PV685440_2024-04-08                           0.17%    passed     99.96%
-  18  229E_203060_USA_2024_PV685441_2024-02-14                           0.17%    passed     99.95%
-  19  229E_242073_USA_2023_PV685442_2023-07-18                           0.17%    passed     99.97%
-  20  229E_266552_USA_2024_PV685443_2024-04-17                           0.17%    passed     99.99%
-  21  229E_269642_USA_2024_PV685444_2024-02-18                           0.17%    passed     99.93%
-  22  229E_306995_USA_2024_PV685445_2024-05-21                           0.17%    passed     99.92%
-  23  229E_376078_USA_2024_PV685446_2024-03-24                           0.17%    passed     99.95%
-  24  229E_411124_USA_2024_PV685447_2024-02-27                           0.17%    passed     99.98%
-  25  229E_435192_USA_2024_PV685448_2024-02-29                           0.17%    passed     99.98%
-  26  229E_467854_USA_2024_PV685449_2024-04-30                           0.17%    passed     99.84%
-  27  HCoV-229E_human_USA_MA-Broad_MGH-23888_2025_PV717794_2025-02-23    0.17%    passed     99.86%
-  28  HCoV-229E_human_USA_MA-Broad_MGH-23855_2025_PV717809_2025-02-17    0.17%    passed     99.74%
-  29  hCoV-229E_Russia_SPE-RII-MH183861S_2024_PQ963848_2024-04-15        0.17%    passed    100.00%
-  30  hCoV-229E_Russia_KDA-RII-MH204625S_2024_PQ963852_2024-07-17        0.17%    passed     99.95%
-  31  hCoV-229E_Russia_SPE-RII-25806S_2021_PQ616078_2021-02-09           0.17%    passed     99.44%
-  32  hCoV-229E_Russia_SPE-RII-2076S_2019_PQ616083_2019-02-12            0.17%    passed     99.96%
-  33  hCoV-229E_Russia_SPE-RII-956S_2019_PQ616087_2019-01-24             0.17%    passed     99.92%
-  34  hCoV-229E_Russia_SPE-RII-1631S_2019_PQ616089_2019-02-04            0.17%    passed     99.68%
-  35  hCoV-229E_Russia_SPE-RII-3126S_2019_PQ616091_2019-03-04            0.17%    passed     99.92%
-  36  hCoV-229E_Russia_SPE-RII-11131S_2024_PQ616096_2024-03-17           0.17%    passed     99.86%
-  37  hCoV-229E_Russia_SPE-RII-14277S_2023_PQ616099_2023-03-14           0.17%    passed    100.00%
-  38  hCoV-229E_Russia_SPE-RII-29110S_2021_PQ616104_2021-03-12           0.17%    passed     99.77%
-  39  hCoV-229E_Russia_SPE-RII-29469S_2021_PQ616105_2021-03-16           0.17%    passed     99.92%
-  40  hCoV-229E_Russia_SPE-RII-29800S_2021_PQ616106_2021-03-18           0.17%    passed     99.74%
-  41  hCoV-229E_Russia_SPE-RII-30347S_2021_PQ616108_2021-03-24           0.17%    passed     99.87%
-  42  hCoV-229E_Russia_SPE-RII-31552S_2021_PQ616111_2021-04-07           0.17%    passed     99.80%
-  43  Hu_US_2024_Coronavirus_229E_CA-RGDS-1189_PQ525429_2024-06-XX       0.17%    passed     99.93%
-  44  UKN16_229E_2_PQ466789_2016-04-05                                   0.17%    passed     99.77%
-  45  UKN16_229E_3_PQ466790_2016-04-25                                   0.17%    passed     98.57%
-  46  UKN16_229E_4_PQ466791_2016-10-19                                   0.17%    passed     99.88%
-  47  UKN16_229E_5_PQ466792_2016-12-05                                   0.17%    passed     99.35%
-  48  UKN16_229E_6_PQ466793_2016-12-15                                   0.17%    passed     99.71%
-  49  UKN16_229E_7_PQ466794_2016-12-17                                   0.17%    passed     99.10%
-  50  UKN17_229E_1_PQ466795_2017-01-03                                   0.17%    passed     98.93%
-  51  UKN17_229E_2_PQ466796_2017-01-05                                   0.17%    passed     99.02%
-  52  UKN17_229E_3_PQ466797_2017-01-05                                   0.17%    passed     99.30%
-  53  UKN17_229E_4_PQ466798_2017-01-05                                   0.17%    passed     99.94%
-  54  UKN17_229E_5_PQ466799_2017-01-08                                   0.17%    passed     99.31%
-  55  UKN17_229E_6_PQ466800_2017-01-11                                   0.17%    passed     99.30%
-  56  UKN17_229E_7_PQ466801_2017-01-13                                   0.17%    passed     99.69%
-  57  UKN17_229E_8_PQ466802_2017-01-22                                   0.17%    passed     98.93%
-  58  UKN17_229E_9_PQ466803_2017-01-24                                   0.17%    passed     98.93%
-  59  UKN17_229E_10_PQ466804_2017-01-24                                  0.17%    passed     99.90%
-  60  UKN17_229E_11_PQ466805_2017-01-25                                  0.17%    passed     99.26%
-  61  UKN17_229E_12_PQ466806_2017-01-25                                  0.17%    passed     99.25%
-  62  UKN17_229E_13_PQ466807_2017-01-29                                  0.17%    passed     99.84%
-  63  UKN17_229E_14_PQ466808_2017-01-29                                  0.17%    passed     98.93%
-  64  UKN17_229E_16_PQ466810_2017-01-30                                  0.17%    passed     99.90%
-  65  UKN17_229E_17_PQ466811_2017-01-30                                  0.17%    passed     98.88%
-  66  UKN17_229E_18_PQ466812_2017-01-30                                  0.17%    passed     99.31%
-  67  UKN17_229E_19_PQ466813_2017-01-31                                  0.17%    passed     99.90%
-  68  UKN17_229E_20_PQ466814_2017-01-31                                  0.17%    passed     99.90%
-  69  UKN17_229E_21_PQ466815_2017-02-01                                  0.17%    passed     99.35%
-  70  UKN17_229E_22_PQ466816_2017-02-05                                  0.17%    passed     98.93%
-  71  UKN17_229E_23_PQ466817_2017-02-07                                  0.17%    passed     99.04%
-  72  UKN17_229E_24_PQ466818_2017-02-08                                  0.17%    passed     99.02%
-  73  UKN17_229E_25_PQ466819_2017-02-10                                  0.17%    passed     99.82%
-  74  UKN17_229E_26_PQ466820_2017-02-10                                  0.17%    passed     99.25%
-  75  UKN17_229E_27_PQ466821_2017-02-12                                  0.17%    passed     99.90%
-  76  UKN17_229E_28_PQ466822_2017-02-11                                  0.17%    passed     99.90%
-  77  UKN17_229E_29_PQ466823_2017-02-13                                  0.17%    passed     99.43%
-  78  UKN17_229E_30_PQ466824_2017-02-14                                  0.17%    passed     99.96%
-  79  UKN17_229E_31_PQ466825_2017-02-15                                  0.17%    passed     98.81%
-  80  UKN17_229E_32_PQ466826_2017-02-15                                  0.17%    passed     98.93%
-  81  UKN17_229E_33_PQ466827_2017-02-16                                  0.17%    passed     99.26%
-  82  UKN17_229E_34_PQ466828_2017-02-19                                  0.17%    passed     99.28%
-  83  UKN17_229E_35_PQ466829_2017-02-17                                  0.17%    passed     99.30%
-  84  UKN17_229E_36_PQ466830_2017-02-23                                  0.17%    passed     98.93%
-  85  UKN17_229E_37_PQ466831_2017-02-24                                  0.17%    passed     99.25%
-  86  UKN17_229E_38_PQ466832_2017-02-24                                  0.17%    passed     99.30%
-  87  UKN17_229E_39_PQ466833_2017-02-28                                  0.17%    passed     99.15%
-  88  UKN17_229E_40_PQ466834_2017-03-06                                  0.17%    passed     99.00%
-  89  UKN17_229E_41_PQ466835_2017-03-15                                  0.17%    passed     99.35%
-  90  UKN17_229E_42_PQ466836_2017-03-17                                  0.17%    passed     99.25%
-  91  UKN17_229E_43_PQ466837_2017-04-03                                  0.17%    passed     99.58%
-  92  UKN17_229E_44_PQ466838_2017-05-13                                  0.17%    passed     98.95%
-  93  UKN18_229E_1_PQ466839_2018-02-22                                   0.17%    passed     99.72%
-  94  UKN18_229E_2_PQ466840_2018-03-08                                   0.17%    passed     99.72%
-  95  UKN18_229E_3_PQ466841_2018-03-24                                   0.17%    passed     99.29%
-  96  UKN18_229E_4_PQ466842_2018-06-19                                   0.17%    passed     99.85%
-  97  UKN18_229E_5_PQ466843_2018-07-19                                   0.17%    passed     99.36%
-  98  UKN18_229E_6_PQ466844_2018-12-14                                   0.17%    passed     99.83%
-  99  UKN18_229E_7_PQ466845_2018-12-18                                   0.17%    passed     99.83%
- 100  UKN18_229E_8_PQ466846_2018-12-18                                   0.17%    passed     99.91%
- 101  UKN18_229E_9_PQ466847_2018-12-26                                   0.17%    passed     99.83%
- 102  UKN18_229E_10_PQ466848_2018-12-27                                  0.17%    passed     99.72%
- 103  UKN22_229E_1_PQ466850_2022-02-21                                   0.17%    passed     99.80%
- 104  UKN22_229E_2_PQ466851_2022-03-27                                   0.17%    passed     99.69%
- 105  UKN22_229E_3_PQ466852_2022-04-08                                   0.17%    passed     99.99%
- 106  UKN22_229E_4_PQ466853_2022-04-22                                   0.17%    passed     99.99%
- 107  UKN22_229E_5_PQ466854_2022-05-05                                   0.17%    passed     99.83%
- 108  UKN23_229E_1_PQ466855_2023-02-08                                   0.17%    passed     99.93%
- 109  UKN23_229E_2_PQ466856_2023-03-05                                   0.26%    passed     99.97%
- 110  UKN23_229E_3_PQ466857_2023-03-10                                   0.17%    passed     99.98%
- 111  inf-1_PQ449607_2016-03-31                                          0.17%    passed     99.60%
- 112  HCoV-229E_140M_Tanzania_2017_PQ187609_2017-06-06                   0.17%    passed     99.90%
- 113  HCoV-229E_1197_Singapore_2010_PQ187610_2010-04-06                  0.17%    passed     99.98%
- 114  HCoV-229E_1340_Singapore_2010_PQ187611_2010-05-17                  0.17%    passed    100.00%
- 115  HCoV-229E_2277_Singapore_2011_PQ187612_2011-06-15                  0.17%    passed     99.99%
- 116  HCoV-229E_2326_Singapore_2011_PQ187613_2011-06-30                  0.17%    passed     99.97%
- 117  HCoV-229E_2613_Singapore_2011_PQ187614_2011-11-10                  0.17%    passed    100.00%
- 118  HCoV-229E_2615_Singapore_2011_PQ187615_2011-11-10                  0.17%    passed     99.97%
- 119  HCoV-229E_4033K_Tanzania_2017_PQ187616_2017-01-09                  0.17%    passed     99.90%
- 120  HCoV-229E_USA_MD-ARIA-07484_2023_PQ037244_2023-04-XX               0.17%    passed     99.71%
- 121  HCoV-229E_USA_MD-ARIA-07489_2023_PQ037245_2023-04-XX               0.17%    passed     99.71%
- 122  HCoV-229E_USA_MD-ARIA-07561_2023_PQ037246_2023-04-XX               0.17%    passed     99.96%
- 123  HCoV-229E_USA_MD-ARIA-07582_2023_PQ037247_2023-04-XX               0.17%    passed     99.96%
- 124  229E_USA_N5MQ9S_2021_PP187313_2021-06-18                           0.17%    passed     99.93%
- 125  hCoV-229E_Russia_NVS-RII-MH71549S_2022_OR266946_2022-03-28         0.17%    passed     99.99%
- 126  HCoV-229E_BIME001-51_2015_ON554097_2015-XX-XX                      0.17%    passed     99.72%
- 127  HCoV-229E_BIME020-63_2016_ON554098_2016-XX-XX                      0.17%    passed     99.74%
- 128  HCoV-229E_BIME027-60_2016_ON554099_2016-XX-XX                      0.17%    passed     99.98%
- 129  HCoV-229E_BIME030-61_2016_ON554100_2016-XX-XX                      0.17%    passed     99.88%
- 130  HCoV-229E_BIME032-64_2016_ON554101_2016-XX-XX                      0.17%    passed     99.85%
- 131  HCoV-229E_BIME038-59_2016_ON554102_2016-XX-XX                      0.17%    passed     99.58%
- 132  HCoV-229E_BIME050-58_2016_ON554103_2016-XX-XX                      0.17%    passed     99.90%
- 133  HCoV-229E_BIME055-67_2016_ON554104_2016-XX-XX                      0.17%    passed     99.88%
- 134  HCoV-229E_BIME060-54_2016_ON554105_2016-XX-XX                      0.17%    passed     99.93%
- 135  HCoV-229E_BIME061-55_2016_ON554106_2016-XX-XX                      0.17%    passed     99.93%
- 136  HCoV-229E_BIME110-17_2017_ON554107_2017-XX-XX                      0.43%    passed     99.77%
- 137  HCoV-229E_BIME118-39_2017_ON554108_2017-XX-XX                      0.17%    passed     99.84%
- 138  HCoV-229E_BIME125-20_2017_ON554109_2017-XX-XX                      0.17%    passed     99.74%
- 139  HCoV-229E_BIME126-21_2017_ON554110_2017-XX-XX                      0.17%    passed     99.90%
- 140  HCoV-229E_BIME129-43_2017_ON554111_2017-XX-XX                      0.17%    passed     99.74%
- 141  HCoV-229E_BIME140-42_2017_ON554112_2017-XX-XX                      0.17%    passed     99.85%
- 142  HCoV-229E_BIME148-44_2017_ON554113_2017-XX-XX                      0.17%    passed     99.97%
- 143  HCoV-229E_BIME151-16_2017_ON554114_2017-XX-XX                      0.17%    passed     99.85%
- 144  HCoV-229E_BIME152-22_2017_ON554115_2017-XX-XX                      0.17%    passed     99.90%
- 145  HCoV-229E_BIME153-23_2017_ON554116_2017-XX-XX                      0.17%    passed     99.91%
- 146  HCoV-229E_BIME154-36_2017_ON554117_2017-XX-XX                      0.17%    passed     99.90%
- 147  HCoV-229E_BIME155-40_2017_ON554118_2017-XX-XX                      0.17%    passed     99.85%
- 148  HCoV-229E_BIME161-50_2017_ON554119_2017-XX-XX                      0.17%    passed     99.56%
- 149  HCoV-229E_BIME168-45_2017_ON554120_2017-XX-XX                      0.17%    passed     99.74%
- 150  HCoV-229E_BIME171-19_2017_ON554121_2017-XX-XX                      0.17%    passed     99.94%
- 151  HCoV-229E_BIME176-46_2017_ON554122_2017-XX-XX                      0.17%    passed     99.70%
- 152  HCoV-229E_BIME178-37_2017_ON554123_2017-XX-XX                      0.17%    passed     99.92%
- 153  HCoV-229E_BIME186-38_2017_ON554124_2017-XX-XX                      0.17%    passed     99.94%
- 154  HCoV-229E_BIME209-34_2018_ON554125_2018-XX-XX                      0.17%    passed     99.88%
- 155  HCoV-229E_BIME240-24_2018_ON554126_2018-XX-XX                      0.17%    passed     99.96%
- 156  HCoV-229E_BIME248-77_2017_ON554127_2017-XX-XX                      0.17%    passed     99.88%
- 157  HCoV-229E_BIME260-05_2017_ON554128_2017-XX-XX                      0.17%    passed     99.88%
- 158  HCoV-229E_BIME310-26_2018_ON554129_2018-XX-XX                      0.17%    passed     99.88%
- 159  HCoV-229E_BIME319-10_2018_ON554130_2018-XX-XX                      0.17%    passed     99.94%
- 160  HCoV-229E_BIME341-12_2018_ON554131_2018-XX-XX                      0.17%    passed     99.74%
- 161  HCoV-229E_BIME364-69_2019_ON554132_2019-XX-XX                      0.17%    passed     99.92%
- 162  HCoV-229E_BIME365-75_2019_ON554133_2019-XX-XX                      0.17%    passed     99.84%
- 163  HCoV-229E_BIME377-74_2019_ON554134_2019-XX-XX                      0.17%    passed     99.99%
- 164  HCoV-229E_BIME386-73_2019_ON554135_2019-XX-XX                      0.17%    passed     99.56%
- 165  HCoV-229E_BIME389-70_2019_ON554136_2019-XX-XX                      0.17%    passed     99.88%
- 166  HCoV-229E_BIME391-71_2019_ON554137_2019-XX-XX                      0.17%    passed     99.56%
- 167  HCoV-229E_BIME392-72_2019_ON554138_2019-XX-XX                      0.17%    passed     99.95%
- 168  HCoV-229E_BIME412-68_2019_ON554139_2019-XX-XX                      0.17%    passed     99.45%
- 169  BJHD29_MW800646_2017-11-28                                         0.17%    passed     99.71%
- 170  R2_OK073077_2018-XX-XX                                             0.17%    passed     99.95%
- 171  R10_OK073078_2017-XX-XX                                            0.17%    passed     99.88%
- 172  R22_OK073079_2018-XX-XX                                            0.17%    passed     99.75%
- 173  R35_OK073080_2018-XX-XX                                            0.17%    passed     99.84%
- 174  R39_OK073081_2018-XX-XX                                            0.17%    passed     99.84%
- 175  R41_OK073082_2018-XX-XX                                            0.17%    passed     99.85%
- 176  RS15_OK073083_2017-XX-XX                                           0.17%    passed     99.85%
- 177  P42_OK073084_2017-XX-XX                                            0.17%    passed     99.95%
- 178  SC0678_ON729316_2019-XX-XX                                         0.20%    passed     99.72%
- 179  LC22_ON791801_2022-XX-XX                                           0.17%    passed     99.99%
- 180  S0677SP_MW587035_2022-01-20                                        0.43%    passed     99.99%
- 181  S0970XLQ_MW587037_2022-01-20                                       0.17%    passed     99.84%
- 182  S0959FBW_MW587038_2022-01-20                                       0.17%    passed     99.96%
- 183  229E_S220_MW202340_2018-XX-XX                                      0.17%    passed     99.69%
- 184  Fukushima_H829_2020_LC654445_2020-XX-XX                            0.17%    passed     99.58%
- 185  Fukushima_H832_2020_LC654446_2020-XX-XX                            0.17%    passed     99.86%
- 186  229E_China_03_2017_MW532103_2017-05-02                             0.17%    passed     99.77%
- 187  229E_China_04_2017_MW532104_2017-08-02                             0.17%    passed     99.95%
- 188  229E_China_05_2017_MW532105_2017-09-06                             0.17%    passed     99.94%
- 189  229E_China_01_2009_MW532106_2009-06-09                             0.17%    passed     99.78%
- 190  229E_China_02_2009_MW532107_2009-04-15                             0.26%    passed     99.84%
- 191  2018_9879_MT118677_2018-XX-XX                                      0.17%    passed     99.93%
- 192  HK20-42_MT797634_2020-01-XX                                        0.17%    passed     99.74%
- 193  HK04-01_MT797676_2004-04-XX                                        0.26%    passed     99.76%
- 194  HK04-02_MT797677_2004-06-XX                                        0.26%    passed     99.51%
- 195  HK05-03_MT797678_2005-02-XX                                        0.26%    passed     99.27%
- 196  HK05-04_MT797679_2005-03-XX                                        0.26%    passed     99.70%
- 197  HK05-05_MT797680_2005-04-XX                                        0.26%    passed     98.79%
- 198  HK05-06_MT797681_2005-10-XX                                        0.26%    passed     99.80%
- 199  HK05-07_MT797682_2005-11-XX                                        0.26%    passed     99.69%
- 200  HK05-08_MT797683_2005-11-XX                                        0.26%    passed     99.71%
- 201  HK05-09_MT797684_2005-11-XX                                        0.26%    passed     99.86%
- 202  HK05-10_MT797685_2005-11-XX                                        0.26%    passed     99.44%
- 203  HK05-11_MT797686_2005-12-XX                                        0.26%    passed     99.74%
- 204  HK05-12_MT797687_2005-12-XX                                        0.26%    passed     99.65%
- 205  HK05-13_MT797688_2005-12-XX                                        0.26%    passed     99.79%
- 206  HK05-14_MT797689_2005-12-XX                                        0.26%    passed     99.69%
- 207  HK05-15_MT797690_2005-12-XX                                        0.26%    passed     99.69%
- 208  HK05-16_MT797691_2005-12-XX                                        0.26%    passed     99.80%
- 209  HK05-17_MT797692_2005-12-XX                                        0.26%    passed     99.80%
- 210  HK05-18_MT797693_2005-12-XX                                        0.26%    passed     98.85%
- 211  HK05-19_MT797694_2005-12-XX                                        0.26%    passed     99.79%
- 212  HK05-20_MT797695_2005-12-XX                                        0.26%    passed     99.69%
- 213  HK05-21_MT797696_2005-12-XX                                        0.26%    passed     99.52%
- 214  HK05-22_MT797697_2005-12-XX                                        0.26%    passed     99.79%
- 215  HK06-23_MT797698_2006-01-XX                                        0.26%    passed     99.79%
- 216  HK06-24_MT797699_2006-01-XX                                        0.26%    passed     99.72%
- 217  HK06-25_MT797700_2006-01-XX                                        0.26%    passed     99.91%
- 218  HK06-26_MT797701_2006-01-XX                                        0.26%    passed     99.69%
- 219  HK06-27_MT797702_2006-01-XX                                        0.26%    passed     99.68%
- 220  HK06-28_MT797703_2006-01-XX                                        0.26%    passed     99.69%
- 221  HK06-29_MT797704_2006-01-XX                                        0.26%    passed     99.60%
- 222  HK09-30_MT797705_2009-05-XX                                        0.17%    passed     99.89%
- 223  HK09-31_MT797706_2009-05-XX                                        0.17%    passed     99.61%
- 224  HK11-32_MT797707_2011-02-XX                                        0.17%    passed    100.00%
- 225  HK11-33_MT797708_2011-05-XX                                        0.17%    passed     99.99%
- 226  HK11-34_MT797709_2011-05-XX                                        0.17%    passed     99.97%
- 227  HK11-35_MT797710_2011-07-XX                                        0.17%    passed     99.99%
- 228  HK12-36_MT797711_2012-01-XX                                        0.17%    passed     99.96%
- 229  HK13-37_MT797712_2013-02-XX                                        0.17%    passed     99.71%
- 230  HK13-38_MT797713_2013-05-XX                                        0.17%    passed     99.76%
- 231  HK13-39_MT797714_2013-05-XX                                        0.17%    passed     99.84%
- 232  HK16-40_MT797715_2016-01-XX                                        0.17%    passed     99.83%
- 233  HK16-41_MT797716_2016-01-XX                                        0.17%    passed     99.58%
- 234  HCoV_229E_human_ITA_TE5146_2020_MW039392_2020-03-18                0.00%    passed     99.95%
- 235  HCoV-229E_USA_UNM_0186_2016_MT438696_2016-02-09                    0.17%    passed     99.84%
- 236  HCoV-229E_USA_ACRI_0244_2017_MT438697_2017-02-24                   0.17%    passed     99.31%
- 237  HCoV-229E_USA_ACRI_0256_2017_MT438698_2017-02-24                   0.17%    passed     98.93%
- 238  HCoV-229E_USA_UAMS_DID_0108_2017_MT438700_2017-01-27               0.09%    passed     99.10%
- 239  HCoV_229E_Seattle_USA_SC9724_2018_MN369046_2018-XX-XX              0.17%    passed     99.75%
- 240  HCoV_229E_Seattle_USA_SC0865_2019_MN306046_2019-XX-XX              0.17%    passed     99.76%
- 241  11949_2011_KM055531_2011-XX-XX                                     0.17%    passed     99.98%
- 242  1512A_2009_KM055532_2009-XX-XX                                     0.17%    passed     99.74%
- 243  1518A_2009_KM055533_2009-XX-XX                                     0.17%    passed     99.74%
- 244  1546A_2009_KM055534_2009-XX-XX                                     0.17%    passed     99.78%
- 245  1649A_2009_KM055535_2009-XX-XX                                     0.17%    passed     99.97%
- 246  1658A_2009_KM055536_2009-XX-XX                                     0.17%    passed     99.98%
- 247  1667A_2009_KM055537_2009-XX-XX                                     0.17%    passed    100.00%
- 248  1761A_2010_KM055538_2010-XX-XX                                     0.17%    passed    100.00%
- 249  1781A_2010_KM055539_2010-XX-XX                                     0.17%    passed    100.00%
- 250  1782A_2010_KM055540_2010-XX-XX                                     0.17%    passed    100.00%
- 251  1827A_2010_KM055541_2010-XX-XX                                     0.17%    passed    100.00%
- 252  1829A_2010_KM055542_2010-XX-XX                                     0.17%    passed    100.00%
- 253  1990A_2010_KM055543_2010-XX-XX                                     0.17%    passed     99.94%
- 254  2764A_2011_KM055544_2011-XX-XX                                     0.17%    passed     99.97%
- 255  8339_2009_KM055545_2009-XX-XX                                      0.17%    passed     99.94%
- 256  8373_2009_KM055546_2009-XX-XX                                      0.17%    passed     99.94%
- 257  8425_2009_KM055547_2009-XX-XX                                      0.17%    passed     99.94%
- 258  2861A_2011_KM055548_2011-XX-XX                                     0.17%    passed     99.98%
- 259  2961A_2011_KM055549_2011-XX-XX                                     0.17%    passed     99.96%
- 260  2981A_2011_KM055550_2011-XX-XX                                     0.17%    passed     99.94%
- 261  359A_2007_KM055551_2007-XX-XX                                      0.26%    passed     99.29%
- 262  423A_2007_KM055552_2007-XX-XX                                      0.26%    passed     99.93%
- 263  1482A_2009_KM055553_2009-XX-XX                                     0.26%    passed     99.91%
- 264  494A_2008_KM055554_2008-XX-XX                                      0.26%    passed     99.93%
- 265  507A_2008_KM055555_2008-XX-XX                                      0.26%    passed     99.82%
- 266  693A_2008_KM055556_2008-XX-XX                                      0.26%    passed     99.91%
- 267  748_2005_KM055557_2005-XX-XX                                       0.26%    passed     99.52%
- 268  8348_2009_KM055558_2009-XX-XX                                      0.26%    passed     99.86%
- 269  857_2005_KM055559_2005-XX-XX                                       0.26%    passed     99.45%
- 270  1424A_2009_KM055560_2009-XX-XX                                     0.26%    passed     99.93%
- 271  France_Lille_2014_MH048989_2014-XX-XX                              0.17%    passed     99.92%
- 272  229E_Haiti-1_2016_MF542265_2016-03-XX                              0.17%    passed     99.95%
- 273  HCoV_229E_Seattle_USA_SC3112_2015_KY983587_2015-XX-XX              0.17%    passed     99.31%
- 274  HCoV_229E_Seattle_USA_SC379_2016_KY621348_2016-XX-XX               0.17%    passed     99.22%
- 275  HCoV_229E_Seattle_USA_SC2872_2015_KY967357_2015-XX-XX              0.17%    passed     99.31%
- 276  HCoV_229E_Seattle_USA_SC399_2016_KY674914_2016-XX-XX               0.17%    passed     99.22%
- 277  HCoV_229E_Seattle_USA_SC2282_2017_KY684760_2016-XX-XX              0.17%    passed     99.94%
- 278  HCoV_229E_Seattle_USA_SC579_2016_KY369908_2016-XX-XX               0.17%    passed     99.35%
- 279  HCoV_229E_Seattle_USA_SC677_2016_KY369909_2016-XX-XX               0.17%    passed     99.22%
- 280  HCoV_229E_Seattle_USA_SC1143_2016_KY369910_2016-XX-XX              0.17%    passed     99.85%
- 281  HCoV_229E_Seattle_USA_SC1212_2016_KY369911_2016-XX-XX              0.17%    passed     99.85%
- 282  HCoV_229E_Seattle_USA_SC9731_2016_KY369912_2016-XX-XX              0.17%    passed     99.95%
- 283  HCoV_229E_Seattle_USA_SC1073_2016_KY369913_2016-XX-XX              0.17%    passed     99.08%
- 284  HCoV_229E_Seattle_USA_SC9773_2016_KY369914_2016-XX-XX              0.17%    passed     99.81%
- 285  HCoV-229E_BN1_GER_2015_KU291448_2015-XX-XX                         0.17%    passed     99.97%
- 286  229E_human_USA_892-11_1989_KF514429_1989-02-07                     0.26%    passed     99.76%
- 287  229E_human_USA_933-50_1993_KF514430_1993-03-18                     0.26%    passed     99.38%
- 288  229E_human_USA_953-49_1995_KF514431_1995-03-23                     0.26%    passed     99.27%
- 289  229E_human_USA_932-72_1993_KF514432_1993-02-22                     0.26%    passed     99.08%
- 290  229E_human_USA_933-40_1993_KF514433_1993-03-11                     0.26%    passed     99.15%
- 291  0349_JX503060_2010-XX-XX                                           0.20%    passed     99.96%
- 292  Sendai-H_1121_04_AB691764_2004-XX-XX                               0.26%    passed     99.86%
- 293  Sendai-H_826_04_AB691765_2004-XX-XX                                0.26%    passed     99.43%
- 294  Sendai-H_1948_04_AB691766_2004-XX-XX                               0.26%    passed     99.32%
- 295  Niigata_01_08_AB691767_2008-XX-XX                                  0.26%    passed     99.85%
- 296  HCoV-229E-11_6_79_DQ243964_2016-07-26                              0.26%    passed     99.78%
- 297  HCoV-229E-16_6_82_DQ243965_2016-07-26                              0.26%    passed     98.75%
- 298  HCoV-229E-22_9_82_DQ243966_2016-07-26                              0.26%    passed     99.94%
- 299  HCoV-229E-6_10_82_DQ243967_2016-07-26                              0.26%    passed     99.52%
- 300  HCoV-229E-21_10_82_DQ243968_2016-07-26                             0.26%    passed     99.52%
- 301  HCoV-229E-8_11_82a_DQ243969_2016-07-26                             0.26%    passed     98.78%
- 302  HCoV-229E-8_11_82b_DQ243970_2016-07-26                             0.26%    passed     99.12%
- 303  HCoV-229E-29_7_84_DQ243971_2016-07-26                              0.26%    passed     99.51%
- 304  HCoV-229E-5_9_84_DQ243972_2016-07-26                               0.26%    passed     99.59%
- 305  HCoV-229E-24_6_90_DQ243973_2016-07-26                              0.26%    passed     99.46%
- 306  HCoV-229-25_6_92_DQ243974_2016-07-26                               0.26%    passed     99.58%
- 307  HCoV-229E-12_5_92_DQ243975_2016-07-26                              0.26%    passed     99.63%
- 308  HCoV-229E-17_6_92_DQ243976_2016-07-26                              0.26%    passed     99.64%
- 309  HCoV-229E-8_8_01_DQ243977_2016-07-26                               0.26%    passed     99.42%
- 310  HCoV-229E-27_8_01_DQ243978_2016-07-26                              0.26%    passed     99.27%
- 311  HCoV-229E-21_6_02_DQ243979_2016-07-26                              0.26%    passed     99.31%
- 312  HCoV-229E-6_1_03_DQ243980_2016-07-26                               0.26%    passed     97.57%
- 313  HCoV-229E-30_7_03_DQ243983_2016-07-26                              0.26%    passed     99.43%
- 314  HCoV-229E-14_8_03_DQ243984_2016-07-26                              0.26%    passed     99.38%
- 315  HCoV-229E-19_8_03_DQ243985_2016-07-26                              0.26%    passed     97.89%
- 316  HCoV-229E-25_8_03_DQ243986_2016-07-26                              0.26%    passed     98.85%
+Analyzing sequences: done in 0.000374136 secs using 99.7% CPU
+   1  camel_Riyadh_Ry141_2015_NC_028752_2015-03-XX                       0.37%    passed     89.00%
+   2  NC_002645_2021-08-17                                               0.00%    passed     97.34%
+   3  SN-HED-0080_PX625998_2023-01-13                                    0.17%    passed     99.85%
+   4  HT_PV631258_2023-12-XX                                             0.17%    passed     99.68%
+   5  229E_Australia_21021519_2021_PV827139_2021-02-15                   0.17%    passed     99.92%
+   6  229E_Australia_21042820_2021_PV827140_2021-02-28                   0.17%    passed     99.86%
+   7  229E_Australia_22050721_2022_PV827141_2022-07-05                   0.23%    passed    100.00%
+   8  2303018_PX055894_2023-03-XX                                        0.17%    passed     99.65%
+   9  2403201_PX055897_2024-03-XX                                        0.17%    passed     99.99%
+  10  HCoV_229E_human_Niigata__Japan_312_2020_LC885132_2020-XX-XX        0.17%    passed     99.86%
+  11  229E_051863_USA_2024_PV685437_2024-06-05                           0.17%    passed     99.99%
+  12  229E_063343_USA_2024_PV685438_2024-02-05                           0.17%    passed     99.86%
+  13  229E_101993_USA_2024_PV685439_2024-03-06                           0.17%    passed     99.83%
+  14  229E_122994_USA_2024_PV685440_2024-04-08                           0.17%    passed     99.96%
+  15  229E_203060_USA_2024_PV685441_2024-02-14                           0.17%    passed     99.94%
+  16  229E_242073_USA_2023_PV685442_2023-07-18                           0.17%    passed     99.97%
+  17  229E_266552_USA_2024_PV685443_2024-04-17                           0.17%    passed     99.99%
+  18  229E_269642_USA_2024_PV685444_2024-02-18                           0.17%    passed     99.93%
+  19  229E_306995_USA_2024_PV685445_2024-05-21                           0.17%    passed     99.91%
+  20  229E_376078_USA_2024_PV685446_2024-03-24                           0.17%    passed     99.94%
+  21  229E_411124_USA_2024_PV685447_2024-02-27                           0.17%    passed     99.98%
+  22  229E_435192_USA_2024_PV685448_2024-02-29                           0.17%    passed     99.98%
+  23  229E_467854_USA_2024_PV685449_2024-04-30                           0.17%    passed     99.84%
+  24  HCoV-229E_human_USA_MA-Broad_MGH-23888_2025_PV717794_2025-02-23    0.17%    passed     99.86%
+  25  HCoV-229E_human_USA_MA-Broad_MGH-23855_2025_PV717809_2025-02-17    0.17%    passed     99.74%
+  26  hCoV-229E_Russia_SPE-RII-MH183861S_2024_PQ963848_2024-04-15        0.17%    passed    100.00%
+  27  hCoV-229E_Russia_KDA-RII-MH204625S_2024_PQ963852_2024-07-17        0.17%    passed     99.94%
+  28  hCoV-229E_Russia_SPE-RII-25806S_2021_PQ616078_2021-02-09           0.17%    passed     99.44%
+  29  hCoV-229E_Russia_SPE-RII-2076S_2019_PQ616083_2019-02-12            0.17%    passed     99.96%
+  30  hCoV-229E_Russia_SPE-RII-956S_2019_PQ616087_2019-01-24             0.17%    passed     99.92%
+  31  hCoV-229E_Russia_SPE-RII-1631S_2019_PQ616089_2019-02-04            0.17%    passed     99.69%
+  32  hCoV-229E_Russia_SPE-RII-3126S_2019_PQ616091_2019-03-04            0.17%    passed     99.92%
+  33  hCoV-229E_Russia_SPE-RII-11131S_2024_PQ616096_2024-03-17           0.17%    passed     99.86%
+  34  hCoV-229E_Russia_SPE-RII-14277S_2023_PQ616099_2023-03-14           0.17%    passed    100.00%
+  35  hCoV-229E_Russia_SPE-RII-29110S_2021_PQ616104_2021-03-12           0.17%    passed     99.76%
+  36  hCoV-229E_Russia_SPE-RII-29469S_2021_PQ616105_2021-03-16           0.17%    passed     99.92%
+  37  hCoV-229E_Russia_SPE-RII-29800S_2021_PQ616106_2021-03-18           0.17%    passed     99.73%
+  38  hCoV-229E_Russia_SPE-RII-30347S_2021_PQ616108_2021-03-24           0.17%    passed     99.86%
+  39  hCoV-229E_Russia_SPE-RII-31552S_2021_PQ616111_2021-04-07           0.17%    passed     99.79%
+  40  Hu_US_2024_Coronavirus_229E_CA-RGDS-1189_PQ525429_2024-06-XX       0.17%    passed     99.93%
+  41  UKN16_229E_2_PQ466789_2016-04-05                                   0.17%    passed     99.76%
+  42  UKN16_229E_3_PQ466790_2016-04-25                                   0.17%    passed     98.61%
+  43  UKN16_229E_4_PQ466791_2016-10-19                                   0.17%    passed     99.89%
+  44  UKN16_229E_5_PQ466792_2016-12-05                                   0.17%    passed     99.37%
+  45  UKN16_229E_6_PQ466793_2016-12-15                                   0.17%    passed     99.70%
+  46  UKN16_229E_7_PQ466794_2016-12-17                                   0.17%    passed     99.13%
+  47  UKN17_229E_1_PQ466795_2017-01-03                                   0.17%    passed     98.96%
+  48  UKN17_229E_2_PQ466796_2017-01-05                                   0.17%    passed     99.05%
+  49  UKN17_229E_3_PQ466797_2017-01-05                                   0.17%    passed     99.33%
+  50  UKN17_229E_4_PQ466798_2017-01-05                                   0.17%    passed     99.94%
+  51  UKN17_229E_5_PQ466799_2017-01-08                                   0.17%    passed     99.33%
+  52  UKN17_229E_6_PQ466800_2017-01-11                                   0.17%    passed     99.33%
+  53  UKN17_229E_7_PQ466801_2017-01-13                                   0.17%    passed     99.70%
+  54  UKN17_229E_8_PQ466802_2017-01-22                                   0.17%    passed     98.96%
+  55  UKN17_229E_9_PQ466803_2017-01-24                                   0.17%    passed     98.96%
+  56  UKN17_229E_10_PQ466804_2017-01-24                                  0.17%    passed     99.89%
+  57  UKN17_229E_11_PQ466805_2017-01-25                                  0.17%    passed     99.28%
+  58  UKN17_229E_12_PQ466806_2017-01-25                                  0.17%    passed     99.27%
+  59  UKN17_229E_13_PQ466807_2017-01-29                                  0.17%    passed     99.85%
+  60  UKN17_229E_14_PQ466808_2017-01-29                                  0.17%    passed     98.97%
+  61  UKN17_229E_16_PQ466810_2017-01-30                                  0.17%    passed     99.89%
+  62  UKN17_229E_17_PQ466811_2017-01-30                                  0.17%    passed     98.91%
+  63  UKN17_229E_18_PQ466812_2017-01-30                                  0.17%    passed     99.33%
+  64  UKN17_229E_19_PQ466813_2017-01-31                                  0.17%    passed     99.89%
+  65  UKN17_229E_20_PQ466814_2017-01-31                                  0.17%    passed     99.89%
+  66  UKN17_229E_21_PQ466815_2017-02-01                                  0.17%    passed     99.37%
+  67  UKN17_229E_22_PQ466816_2017-02-05                                  0.17%    passed     98.96%
+  68  UKN17_229E_23_PQ466817_2017-02-07                                  0.17%    passed     99.07%
+  69  UKN17_229E_24_PQ466818_2017-02-08                                  0.17%    passed     99.05%
+  70  UKN17_229E_25_PQ466819_2017-02-10                                  0.17%    passed     99.81%
+  71  UKN17_229E_26_PQ466820_2017-02-10                                  0.17%    passed     99.27%
+  72  UKN17_229E_27_PQ466821_2017-02-12                                  0.17%    passed     99.89%
+  73  UKN17_229E_28_PQ466822_2017-02-11                                  0.17%    passed     99.89%
+  74  UKN17_229E_29_PQ466823_2017-02-13                                  0.17%    passed     99.45%
+  75  UKN17_229E_30_PQ466824_2017-02-14                                  0.17%    passed     99.96%
+  76  UKN17_229E_31_PQ466825_2017-02-15                                  0.17%    passed     98.85%
+  77  UKN17_229E_32_PQ466826_2017-02-15                                  0.17%    passed     98.96%
+  78  UKN17_229E_33_PQ466827_2017-02-16                                  0.17%    passed     99.28%
+  79  UKN17_229E_34_PQ466828_2017-02-19                                  0.17%    passed     99.30%
+  80  UKN17_229E_35_PQ466829_2017-02-17                                  0.17%    passed     99.33%
+  81  UKN17_229E_36_PQ466830_2017-02-23                                  0.17%    passed     98.96%
+  82  UKN17_229E_37_PQ466831_2017-02-24                                  0.17%    passed     99.27%
+  83  UKN17_229E_38_PQ466832_2017-02-24                                  0.17%    passed     99.33%
+  84  UKN17_229E_39_PQ466833_2017-02-28                                  0.17%    passed     99.18%
+  85  UKN17_229E_40_PQ466834_2017-03-06                                  0.17%    passed     99.04%
+  86  UKN17_229E_41_PQ466835_2017-03-15                                  0.17%    passed     99.37%
+  87  UKN17_229E_42_PQ466836_2017-03-17                                  0.17%    passed     99.27%
+  88  UKN17_229E_43_PQ466837_2017-04-03                                  0.17%    passed     99.60%
+  89  UKN17_229E_44_PQ466838_2017-05-13                                  0.17%    passed     98.98%
+  90  UKN18_229E_1_PQ466839_2018-02-22                                   0.17%    passed     99.70%
+  91  UKN18_229E_2_PQ466840_2018-03-08                                   0.17%    passed     99.70%
+  92  UKN18_229E_3_PQ466841_2018-03-24                                   0.17%    passed     99.31%
+  93  UKN18_229E_4_PQ466842_2018-06-19                                   0.17%    passed     99.86%
+  94  UKN18_229E_5_PQ466843_2018-07-19                                   0.17%    passed     99.38%
+  95  UKN18_229E_6_PQ466844_2018-12-14                                   0.17%    passed     99.83%
+  96  UKN18_229E_7_PQ466845_2018-12-18                                   0.17%    passed     99.82%
+  97  UKN18_229E_8_PQ466846_2018-12-18                                   0.17%    passed     99.91%
+  98  UKN18_229E_9_PQ466847_2018-12-26                                   0.17%    passed     99.82%
+  99  UKN18_229E_10_PQ466848_2018-12-27                                  0.17%    passed     99.70%
+ 100  UKN22_229E_1_PQ466850_2022-02-21                                   0.17%    passed     99.79%
+ 101  UKN22_229E_2_PQ466851_2022-03-27                                   0.17%    passed     99.68%
+ 102  UKN22_229E_3_PQ466852_2022-04-08                                   0.17%    passed     99.99%
+ 103  UKN22_229E_4_PQ466853_2022-04-22                                   0.17%    passed     99.99%
+ 104  UKN22_229E_5_PQ466854_2022-05-05                                   0.17%    passed     99.83%
+ 105  UKN23_229E_1_PQ466855_2023-02-08                                   0.17%    passed     99.93%
+ 106  UKN23_229E_2_PQ466856_2023-03-05                                   0.26%    passed     99.97%
+ 107  UKN23_229E_3_PQ466857_2023-03-10                                   0.17%    passed     99.98%
+ 108  inf-1_PQ449607_2016-03-31                                          0.17%    passed     99.61%
+ 109  HCoV-229E_140M_Tanzania_2017_PQ187609_2017-06-06                   0.17%    passed     99.89%
+ 110  HCoV-229E_1197_Singapore_2010_PQ187610_2010-04-06                  0.17%    passed     99.98%
+ 111  HCoV-229E_1340_Singapore_2010_PQ187611_2010-05-17                  0.17%    passed    100.00%
+ 112  HCoV-229E_2277_Singapore_2011_PQ187612_2011-06-15                  0.17%    passed     99.99%
+ 113  HCoV-229E_2326_Singapore_2011_PQ187613_2011-06-30                  0.17%    passed     99.97%
+ 114  HCoV-229E_2613_Singapore_2011_PQ187614_2011-11-10                  0.17%    passed    100.00%
+ 115  HCoV-229E_2615_Singapore_2011_PQ187615_2011-11-10                  0.17%    passed     99.97%
+ 116  HCoV-229E_4033K_Tanzania_2017_PQ187616_2017-01-09                  0.17%    passed     99.89%
+ 117  HCoV-229E_USA_MD-ARIA-07484_2023_PQ037244_2023-04-XX               0.17%    passed     99.70%
+ 118  HCoV-229E_USA_MD-ARIA-07489_2023_PQ037245_2023-04-XX               0.17%    passed     99.70%
+ 119  HCoV-229E_USA_MD-ARIA-07561_2023_PQ037246_2023-04-XX               0.17%    passed     99.96%
+ 120  HCoV-229E_USA_MD-ARIA-07582_2023_PQ037247_2023-04-XX               0.17%    passed     99.96%
+ 121  229E_USA_N5MQ9S_2021_PP187313_2021-06-18                           0.17%    passed     99.93%
+ 122  hCoV-229E_Russia_NVS-RII-MH71549S_2022_OR266946_2022-03-28         0.17%    passed     99.99%
+ 123  HCoV-229E_BIME001-51_2015_ON554097_2015-XX-XX                      0.17%    passed     99.74%
+ 124  HCoV-229E_BIME020-63_2016_ON554098_2016-XX-XX                      0.17%    passed     99.75%
+ 125  HCoV-229E_BIME027-60_2016_ON554099_2016-XX-XX                      0.17%    passed     99.98%
+ 126  HCoV-229E_BIME030-61_2016_ON554100_2016-XX-XX                      0.17%    passed     99.89%
+ 127  HCoV-229E_BIME032-64_2016_ON554101_2016-XX-XX                      0.17%    passed     99.86%
+ 128  HCoV-229E_BIME038-59_2016_ON554102_2016-XX-XX                      0.17%    passed     99.59%
+ 129  HCoV-229E_BIME050-58_2016_ON554103_2016-XX-XX                      0.17%    passed     99.91%
+ 130  HCoV-229E_BIME055-67_2016_ON554104_2016-XX-XX                      0.17%    passed     99.89%
+ 131  HCoV-229E_BIME060-54_2016_ON554105_2016-XX-XX                      0.17%    passed     99.94%
+ 132  HCoV-229E_BIME061-55_2016_ON554106_2016-XX-XX                      0.17%    passed     99.94%
+ 133  HCoV-229E_BIME110-17_2017_ON554107_2017-XX-XX                      0.43%    passed     99.77%
+ 134  HCoV-229E_BIME118-39_2017_ON554108_2017-XX-XX                      0.17%    passed     99.85%
+ 135  HCoV-229E_BIME125-20_2017_ON554109_2017-XX-XX                      0.17%    passed     99.75%
+ 136  HCoV-229E_BIME126-21_2017_ON554110_2017-XX-XX                      0.17%    passed     99.91%
+ 137  HCoV-229E_BIME129-43_2017_ON554111_2017-XX-XX                      0.17%    passed     99.75%
+ 138  HCoV-229E_BIME140-42_2017_ON554112_2017-XX-XX                      0.17%    passed     99.86%
+ 139  HCoV-229E_BIME148-44_2017_ON554113_2017-XX-XX                      0.17%    passed     99.97%
+ 140  HCoV-229E_BIME151-16_2017_ON554114_2017-XX-XX                      0.17%    passed     99.86%
+ 141  HCoV-229E_BIME152-22_2017_ON554115_2017-XX-XX                      0.17%    passed     99.91%
+ 142  HCoV-229E_BIME153-23_2017_ON554116_2017-XX-XX                      0.17%    passed     99.92%
+ 143  HCoV-229E_BIME154-36_2017_ON554117_2017-XX-XX                      0.17%    passed     99.91%
+ 144  HCoV-229E_BIME155-40_2017_ON554118_2017-XX-XX                      0.17%    passed     99.86%
+ 145  HCoV-229E_BIME161-50_2017_ON554119_2017-XX-XX                      0.17%    passed     99.57%
+ 146  HCoV-229E_BIME168-45_2017_ON554120_2017-XX-XX                      0.17%    passed     99.75%
+ 147  HCoV-229E_BIME171-19_2017_ON554121_2017-XX-XX                      0.17%    passed     99.95%
+ 148  HCoV-229E_BIME176-46_2017_ON554122_2017-XX-XX                      0.17%    passed     99.71%
+ 149  HCoV-229E_BIME178-37_2017_ON554123_2017-XX-XX                      0.17%    passed     99.93%
+ 150  HCoV-229E_BIME186-38_2017_ON554124_2017-XX-XX                      0.17%    passed     99.94%
+ 151  HCoV-229E_BIME209-34_2018_ON554125_2018-XX-XX                      0.17%    passed     99.89%
+ 152  HCoV-229E_BIME240-24_2018_ON554126_2018-XX-XX                      0.17%    passed     99.96%
+ 153  HCoV-229E_BIME248-77_2017_ON554127_2017-XX-XX                      0.17%    passed     99.89%
+ 154  HCoV-229E_BIME260-05_2017_ON554128_2017-XX-XX                      0.17%    passed     99.89%
+ 155  HCoV-229E_BIME310-26_2018_ON554129_2018-XX-XX                      0.17%    passed     99.89%
+ 156  HCoV-229E_BIME319-10_2018_ON554130_2018-XX-XX                      0.17%    passed     99.95%
+ 157  HCoV-229E_BIME341-12_2018_ON554131_2018-XX-XX                      0.17%    passed     99.75%
+ 158  HCoV-229E_BIME364-69_2019_ON554132_2019-XX-XX                      0.17%    passed     99.92%
+ 159  HCoV-229E_BIME365-75_2019_ON554133_2019-XX-XX                      0.17%    passed     99.84%
+ 160  HCoV-229E_BIME377-74_2019_ON554134_2019-XX-XX                      0.17%    passed     99.99%
+ 161  HCoV-229E_BIME386-73_2019_ON554135_2019-XX-XX                      0.17%    passed     99.57%
+ 162  HCoV-229E_BIME389-70_2019_ON554136_2019-XX-XX                      0.17%    passed     99.89%
+ 163  HCoV-229E_BIME391-71_2019_ON554137_2019-XX-XX                      0.17%    passed     99.57%
+ 164  HCoV-229E_BIME392-72_2019_ON554138_2019-XX-XX                      0.17%    passed     99.96%
+ 165  HCoV-229E_BIME412-68_2019_ON554139_2019-XX-XX                      0.17%    passed     99.46%
+ 166  BJHD29_MW800646_2017-11-28                                         0.17%    passed     99.72%
+ 167  R2_OK073077_2018-XX-XX                                             0.17%    passed     99.95%
+ 168  R10_OK073078_2017-XX-XX                                            0.17%    passed     99.89%
+ 169  R22_OK073079_2018-XX-XX                                            0.17%    passed     99.76%
+ 170  R35_OK073080_2018-XX-XX                                            0.17%    passed     99.84%
+ 171  R39_OK073081_2018-XX-XX                                            0.17%    passed     99.84%
+ 172  R41_OK073082_2018-XX-XX                                            0.17%    passed     99.86%
+ 173  RS15_OK073083_2017-XX-XX                                           0.17%    passed     99.86%
+ 174  P42_OK073084_2017-XX-XX                                            0.17%    passed     99.95%
+ 175  SC0678_ON729316_2019-XX-XX                                         0.20%    passed     99.73%
+ 176  LC22_ON791801_2022-XX-XX                                           0.17%    passed     99.99%
+ 177  S0677SP_MW587035_2022-01-20                                        0.43%    passed     99.99%
+ 178  S0970XLQ_MW587037_2022-01-20                                       0.17%    passed     99.84%
+ 179  S0959FBW_MW587038_2022-01-20                                       0.17%    passed     99.96%
+ 180  229E_S220_MW202340_2018-XX-XX                                      0.17%    passed     99.68%
+ 181  Fukushima_H829_2020_LC654445_2020-XX-XX                            0.17%    passed     99.58%
+ 182  Fukushima_H832_2020_LC654446_2020-XX-XX                            0.17%    passed     99.86%
+ 183  229E_China_03_2017_MW532103_2017-05-02                             0.17%    passed     99.78%
+ 184  229E_China_04_2017_MW532104_2017-08-02                             0.17%    passed     99.95%
+ 185  229E_China_05_2017_MW532105_2017-09-06                             0.17%    passed     99.94%
+ 186  229E_China_01_2009_MW532106_2009-06-09                             0.17%    passed     99.77%
+ 187  229E_China_02_2009_MW532107_2009-04-15                             0.26%    passed     99.83%
+ 188  2018_9879_MT118677_2018-XX-XX                                      0.17%    passed     99.93%
+ 189  HK20-42_MT797634_2020-01-XX                                        0.17%    passed     99.75%
+ 190  HK04-01_MT797676_2004-04-XX                                        0.26%    passed     99.75%
+ 191  HK04-02_MT797677_2004-06-XX                                        0.26%    passed     99.50%
+ 192  HK05-03_MT797678_2005-02-XX                                        0.26%    passed     99.24%
+ 193  HK05-04_MT797679_2005-03-XX                                        0.26%    passed     99.69%
+ 194  HK05-05_MT797680_2005-04-XX                                        0.26%    passed     98.76%
+ 195  HK05-06_MT797681_2005-10-XX                                        0.26%    passed     99.79%
+ 196  HK05-07_MT797682_2005-11-XX                                        0.26%    passed     99.67%
+ 197  HK05-08_MT797683_2005-11-XX                                        0.26%    passed     99.70%
+ 198  HK05-09_MT797684_2005-11-XX                                        0.26%    passed     99.85%
+ 199  HK05-10_MT797685_2005-11-XX                                        0.26%    passed     99.42%
+ 200  HK05-11_MT797686_2005-12-XX                                        0.26%    passed     99.73%
+ 201  HK05-12_MT797687_2005-12-XX                                        0.26%    passed     99.63%
+ 202  HK05-13_MT797688_2005-12-XX                                        0.26%    passed     99.78%
+ 203  HK05-14_MT797689_2005-12-XX                                        0.26%    passed     99.67%
+ 204  HK05-15_MT797690_2005-12-XX                                        0.26%    passed     99.67%
+ 205  HK05-16_MT797691_2005-12-XX                                        0.26%    passed     99.80%
+ 206  HK05-17_MT797692_2005-12-XX                                        0.26%    passed     99.79%
+ 207  HK05-18_MT797693_2005-12-XX                                        0.26%    passed     98.84%
+ 208  HK05-19_MT797694_2005-12-XX                                        0.26%    passed     99.78%
+ 209  HK05-20_MT797695_2005-12-XX                                        0.26%    passed     99.67%
+ 210  HK05-21_MT797696_2005-12-XX                                        0.26%    passed     99.50%
+ 211  HK05-22_MT797697_2005-12-XX                                        0.26%    passed     99.78%
+ 212  HK06-23_MT797698_2006-01-XX                                        0.26%    passed     99.78%
+ 213  HK06-24_MT797699_2006-01-XX                                        0.26%    passed     99.71%
+ 214  HK06-25_MT797700_2006-01-XX                                        0.26%    passed     99.90%
+ 215  HK06-26_MT797701_2006-01-XX                                        0.26%    passed     99.67%
+ 216  HK06-27_MT797702_2006-01-XX                                        0.26%    passed     99.67%
+ 217  HK06-28_MT797703_2006-01-XX                                        0.26%    passed     99.67%
+ 218  HK06-29_MT797704_2006-01-XX                                        0.26%    passed     99.59%
+ 219  HK09-30_MT797705_2009-05-XX                                        0.17%    passed     99.89%
+ 220  HK09-31_MT797706_2009-05-XX                                        0.17%    passed     99.60%
+ 221  HK11-32_MT797707_2011-02-XX                                        0.17%    passed    100.00%
+ 222  HK11-33_MT797708_2011-05-XX                                        0.17%    passed     99.99%
+ 223  HK11-34_MT797709_2011-05-XX                                        0.17%    passed     99.97%
+ 224  HK11-35_MT797710_2011-07-XX                                        0.17%    passed     99.99%
+ 225  HK12-36_MT797711_2012-01-XX                                        0.17%    passed     99.96%
+ 226  HK13-37_MT797712_2013-02-XX                                        0.17%    passed     99.72%
+ 227  HK13-38_MT797713_2013-05-XX                                        0.17%    passed     99.77%
+ 228  HK13-39_MT797714_2013-05-XX                                        0.17%    passed     99.84%
+ 229  HK16-40_MT797715_2016-01-XX                                        0.17%    passed     99.83%
+ 230  HK16-41_MT797716_2016-01-XX                                        0.17%    passed     99.58%
+ 231  HCoV_229E_human_ITA_TE5146_2020_MW039392_2020-03-18                0.00%    passed     99.95%
+ 232  HCoV-229E_USA_UNM_0186_2016_MT438696_2016-02-09                    0.17%    passed     99.85%
+ 233  HCoV-229E_USA_ACRI_0244_2017_MT438697_2017-02-24                   0.17%    passed     99.33%
+ 234  HCoV-229E_USA_ACRI_0256_2017_MT438698_2017-02-24                   0.17%    passed     98.96%
+ 235  HCoV-229E_USA_UAMS_DID_0108_2017_MT438700_2017-01-27               0.09%    passed     99.13%
+ 236  HCoV_229E_Seattle_USA_SC9724_2018_MN369046_2018-XX-XX              0.17%    passed     99.76%
+ 237  HCoV_229E_Seattle_USA_SC0865_2019_MN306046_2019-XX-XX              0.17%    passed     99.77%
+ 238  11949_2011_KM055531_2011-XX-XX                                     0.17%    passed     99.98%
+ 239  1512A_2009_KM055532_2009-XX-XX                                     0.17%    passed     99.73%
+ 240  1518A_2009_KM055533_2009-XX-XX                                     0.17%    passed     99.73%
+ 241  1546A_2009_KM055534_2009-XX-XX                                     0.17%    passed     99.77%
+ 242  1649A_2009_KM055535_2009-XX-XX                                     0.17%    passed     99.97%
+ 243  1658A_2009_KM055536_2009-XX-XX                                     0.17%    passed     99.98%
+ 244  1667A_2009_KM055537_2009-XX-XX                                     0.17%    passed     99.99%
+ 245  1761A_2010_KM055538_2010-XX-XX                                     0.17%    passed    100.00%
+ 246  1781A_2010_KM055539_2010-XX-XX                                     0.17%    passed     99.99%
+ 247  1782A_2010_KM055540_2010-XX-XX                                     0.17%    passed     99.99%
+ 248  1827A_2010_KM055541_2010-XX-XX                                     0.17%    passed     99.99%
+ 249  1829A_2010_KM055542_2010-XX-XX                                     0.17%    passed     99.99%
+ 250  1990A_2010_KM055543_2010-XX-XX                                     0.17%    passed     99.94%
+ 251  2764A_2011_KM055544_2011-XX-XX                                     0.17%    passed     99.97%
+ 252  8339_2009_KM055545_2009-XX-XX                                      0.17%    passed     99.93%
+ 253  8373_2009_KM055546_2009-XX-XX                                      0.17%    passed     99.93%
+ 254  8425_2009_KM055547_2009-XX-XX                                      0.17%    passed     99.93%
+ 255  2861A_2011_KM055548_2011-XX-XX                                     0.17%    passed     99.98%
+ 256  2961A_2011_KM055549_2011-XX-XX                                     0.17%    passed     99.96%
+ 257  2981A_2011_KM055550_2011-XX-XX                                     0.17%    passed     99.95%
+ 258  359A_2007_KM055551_2007-XX-XX                                      0.26%    passed     99.27%
+ 259  423A_2007_KM055552_2007-XX-XX                                      0.26%    passed     99.93%
+ 260  1482A_2009_KM055553_2009-XX-XX                                     0.26%    passed     99.90%
+ 261  494A_2008_KM055554_2008-XX-XX                                      0.26%    passed     99.93%
+ 262  507A_2008_KM055555_2008-XX-XX                                      0.26%    passed     99.82%
+ 263  693A_2008_KM055556_2008-XX-XX                                      0.26%    passed     99.90%
+ 264  748_2005_KM055557_2005-XX-XX                                       0.26%    passed     99.50%
+ 265  8348_2009_KM055558_2009-XX-XX                                      0.26%    passed     99.86%
+ 266  857_2005_KM055559_2005-XX-XX                                       0.26%    passed     99.43%
+ 267  1424A_2009_KM055560_2009-XX-XX                                     0.26%    passed     99.93%
+ 268  France_Lille_2014_MH048989_2014-XX-XX                              0.17%    passed     99.93%
+ 269  229E_Haiti-1_2016_MF542265_2016-03-XX                              0.17%    passed     99.95%
+ 270  HCoV_229E_Seattle_USA_SC3112_2015_KY983587_2015-XX-XX              0.17%    passed     99.33%
+ 271  HCoV_229E_Seattle_USA_SC379_2016_KY621348_2016-XX-XX               0.17%    passed     99.25%
+ 272  HCoV_229E_Seattle_USA_SC2872_2015_KY967357_2015-XX-XX              0.17%    passed     99.33%
+ 273  HCoV_229E_Seattle_USA_SC399_2016_KY674914_2016-XX-XX               0.17%    passed     99.25%
+ 274  HCoV_229E_Seattle_USA_SC2282_2017_KY684760_2016-XX-XX              0.17%    passed     99.94%
+ 275  HCoV_229E_Seattle_USA_SC579_2016_KY369908_2016-XX-XX               0.17%    passed     99.37%
+ 276  HCoV_229E_Seattle_USA_SC677_2016_KY369909_2016-XX-XX               0.17%    passed     99.25%
+ 277  HCoV_229E_Seattle_USA_SC1143_2016_KY369910_2016-XX-XX              0.17%    passed     99.86%
+ 278  HCoV_229E_Seattle_USA_SC1212_2016_KY369911_2016-XX-XX              0.17%    passed     99.86%
+ 279  HCoV_229E_Seattle_USA_SC9731_2016_KY369912_2016-XX-XX              0.17%    passed     99.95%
+ 280  HCoV_229E_Seattle_USA_SC1073_2016_KY369913_2016-XX-XX              0.17%    passed     99.11%
+ 281  HCoV_229E_Seattle_USA_SC9773_2016_KY369914_2016-XX-XX              0.17%    passed     99.81%
+ 282  HCoV-229E_BN1_GER_2015_KU291448_2015-XX-XX                         0.17%    passed     99.97%
+ 283  229E_human_USA_892-11_1989_KF514429_1989-02-07                     0.26%    passed     99.75%
+ 284  229E_human_USA_933-50_1993_KF514430_1993-03-18                     0.26%    passed     99.37%
+ 285  229E_human_USA_953-49_1995_KF514431_1995-03-23                     0.26%    passed     99.26%
+ 286  229E_human_USA_932-72_1993_KF514432_1993-02-22                     0.26%    passed     99.06%
+ 287  229E_human_USA_933-40_1993_KF514433_1993-03-11                     0.26%    passed     99.13%
+ 288  0349_JX503060_2010-XX-XX                                           0.20%    passed     99.96%
+ 289  Sendai-H_1121_04_AB691764_2004-XX-XX                               0.26%    passed     99.85%
+ 290  Sendai-H_826_04_AB691765_2004-XX-XX                                0.26%    passed     99.42%
+ 291  Sendai-H_1948_04_AB691766_2004-XX-XX                               0.26%    passed     99.30%
+ 292  Niigata_01_08_AB691767_2008-XX-XX                                  0.26%    passed     99.85%
+ 293  HCoV-229E-11_6_79_DQ243964_2016-07-26                              0.26%    passed     99.76%
+ 294  HCoV-229E-16_6_82_DQ243965_2016-07-26                              0.26%    passed     98.72%
+ 295  HCoV-229E-22_9_82_DQ243966_2016-07-26                              0.26%    passed     99.93%
+ 296  HCoV-229E-6_10_82_DQ243967_2016-07-26                              0.26%    passed     99.50%
+ 297  HCoV-229E-21_10_82_DQ243968_2016-07-26                             0.26%    passed     99.50%
+ 298  HCoV-229E-8_11_82a_DQ243969_2016-07-26                             0.26%    passed     98.74%
+ 299  HCoV-229E-8_11_82b_DQ243970_2016-07-26                             0.26%    passed     99.09%
+ 300  HCoV-229E-29_7_84_DQ243971_2016-07-26                              0.26%    passed     99.49%
+ 301  HCoV-229E-5_9_84_DQ243972_2016-07-26                               0.26%    passed     99.57%
+ 302  HCoV-229E-24_6_90_DQ243973_2016-07-26                              0.26%    passed     99.44%
+ 303  HCoV-229-25_6_92_DQ243974_2016-07-26                               0.26%    passed     99.57%
+ 304  HCoV-229E-12_5_92_DQ243975_2016-07-26                              0.26%    passed     99.62%
+ 305  HCoV-229E-17_6_92_DQ243976_2016-07-26                              0.26%    passed     99.63%
+ 306  HCoV-229E-8_8_01_DQ243977_2016-07-26                               0.26%    passed     99.40%
+ 307  HCoV-229E-27_8_01_DQ243978_2016-07-26                              0.26%    passed     99.24%
+ 308  HCoV-229E-21_6_02_DQ243979_2016-07-26                              0.26%    passed     99.28%
+ 309  HCoV-229E-6_1_03_DQ243980_2016-07-26                               0.26%    passed     97.51%
+ 310  HCoV-229E-30_7_03_DQ243983_2016-07-26                              0.26%    passed     99.41%
+ 311  HCoV-229E-14_8_03_DQ243984_2016-07-26                              0.26%    passed     99.36%
+ 312  HCoV-229E-19_8_03_DQ243985_2016-07-26                              0.26%    passed     97.84%
+ 313  HCoV-229E-25_8_03_DQ243986_2016-07-26                              0.26%    passed     98.82%
 ****  TOTAL                                                              0.19%  0 sequences failed composition chi2 test (p-value<5%; df=3)
-NOTE: srw002_PX640307_2020-06-02 is identical to NC_002645_2021-08-17 but kept for subsequent analysis
 NOTE: 229E_376078_USA_2024_PV685446_2024-03-24 is identical to 229E_203060_USA_2024_PV685441_2024-02-14 but kept for subsequent analysis
 NOTE: 229E_435192_USA_2024_PV685448_2024-02-29 is identical to 229E_411124_USA_2024_PV685447_2024-02-27 but kept for subsequent analysis
 NOTE: hCoV-229E_Russia_SPE-RII-3126S_2019_PQ616091_2019-03-04 is identical to hCoV-229E_Russia_SPE-RII-956S_2019_PQ616087_2019-01-24 but kept for subsequent analysis
@@ -365,8 +361,8 @@ NOTE: 494A_2008_KM055554_2008-XX-XX is identical to 423A_2007_KM055552_2007-XX-X
 NOTE: HCoV_229E_Seattle_USA_SC399_2016_KY674914_2016-XX-XX is identical to HCoV_229E_Seattle_USA_SC379_2016_KY621348_2016-XX-XX but kept for subsequent analysis
 NOTE: HCoV_229E_Seattle_USA_SC1212_2016_KY369911_2016-XX-XX is identical to HCoV_229E_Seattle_USA_SC1143_2016_KY369910_2016-XX-XX but kept for subsequent analysis
 NOTE: HCoV-229E-21_10_82_DQ243968_2016-07-26 is identical to HCoV-229E-6_10_82_DQ243967_2016-07-26 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.00123558 secs using 31.24% CPU
-Identifying sites to remove: done in 0.00534089 secs using 91.91% CPU
+Checking for duplicate sequences: done in 0.00122332 secs using 99.97% CPU
+Identifying sites to remove: done in 0.00535884 secs using 97.82% CPU
 NOTE: 20 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: UKN17_229E_22_PQ466816_2017-02-05 (identical to UKN17_229E_8_PQ466802_2017-01-22) is ignored but added at the end
 NOTE: UKN17_229E_32_PQ466826_2017-02-15 (identical to UKN17_229E_8_PQ466802_2017-01-22) is ignored but added at the end
@@ -392,42 +388,42 @@ Alignment was printed to Results/spike/Alignments/codon_ungapped-delim.fasta.uni
 
 For your convenience alignment with unique sequences printed to Results/spike/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.039 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.045 seconds
 
 NOTE: 5 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 1 CPU cores
 Increase to 10 rounds for branch lengths
 10 trees examined
-Threads: 1 / Time: 1.087 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -49718
-Determining AUTO threadcount: done in 1.08768 secs using 99.97% CPU
+Threads: 1 / Time: 1.042 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -47741
+Determining AUTO threadcount: done in 1.04261 secs using 98.39% CPU
 BEST NUMBER OF THREADS: 1
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -13801.428
-2. Current log-likelihood: -13449.714
-Optimal log-likelihood: -13449.632
-Rate parameters:  A-C: 1.02059  A-G: 1.63866  A-T: 0.38165  C-G: 0.46632  C-T: 3.81387  G-T: 1.00000
-Base frequencies:  A: 0.260  C: 0.183  G: 0.204  T: 0.353
-Parameters optimization took 2 rounds (0.199 sec)
+1. Initial log-likelihood: -13760.219
+2. Current log-likelihood: -13407.008
+Optimal log-likelihood: -13406.957
+Rate parameters:  A-C: 1.04922  A-G: 1.66911  A-T: 0.39783  C-G: 0.46363  C-T: 3.93121  G-T: 1.00000
+Base frequencies:  A: 0.260  C: 0.183  G: 0.203  T: 0.353
+Parameters optimization took 2 rounds (0.194 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.15961 secs using 99.95% CPU
-Computing ML distances took 0.160957 sec (of wall-clock time) 0.160788 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00450197 secs using 101.3% CPU
-Constructing RapidNJ tree: done in 0.00952587 secs using 189.7% CPU
-Computing RapidNJ tree took 0.014132 sec (of wall-clock time) 0.022737 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -13536.966
+Calculating distance matrix: done in 0.15599 secs using 99.86% CPU
+Computing ML distances took 0.157159 sec (of wall-clock time) 0.156851 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00467521 secs using 50.67% CPU
+Constructing RapidNJ tree: done in 0.0107344 secs using 207.2% CPU
+Computing RapidNJ tree took 0.015476 sec (of wall-clock time) 0.024629 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -13482.251
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.170378 secs using 97.67% CPU
+Optimizing NNI: done in 0.191883 secs using 99.93% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -13440.286
-Optimizing NNI: done in 0.155882 secs using 99.97% CPU
+BETTER TREE FOUND at iteration 1: -13395.568
+Optimizing NNI: done in 0.145931 secs using 97.26% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -13440.286 / CPU time: 0.400
+Current best tree score: -13395.568 / CPU time: 0.410
 Number of iterations: 2
 TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:2s
 
@@ -436,19 +432,19 @@ TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:2s
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -13440.286
-Optimal log-likelihood: -13440.282
-Rate parameters:  A-C: 1.01473  A-G: 1.64371  A-T: 0.37686  C-G: 0.46473  C-T: 3.81625  G-T: 1.00000
-Base frequencies:  A: 0.260  C: 0.183  G: 0.204  T: 0.353
-Parameters optimization took 1 rounds (0.042 sec)
-BEST SCORE FOUND : -13440.282
-Total tree length: 0.315
+1. Initial log-likelihood: -13395.568
+Optimal log-likelihood: -13395.567
+Rate parameters:  A-C: 1.03816  A-G: 1.66857  A-T: 0.39219  C-G: 0.46409  C-T: 3.94226  G-T: 1.00000
+Base frequencies:  A: 0.260  C: 0.183  G: 0.203  T: 0.353
+Parameters optimization took 1 rounds (0.038 sec)
+BEST SCORE FOUND : -13395.567
+Total tree length: 0.314
 
 Total number of iterations: 2
-CPU time used for tree search: 0.383 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.401 sec (0h:0m:0s)
-Total CPU time used: 2.099 sec (0h:0m:2s)
-Total wall-clock time used: 2.177 sec (0h:0m:2s)
+CPU time used for tree search: 0.403 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.411 sec (0h:0m:0s)
+Total CPU time used: 2.021 sec (0h:0m:2s)
+Total wall-clock time used: 2.059 sec (0h:0m:2s)
 
 Analysis results written to: 
   IQ-TREE report:                Results/spike/Alignments/codon_ungapped-delim.fasta.iqtree
@@ -456,4 +452,4 @@ Analysis results written to:
   Likelihood distances:          Results/spike/Alignments/codon_ungapped-delim.fasta.mldist
   Screen log file:               Results/spike/Alignments/codon_ungapped-delim.fasta.log
 
-Date and Time: Fri Jan  9 09:42:46 2026
+Date and Time: Fri Jan  9 10:38:00 2026
