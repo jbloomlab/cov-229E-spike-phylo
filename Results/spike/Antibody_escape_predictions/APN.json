@@ -55,6 +55,54 @@
     "2018_9879_MT118677_2018-XX-XX": {
       "predicted APN escape": -12.630139999999999
     },
+    "229E_051863_USA_2024_PV685437_2024-06-05": {
+      "predicted APN escape": -13.41534
+    },
+    "229E_063343_USA_2024_PV685438_2024-02-05": {
+      "predicted APN escape": -13.32945
+    },
+    "229E_101993_USA_2024_PV685439_2024-03-06": {
+      "predicted APN escape": -13.81118
+    },
+    "229E_122994_USA_2024_PV685440_2024-04-08": {
+      "predicted APN escape": -14.07508
+    },
+    "229E_203060_USA_2024_PV685441_2024-02-14": {
+      "predicted APN escape": -13.81118
+    },
+    "229E_242073_USA_2023_PV685442_2023-07-18": {
+      "predicted APN escape": -12.75908
+    },
+    "229E_266552_USA_2024_PV685443_2024-04-17": {
+      "predicted APN escape": -13.84327
+    },
+    "229E_269642_USA_2024_PV685444_2024-02-18": {
+      "predicted APN escape": -12.75908
+    },
+    "229E_306995_USA_2024_PV685445_2024-05-21": {
+      "predicted APN escape": -12.325840000000001
+    },
+    "229E_376078_USA_2024_PV685446_2024-03-24": {
+      "predicted APN escape": -13.81118
+    },
+    "229E_411124_USA_2024_PV685447_2024-02-27": {
+      "predicted APN escape": -13.81118
+    },
+    "229E_435192_USA_2024_PV685448_2024-02-29": {
+      "predicted APN escape": -13.81118
+    },
+    "229E_467854_USA_2024_PV685449_2024-04-30": {
+      "predicted APN escape": -12.96554
+    },
+    "229E_Australia_21021519_2021_PV827139_2021-02-15": {
+      "predicted APN escape": -11.68054
+    },
+    "229E_Australia_21042820_2021_PV827140_2021-02-28": {
+      "predicted APN escape": -9.76654
+    },
+    "229E_Australia_22050721_2022_PV827141_2022-07-05": {
+      "predicted APN escape": -12.75908
+    },
     "229E_China_01_2009_MW532106_2009-06-09": {
       "predicted APN escape": -8.122340000000003
     },
@@ -93,6 +141,12 @@
     },
     "229E_human_USA_953-49_1995_KF514431_1995-03-23": {
       "predicted APN escape": -3.5125899999999994
+    },
+    "2303018_PX055894_2023-03-XX": {
+      "predicted APN escape": -11.682450000000001
+    },
+    "2403201_PX055897_2024-03-XX": {
+      "predicted APN escape": -13.81118
     },
     "2764A_2011_KM055544_2011-XX-XX": {
       "predicted APN escape": -9.204390000000002
@@ -150,6 +204,9 @@
     },
     "Fukushima_H832_2020_LC654446_2020-XX-XX": {
       "predicted APN escape": -7.5156
+    },
+    "H224-15_PP914108_2022-05-15": {
+      "predicted APN escape": -8.75
     },
     "HCoV-229-25_6_92_DQ243974_2016-07-26": {
       "predicted APN escape": -3.6434900000000003
@@ -394,6 +451,12 @@
     "HCoV-229E_USA_UNM_0186_2016_MT438696_2016-02-09": {
       "predicted APN escape": -12.32675
     },
+    "HCoV-229E_human_USA_MA-Broad_MGH-23855_2025_PV717809_2025-02-17": {
+      "predicted APN escape": -13.661380000000001
+    },
+    "HCoV-229E_human_USA_MA-Broad_MGH-23888_2025_PV717794_2025-02-23": {
+      "predicted APN escape": -14.08688
+    },
     "HCoV_229E_Seattle_USA_SC0865_2019_MN306046_2019-XX-XX": {
       "predicted APN escape": -8.134640000000003
     },
@@ -438,6 +501,9 @@
     },
     "HCoV_229E_human_ITA_TE5146_2020_MW039392_2020-03-18": {
       "predicted APN escape": -11.18074
+    },
+    "HCoV_229E_human_Niigata__Japan_312_2020_LC885132_2020-XX-XX": {
+      "predicted APN escape": -9.204390000000002
     },
     "HK04-01_MT797676_2004-04-XX": {
       "predicted APN escape": -4.71682
@@ -565,6 +631,12 @@
     "HK20-42_MT797634_2020-01-XX": {
       "predicted APN escape": -8.183240000000003
     },
+    "HT_PV631258_2023-12-XX": {
+      "predicted APN escape": -13.391580000000001
+    },
+    "Hu_US_2024_Coronavirus_229E_CA-RGDS-1189_PQ525429_2024-06-XX": {
+      "predicted APN escape": -14.86908
+    },
     "LC22_ON791801_2022-XX-XX": {
       "predicted APN escape": -13.95808
     },
@@ -609,6 +681,9 @@
     },
     "SC0678_ON729316_2019-XX-XX": {
       "predicted APN escape": -8.134640000000003
+    },
+    "SN-HED-0080_PX625998_2023-01-13": {
+      "predicted APN escape": -13.63918
     },
     "Sendai-H_1121_04_AB691764_2004-XX-XX": {
       "predicted APN escape": -5.60452
@@ -867,6 +942,12 @@
     },
     "inf-1_PQ449607_2016-03-31": {
       "predicted APN escape": -11.656824000000004
+    },
+    "srw001_PX640306_2020-06-02": {
+      "predicted APN escape": -8.3625
+    },
+    "srw002_PX640307_2020-06-02": {
+      "predicted APN escape": -9.408900000000001
     }
   }
 }
